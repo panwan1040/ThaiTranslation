@@ -173,34 +173,37 @@ namespace ThaiTranslation
             {
                 Debug.Log("[ThaiTranslation] Creating TMP_FontAsset from font...");
                 
-                // Try simple CreateFontAsset first
+                // Use parameterized CreateFontAsset with correct settings to prevent stretching
+                // Simple CreateFontAsset uses default values that may cause stretching issues
                 try
                 {
-                    ThaiFontAsset = TMP_FontAsset.CreateFontAsset(ThaiFont);
+                    // Optimal settings for Thai font to prevent stretching:
+                    // - Sampling size 44: Standard TMP size, prevents vertical stretching
+                    // - Padding 5: Adequate for SDF rendering
+                    // - Atlas 2048x2048: Large enough for all Thai characters with good quality
+                    ThaiFontAsset = TMP_FontAsset.CreateFontAsset(
+                        ThaiFont,
+                        44,   // Sampling size (standard size, prevents stretching)
+                        5,    // Padding
+                        GlyphRenderMode.SDFAA,
+                        2048, // Atlas width
+                        2048  // Atlas height
+                    );
+                    Debug.Log("[ThaiTranslation] Created TMP_FontAsset with optimized settings");
                 }
                 catch (Exception ex1)
                 {
-                    Debug.Log("[ThaiTranslation] Simple CreateFontAsset failed: " + ex1.Message);
+                    Debug.Log("[ThaiTranslation] Parameterized CreateFontAsset failed: " + ex1.Message);
                     
-                    // Try with parameters - use smaller sampling size to prevent stretching
+                    // Fallback to simple version as last resort
                     try
                     {
-                        // Optimal settings for Thai font:
-                        // - Sampling size 44: Standard size, prevents stretching
-                        // - Padding 5: Adequate for SDF rendering
-                        // - Atlas 2048x2048: Large enough for all Thai characters
-                        ThaiFontAsset = TMP_FontAsset.CreateFontAsset(
-                            ThaiFont,
-                            44,   // Sampling size (44 is standard, 90 was too large)
-                            5,    // Padding
-                            GlyphRenderMode.SDFAA,
-                            2048, // Atlas width (increased for more characters)
-                            2048  // Atlas height
-                        );
+                        ThaiFontAsset = TMP_FontAsset.CreateFontAsset(ThaiFont);
+                        Debug.Log("[ThaiTranslation] Using simple CreateFontAsset (may have stretching issues)");
                     }
                     catch (Exception ex2)
                     {
-                        Debug.LogError("[ThaiTranslation] CreateFontAsset with params failed: " + ex2.Message);
+                        Debug.LogError("[ThaiTranslation] All CreateFontAsset attempts failed: " + ex2.Message);
                     }
                 }
                 
