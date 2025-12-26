@@ -722,7 +722,7 @@
         "name": "ห่วงโซ่อัสนีพิฆาต"
     },
     "R_RepulsiveShield": {
-        "description": "\"Come on, give it all you\u0027ve got.\"\n\n\"You sure?\"\n\n\"Yes, go for it!\"\n\nThe man swung his sword with all his might, only for it to crash against a shield with a resounding metallic clang.\n\nAt the same time, a slash mark appeared on the tree behind him.\n\n\"What in the world...?\"\n\n\"Haha, did you see that? I\u0027m invincible now!\"\n\n\n- A memory snippet from a soldier with a scar on the back of his head.",
+        "description": "\"เข้ามาเลย ใส่มาให้เต็มที่\"\n\n\"แน่ใจนะ?\"\n\n\"เออน่า จัดมาเลย!\"\n\nชายหนุ่มเหวี่ยงดาบสุดแรงเกิด ทว่าคมดาบกลับปะทะเข้ากับโล่อย่างจังจนเกิดเสียงโลหะดังกึกก้อง\n\nในชั่วขณะเดียวกันนั้น รอยฟันกลับไปปรากฏบนต้นไม้ที่อยู่ด้านหลังเขา\n\n\"นี่มันอะไรกัน...?\"\n\n\"ฮ่าๆ เห็นนั่นไหม? ข้าเป็นอมตะแล้วโว้ย!\"\n\n\n- เศษเสี้ยวความทรงจำของทหารผู้มีรอยแผลเป็นที่หลังศีรษะ",
         "name": "โล่สะท้อน",
         "shortDescription": "สะท้อนความเสียหาย"
     },
@@ -786,7 +786,7 @@
         "shortDescription": "สตันและสร้างความเสียหายวงกว้าง"
     },
     "St_R_RepulsiveShield": {
-        "description": "\"Come on, give it all you\u0027ve got.\"\n\n\"You sure?\"\n\n\"Yes, go for it!\"\n\nThe man swung his sword with all his might, only for it to crash against a shield with a resounding metallic clang.\n\nAt the same time, a slash mark appeared on the tree behind him.\n\n\"What in the world...?\"\n\n\"Haha, did you see that? I\u0027m invincible now!\"\n\n\n- A memory snippet from a soldier with a scar on the back of his head.",
+        "description": "\"เข้ามาเลย ใส่มาให้เต็มที่\"\n\n\"แน่ใจนะ?\"\n\n\"เออน่า จัดมาเลย!\"\n\nชายหนุ่มเหวี่ยงดาบสุดแรงเกิด ทว่าคมดาบกลับปะทะเข้ากับโล่อย่างจังจนเกิดเสียงโลหะดังกึกก้อง\n\nในชั่วขณะเดียวกันนั้น รอยฟันกลับไปปรากฏบนต้นไม้ที่อยู่ด้านหลังเขา\n\n\"นี่มันอะไรกัน...?\"\n\n\"ฮ่าๆ เห็นนั่นไหม? ข้าเป็นอมตะแล้วโว้ย!\"\n\n\n- เศษเสี้ยวความทรงจำของทหารผู้มีรอยแผลเป็นที่หลังศีรษะ",
         "name": "โล่สะท้อน",
         "shortDescription": "สะท้อนความเสียหาย"
     },
