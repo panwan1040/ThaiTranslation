@@ -478,8 +478,17 @@ namespace ThaiTranslation
         public static string GetMemoryShortDescription(string key) { return GetTranslation(ThaiMemories, key, "shortDescription"); }
         public static string GetMemoryDescription(string key) { return WrapText(GetTranslation(ThaiMemories, key, "description")); }
         public static string GetMemoryLore(string key) { return WrapText(GetTranslation(ThaiMemories, key, "lore")); }
-        public static string GetEssenceName(string key) { return GetTranslation(ThaiEssences, key, "name"); }
-        public static string GetEssenceDescription(string key) { return WrapText(GetTranslation(ThaiEssences, key, "description")); }
+        public static string GetEssenceName(string key) 
+        { 
+            // Game sends key like "C_Void" but JSON has "Gem_C_Void"
+            string fullKey = key.StartsWith("Gem_") ? key : "Gem_" + key;
+            return GetTranslation(ThaiEssences, fullKey, "name"); 
+        }
+        public static string GetEssenceDescription(string key) 
+        { 
+            string fullKey = key.StartsWith("Gem_") ? key : "Gem_" + key;
+            return WrapText(GetTranslation(ThaiEssences, fullKey, "description")); 
+        }
         public static string GetStarName(string key) { return GetTranslation(ThaiStars, key, "name"); }
         public static string GetStarDescription(string key) { return WrapText(GetTranslation(ThaiStars, key, "description")); }
         public static string GetStarLore(string key) { return WrapText(GetTranslation(ThaiStars, key, "lore")); }
@@ -495,86 +504,96 @@ namespace ThaiTranslation
         public static string WrapText(string text)
         {
             if (string.IsNullOrEmpty(text)) return text;
-            
+            if (text.Length <= MAX_LINE_LENGTH) return text; // Optimization for short text
+
             try
             {
-                // First, split by existing newlines
-                string[] paragraphs = text.Split('\n');
                 System.Text.StringBuilder result = new System.Text.StringBuilder();
+                int currentLineLength = 0;
+                bool insideTag = false;
                 
-                for (int p = 0; p < paragraphs.Length; p++)
+                string[] words = SplitTextPreservingTags(text);
+                
+                foreach (string word in words)
                 {
-                    string paragraph = paragraphs[p].TrimEnd('\r');
+                    // Check if this word is a tag
+                    bool isTag = word.StartsWith("<") && word.EndsWith(">");
+                    int wordLength = isTag ? 0 : word.Length; // Tags have 0 visual length for wrapping calculation
                     
-                    // If paragraph is short enough, keep as is
-                    if (paragraph.Length <= MAX_LINE_LENGTH)
-                    {
-                        result.Append(paragraph);
-                    }
-                    else
-                    {
-                        // Wrap long paragraph
-                        int startIndex = 0;
-                        while (startIndex < paragraph.Length)
-                        {
-                            int remainingLength = paragraph.Length - startIndex;
-                            
-                            if (remainingLength <= MAX_LINE_LENGTH)
-                            {
-                                // Last chunk, just append it
-                                result.Append(paragraph.Substring(startIndex));
-                                break;
-                            }
-                            
-                            // Find best break point within MAX_LINE_LENGTH
-                            int breakPoint = -1;
-                            int searchEnd = Math.Min(startIndex + MAX_LINE_LENGTH, paragraph.Length);
-                            
-                            // Search backwards from max position for a good break point
-                            for (int i = searchEnd - 1; i > startIndex; i--)
-                            {
-                                char c = paragraph[i];
-                                if (Array.IndexOf(ThaiBreakChars, c) >= 0)
-                                {
-                                    breakPoint = i + 1; // Break after the character
-                                    break;
-                                }
-                            }
-                            
-                            // If no good break point found, force break at MAX_LINE_LENGTH
-                            if (breakPoint <= startIndex)
-                            {
-                                breakPoint = startIndex + MAX_LINE_LENGTH;
-                            }
-                            
-                            // Append this chunk
-                            result.Append(paragraph.Substring(startIndex, breakPoint - startIndex).TrimEnd());
-                            result.Append('\n');
-                            
-                            startIndex = breakPoint;
-                            
-                            // Skip leading spaces after break
-                            while (startIndex < paragraph.Length && paragraph[startIndex] == ' ')
-                            {
-                                startIndex++;
-                            }
-                        }
-                    }
-                    
-                    // Add newline between paragraphs (except for last one)
-                    if (p < paragraphs.Length - 1)
+                    // If adding this word exceeds max length, and it's not a tag (unless line is extremely long)
+                    if (currentLineLength + wordLength > MAX_LINE_LENGTH && currentLineLength > 0)
                     {
                         result.Append('\n');
+                        currentLineLength = 0;
                     }
+                    
+                    result.Append(word);
+                    currentLineLength += wordLength;
                 }
                 
                 return result.ToString();
             }
-            catch
+            catch (Exception ex)
             {
+                Debug.Log("[ThaiTranslation] WrapText error: " + ex.Message);
                 return text;
             }
         }
+
+        // Helper to split text into words but keep tags as single units
+        private static string[] SplitTextPreservingTags(string text)
+        {
+            List<string> units = new List<string>();
+            System.Text.StringBuilder currentUnit = new System.Text.StringBuilder();
+            bool insideTag = false;
+            
+            for (int i = 0; i < text.Length; i++)
+            {
+                char c = text[i];
+                
+                if (c == '<')
+                {
+                    // Start of tag
+                    if (currentUnit.Length > 0 && !insideTag)
+                    {
+                        units.Add(currentUnit.ToString());
+                        currentUnit.Clear();
+                    }
+                    insideTag = true;
+                    currentUnit.Append(c);
+                }
+                else if (c == '>')
+                {
+                    // End of tag
+                    currentUnit.Append(c);
+                    if (insideTag)
+                    {
+                        units.Add(currentUnit.ToString());
+                        currentUnit.Clear();
+                        insideTag = false;
+                    }
+                }
+                else if (!insideTag && Array.IndexOf(ThaiBreakChars, c) >= 0)
+                {
+                    // Break character outside tag
+                    currentUnit.Append(c);
+                    units.Add(currentUnit.ToString());
+                    currentUnit.Clear();
+                }
+                else
+                {
+                    currentUnit.Append(c);
+                }
+            }
+            
+            if (currentUnit.Length > 0)
+            {
+                units.Add(currentUnit.ToString());
+            }
+            
+            return units.ToArray();
+        }
+
         
         public static string GetUIValue(string key)
         {
@@ -658,14 +677,40 @@ namespace ThaiTranslation
         [HarmonyPostfix]
         public static void GetGemName_Postfix(string key, ref string __result)
         {
-            try { string thai = ThaiTranslationMod.GetEssenceName(key); if (!string.IsNullOrEmpty(thai)) __result = thai; } catch { }
+            try 
+            { 
+                string thai = ThaiTranslationMod.GetEssenceName(key); 
+                Debug.Log("[ThaiTranslation] GetGemName called! key: " + key + " -> " + (thai != null ? "FOUND: " + thai : "NOT FOUND"));
+                if (!string.IsNullOrEmpty(thai)) 
+                {
+                    Debug.Log("[ThaiTranslation] Replacing gem name from: " + __result + " to: " + thai);
+                    __result = thai; 
+                }
+            } 
+            catch (Exception ex) { Debug.Log("[ThaiTranslation] GetGemName error: " + ex.Message); }
         }
         
         [HarmonyPatch(typeof(DewLocalization), "GetGemDescription", new Type[] { typeof(string) })]
-        [HarmonyPostfix]
-        public static void GetGemDescription_Postfix(string key, ref string __result)
+        [HarmonyPrefix]
+        public static bool GetGemDescription_Prefix(string key, ref IReadOnlyList<LocaleNode> __result)
         {
-            try { string thai = ThaiTranslationMod.GetEssenceDescription(key); if (!string.IsNullOrEmpty(thai)) __result = thai; } catch { }
+            try 
+            { 
+                string thai = ThaiTranslationMod.GetEssenceDescription(key); 
+                if (!string.IsNullOrEmpty(thai)) 
+                {
+                    Debug.Log("[ThaiTranslation] GetGemDescription replacing for key: " + key);
+                    List<LocaleNode> newList = new List<LocaleNode>();
+                    LocaleNode node = new LocaleNode();
+                    node.type = LocaleNodeType.Text;
+                    node.textData = thai;
+                    newList.Add(node);
+                    __result = newList;
+                    return false; // Skip original method
+                }
+            } 
+            catch (Exception ex) { Debug.Log("[ThaiTranslation] GetGemDescription error: " + ex.Message); }
+            return true; // Run original method if no translation found
         }
         
         [HarmonyPatch(typeof(DewLocalization), "GetStarName", new Type[] { typeof(string) })]
