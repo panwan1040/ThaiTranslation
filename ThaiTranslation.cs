@@ -531,7 +531,15 @@ namespace ThaiTranslation
                     currentLineLength += wordLength;
                 }
                 
-                return result.ToString();
+                string finalResult = result.ToString();
+                
+                // Debug log if wrapping rich text
+                if (text.Contains("<color") && !finalResult.Contains("<color"))
+                {
+                     Debug.LogWarning("[ThaiTranslation] WrapText STRIPPED TAGS! Input: " + text + " Output: " + finalResult);
+                }
+                
+                return finalResult;
             }
             catch (Exception ex)
             {
@@ -644,7 +652,16 @@ namespace ThaiTranslation
                 string thai = ThaiTranslationMod.GetMemoryDescription(key); 
                 if (!string.IsNullOrEmpty(thai)) 
                 {
-                    Debug.Log("[ThaiTranslation] Replacing description for: " + key);
+                    // Debug: Check if tags are present
+                    if (thai.Contains("<color"))
+                    {
+                        Debug.Log("[ThaiTranslation] KEY: " + key + " HAS COLOR TAGS: " + thai);
+                    }
+                    else
+                    {
+                         Debug.Log("[ThaiTranslation] KEY: " + key + " NO COLOR TAGS FOUND. Raw: " + thai);
+                    }
+
                     if (__result != null)
                     {
                         __result.Clear();
