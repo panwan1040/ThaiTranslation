@@ -1,0 +1,8 @@
+D:\SteamLibrary\steamapps\common\Shape of Dreams\Mods\ThaiTranslation\obj\Debug\netstandard2.1\ThaiTranslation.csproj.AssemblyReference.cache
+D:\SteamLibrary\steamapps\common\Shape of Dreams\Mods\ThaiTranslation\obj\Debug\netstandard2.1\ThaiTranslation.GeneratedMSBuildEditorConfig.editorconfig
+D:\SteamLibrary\steamapps\common\Shape of Dreams\Mods\ThaiTranslation\obj\Debug\netstandard2.1\ThaiTranslation.csproj.CoreCompileInputs.cache
+D:\SteamLibrary\steamapps\common\Shape of Dreams\Mods\ThaiTranslation\bin\Debug\netstandard2.1\ThaiTranslation.deps.json
+D:\SteamLibrary\steamapps\common\Shape of Dreams\Mods\ThaiTranslation\bin\Debug\netstandard2.1\ThaiTranslation.dll
+D:\SteamLibrary\steamapps\common\Shape of Dreams\Mods\ThaiTranslation\bin\Debug\netstandard2.1\ThaiTranslation.pdb
+D:\SteamLibrary\steamapps\common\Shape of Dreams\Mods\ThaiTranslation\obj\Debug\netstandard2.1\ThaiTranslation.dll
+D:\SteamLibrary\steamapps\common\Shape of Dreams\Mods\ThaiTranslation\obj\Debug\netstandard2.1\ThaiTranslation.pdb

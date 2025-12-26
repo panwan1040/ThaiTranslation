@@ -1,0 +1,12 @@
+{
+  "id": "com.thaicommunity.thaitranslation",
+  "name": "Thai Translation - ม็อดแปลภาษาไทย",
+  "author": "Thai Community",
+  "modVer": "1.0.0",
+  "supportedGameVer": [
+    "*"
+  ],
+  "assemblies": [
+    "ThaiTranslation.dll"
+  ]
+}
