@@ -661,6 +661,13 @@ namespace ThaiTranslation
             try { string thai = ThaiTranslationMod.GetEssenceName(key); if (!string.IsNullOrEmpty(thai)) __result = thai; } catch { }
         }
         
+        [HarmonyPatch(typeof(DewLocalization), "GetGemDescription", new Type[] { typeof(string) })]
+        [HarmonyPostfix]
+        public static void GetGemDescription_Postfix(string key, ref string __result)
+        {
+            try { string thai = ThaiTranslationMod.GetEssenceDescription(key); if (!string.IsNullOrEmpty(thai)) __result = thai; } catch { }
+        }
+        
         [HarmonyPatch(typeof(DewLocalization), "GetStarName", new Type[] { typeof(string) })]
         [HarmonyPostfix]
         public static void GetStarName_Postfix(string key, ref string __result)
