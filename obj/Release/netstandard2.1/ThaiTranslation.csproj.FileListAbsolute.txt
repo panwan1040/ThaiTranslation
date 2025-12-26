@@ -6,3 +6,9 @@ D:\SteamLibrary\steamapps\common\Shape of Dreams\Mods\ThaiTranslation\obj\Releas
 D:\SteamLibrary\steamapps\common\Shape of Dreams\Mods\ThaiTranslation\obj\Release\netstandard2.1\ThaiTranslation.csproj.CoreCompileInputs.cache
 D:\SteamLibrary\steamapps\common\Shape of Dreams\Mods\ThaiTranslation\obj\Release\netstandard2.1\ThaiTranslation.dll
 D:\SteamLibrary\steamapps\common\Shape of Dreams\Mods\ThaiTranslation\obj\Release\netstandard2.1\ThaiTranslation.pdb
+D:\code project\ThaiTranslation\obj\Release\netstandard2.1\ThaiTranslation.GeneratedMSBuildEditorConfig.editorconfig
+D:\code project\ThaiTranslation\obj\Release\netstandard2.1\ThaiTranslation.csproj.CoreCompileInputs.cache
+D:\code project\ThaiTranslation\obj\Release\netstandard2.1\ThaiTranslation.sourcelink.json
+D:\code project\ThaiTranslation\obj\Release\netstandard2.1\ThaiTranslation.dll
+D:\code project\ThaiTranslation\obj\Release\netstandard2.1\ThaiTranslation.pdb
+D:\SteamLibrary\steamapps\common\Shape of Dreams\Mods\ThaiTranslation\obj\Release\netstandard2.1\ThaiTranslation.sourcelink.json
