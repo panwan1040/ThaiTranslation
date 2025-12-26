@@ -216,6 +216,9 @@ namespace ThaiTranslation
                 ThaiFontAsset.name = "Prompt-Thai-SDF";
                 Debug.Log("[ThaiTranslation] TMP_FontAsset created: " + ThaiFontAsset.name);
                 
+                // Adjust font metrics to match game fonts and prevent stretching
+                AdjustFontMetrics();
+                
                 // Add Thai characters to the font atlas
                 string missingChars;
                 bool addResult = ThaiFontAsset.TryAddCharacters(ThaiCharacters, out missingChars);
@@ -241,6 +244,71 @@ namespace ThaiTranslation
             {
                 Debug.LogError("[ThaiTranslation] CreateTMPFontAsset error: " + ex.Message);
                 Debug.LogError(ex.StackTrace);
+            }
+        }
+        
+        private void AdjustFontMetrics()
+        {
+            if (ThaiFontAsset == null) return;
+            
+            try
+            {
+                // Find a game font to match metrics with
+                TMP_FontAsset[] gameFonts = Resources.FindObjectsOfTypeAll<TMP_FontAsset>();
+                TMP_FontAsset referenceFont = null;
+                
+                foreach (TMP_FontAsset font in gameFonts)
+                {
+                    if (font == null || font == ThaiFontAsset) continue;
+                    if (font.name.Contains("Prompt") || font.name.Contains("Thai")) continue;
+                    
+                    // Prefer fonts that look like main game fonts
+                    if (font.name.Contains("SDF") || font.name.Contains("Bold") || font.name.Contains("Regular"))
+                    {
+                        referenceFont = font;
+                        break;
+                    }
+                    
+                    // Take any valid font as fallback reference
+                    if (referenceFont == null)
+                    {
+                        referenceFont = font;
+                    }
+                }
+                
+                if (referenceFont != null)
+                {
+                    Debug.Log("[ThaiTranslation] Adjusting metrics to match: " + referenceFont.name);
+                    
+                    // Get current face info
+                    FaceInfo thaiFaceInfo = ThaiFontAsset.faceInfo;
+                    FaceInfo refFaceInfo = referenceFont.faceInfo;
+                    
+                    // Calculate scale ratio to match game font
+                    float scaleRatio = 1.0f;
+                    if (thaiFaceInfo.pointSize > 0 && refFaceInfo.pointSize > 0)
+                    {
+                        scaleRatio = (float)refFaceInfo.pointSize / (float)thaiFaceInfo.pointSize;
+                    }
+                    
+                    // Adjust Thai font metrics to match reference
+                    thaiFaceInfo.scale = refFaceInfo.scale;
+                    thaiFaceInfo.lineHeight = refFaceInfo.lineHeight;
+                    
+                    // Apply adjusted metrics
+                    ThaiFontAsset.faceInfo = thaiFaceInfo;
+                    
+                    Debug.Log("[ThaiTranslation] Font metrics adjusted. Scale: " + thaiFaceInfo.scale + 
+                              ", LineHeight: " + thaiFaceInfo.lineHeight);
+                }
+                else
+                {
+                    Debug.Log("[ThaiTranslation] No reference font found, using default metrics");
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.Log("[ThaiTranslation] AdjustFontMetrics error: " + ex.Message);
             }
         }
         
@@ -408,15 +476,105 @@ namespace ThaiTranslation
         
         public static string GetMemoryName(string key) { return GetTranslation(ThaiMemories, key, "name"); }
         public static string GetMemoryShortDescription(string key) { return GetTranslation(ThaiMemories, key, "shortDescription"); }
-        public static string GetMemoryDescription(string key) { return GetTranslation(ThaiMemories, key, "description"); }
-        public static string GetMemoryLore(string key) { return GetTranslation(ThaiMemories, key, "lore"); }
+        public static string GetMemoryDescription(string key) { return WrapText(GetTranslation(ThaiMemories, key, "description")); }
+        public static string GetMemoryLore(string key) { return WrapText(GetTranslation(ThaiMemories, key, "lore")); }
         public static string GetEssenceName(string key) { return GetTranslation(ThaiEssences, key, "name"); }
-        public static string GetEssenceDescription(string key) { return GetTranslation(ThaiEssences, key, "description"); }
+        public static string GetEssenceDescription(string key) { return WrapText(GetTranslation(ThaiEssences, key, "description")); }
         public static string GetStarName(string key) { return GetTranslation(ThaiStars, key, "name"); }
-        public static string GetStarDescription(string key) { return GetTranslation(ThaiStars, key, "description"); }
-        public static string GetStarLore(string key) { return GetTranslation(ThaiStars, key, "lore"); }
+        public static string GetStarDescription(string key) { return WrapText(GetTranslation(ThaiStars, key, "description")); }
+        public static string GetStarLore(string key) { return WrapText(GetTranslation(ThaiStars, key, "lore")); }
         public static string GetAchievementName(string key) { return GetTranslation(ThaiAchievements, key, "name"); }
-        public static string GetAchievementDescription(string key) { return GetTranslation(ThaiAchievements, key, "description"); }
+        public static string GetAchievementDescription(string key) { return WrapText(GetTranslation(ThaiAchievements, key, "description")); }
+        
+        // Wrap text to MAX_LINE_LENGTH characters per line to prevent text stretching
+        private const int MAX_LINE_LENGTH = 55;
+        
+        // Characters that are good break points for Thai text
+        private static readonly char[] ThaiBreakChars = new char[] { ' ', ',', '.', '/', ')', '(', '>', '<', '!', '?', ':', ';', '"', '\'', '–', '-', '—', '「', '」', '…' };
+        
+        public static string WrapText(string text)
+        {
+            if (string.IsNullOrEmpty(text)) return text;
+            
+            try
+            {
+                // First, split by existing newlines
+                string[] paragraphs = text.Split('\n');
+                System.Text.StringBuilder result = new System.Text.StringBuilder();
+                
+                for (int p = 0; p < paragraphs.Length; p++)
+                {
+                    string paragraph = paragraphs[p].TrimEnd('\r');
+                    
+                    // If paragraph is short enough, keep as is
+                    if (paragraph.Length <= MAX_LINE_LENGTH)
+                    {
+                        result.Append(paragraph);
+                    }
+                    else
+                    {
+                        // Wrap long paragraph
+                        int startIndex = 0;
+                        while (startIndex < paragraph.Length)
+                        {
+                            int remainingLength = paragraph.Length - startIndex;
+                            
+                            if (remainingLength <= MAX_LINE_LENGTH)
+                            {
+                                // Last chunk, just append it
+                                result.Append(paragraph.Substring(startIndex));
+                                break;
+                            }
+                            
+                            // Find best break point within MAX_LINE_LENGTH
+                            int breakPoint = -1;
+                            int searchEnd = Math.Min(startIndex + MAX_LINE_LENGTH, paragraph.Length);
+                            
+                            // Search backwards from max position for a good break point
+                            for (int i = searchEnd - 1; i > startIndex; i--)
+                            {
+                                char c = paragraph[i];
+                                if (Array.IndexOf(ThaiBreakChars, c) >= 0)
+                                {
+                                    breakPoint = i + 1; // Break after the character
+                                    break;
+                                }
+                            }
+                            
+                            // If no good break point found, force break at MAX_LINE_LENGTH
+                            if (breakPoint <= startIndex)
+                            {
+                                breakPoint = startIndex + MAX_LINE_LENGTH;
+                            }
+                            
+                            // Append this chunk
+                            result.Append(paragraph.Substring(startIndex, breakPoint - startIndex).TrimEnd());
+                            result.Append('\n');
+                            
+                            startIndex = breakPoint;
+                            
+                            // Skip leading spaces after break
+                            while (startIndex < paragraph.Length && paragraph[startIndex] == ' ')
+                            {
+                                startIndex++;
+                            }
+                        }
+                    }
+                    
+                    // Add newline between paragraphs (except for last one)
+                    if (p < paragraphs.Length - 1)
+                    {
+                        result.Append('\n');
+                    }
+                }
+                
+                return result.ToString();
+            }
+            catch
+            {
+                return text;
+            }
+        }
         
         public static string GetUIValue(string key)
         {
