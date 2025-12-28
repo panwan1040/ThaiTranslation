@@ -1,42 +1,42 @@
 ﻿{
     "Hero_Bismuth":  {
-                         "subtitle":  "One Body, Two Minds",
-                         "description":  "Bismuth is the fusion of an empty, nameless spellbook and an ordinary blind girl. She moves swiftly and deals sustained ranged damage.",
-                         "name":  "Bismuth"
+                         "subtitle":  "หนึ่งร่าง สองจิตใจ",
+                         "description":  "บิสมัทคือการรวมกันของตำราเวทมนตร์ที่ว่างเปล่าไร้ชื่อและเด็กสาวตาบอดธรรมดาคนหนึ่ง เธอเคลื่อนไหวอย่างรวดเร็วและสร้างความเสียหายระยะไกลได้อย่างต่อเนื่อง",
+                         "name":  "บิสมัท"
                      },
     "Hero_Lacerta":  {
-                         "subtitle":  "Former Sniper, Hunter Lizard",
-                         "description":  "Lacerta is a former Royal Guard sniper and hunter skilled with firearms and gunpowder. He is used to taking out enemies from a distance.",
-                         "name":  "Lacerta"
+                         "subtitle":  "อดีตสไนเปอร์, ฮันเตอร์ ลิซาร์ด",
+                         "description":  "ลาเซร์ต้าเป็นอดีตสไนเปอร์และนายพรานหน่วยองครักษ์ผู้ชำนาญการใช้อาวุธปืนและดินปืน เขาคุ้นเคยกับการจัดการศัตรูจากระยะไกล",
+                         "name":  "ลาเซอร์ต้า"
                      },
     "Hero_Yubar":  {
-                       "subtitle":  "Born of Dreams, God of Stars",
-                       "description":  "Yubar is a fantastical being born from dreams, a deity who governs the creation and destruction of stars. He uses powerful magic to deal heavy damage from a distance.",
-                       "name":  "Yubar"
+                       "subtitle":  "เกิดจากความฝัน เทพแห่งดวงดาว",
+                       "description":  "ยูบาร์เป็นสิ่งมีชีวิตในเทพนิยายที่กำเนิดจากความฝัน เป็นเทพที่ปกครองการสร้างและทำลายดวงดาว เขาใช้เวทมนตร์อันทรงพลังเพื่อสร้างความเสียหายอย่างหนักจากระยะไกล",
+                       "name":  "ยูบาร์"
                    },
     "Hero_Aurena":  {
-                        "subtitle":  "Expelled Sage of the Lunar Arcanum Society",
-                        "description":  "Aurena is a sage from the Lunar Arcanum Society who was expelled for researching forbidden knowledge. She is a battle healer who dismantles her own life force to wield its power.",
-                        "name":  "Aurena"
+                        "subtitle":  "ปราชญ์ที่ถูกขับไล่แห่งสมาคมศาสตร์ลึกลับจันทรา",
+                        "description":  "ออเรน่าเป็นนักปราชญ์จากสมาคมอาร์เคนแห่งจันทราที่ถูกขับไล่ออกมาเนื่องจากค้นคว้าความรู้ต้องห้าม เธอเป็นนักรบผู้รักษาที่สลายพลังชีวิตของตัวเองเพื่อใช้พลังดังกล่าว",
+                        "name":  "ออเรน่า"
                     },
     "Hero_Nachia":  {
-                        "subtitle":  "Spirit Mage of the Dream World, Guardian of the Ethereal Forest",
-                        "description":  "Nachia is a spirit mage of the dream world and guardian of the Ethereal Forest. She can summon spirits that follow her and fight by her side, dealing steady damage.",
-                        "name":  "Nachia"
+                        "subtitle":  "จอมเวทย์จิตวิญญาณแห่งโลกแห่งความฝัน, ผู้พิทักษ์ป่าอีเทอเรียล",
+                        "description":  "นาเคียเป็นเมจวิญญาณแห่งโลกแห่งความฝันและเป็นผู้พิทักษ์ป่า Ethereal เธอสามารถอัญเชิญวิญญาณที่คอยติดตามและต่อสู้เคียงข้างเธอ สร้างความเสียหายได้อย่างต่อเนื่อง",
+                        "name":  "นาเชีย"
                     },
     "Hero_Mist":  {
-                      "subtitle":  "Duelist of House Verdesilver",
-                      "description":  "Mist is a brave duelist of noble birth. Her agile fighting style allows her to dodge deadly attacks and quickly take down her enemies.",
-                      "name":  "Mist"
+                      "subtitle":  "นักประลองดาบแห่งราชวงศ์เวอร์ดีซิลเวอร์",
+                      "description":  "มิสต์คือนักต่อสู้ผู้กล้าหาญที่มาจากตระกูลขุนนาง รูปแบบการต่อสู้ที่คล่องแคล่วว่องไวทำให้เธอสามารถหลบหลีกการโจมตีที่อันตรายและโค่นล้มศัตรูได้อย่างรวดเร็ว",
+                      "name":  "มิสต์"
                   },
     "Hero_Vesper":  {
-                        "subtitle":  "Ruthless Inquisitor of the Order of the Sacred Flame",
-                        "description":  "Vesper is the leader of the Order of the Sacred Flame and a ruthless inquisitor. He fights at close range, holding back enemies while dealing heavy damage.",
-                        "name":  "Vesper"
+                        "subtitle":  "ผู้ไต่สวนที่ไร้ความปรานีแห่งภาคีเปลวเพลิงศักดิ์สิทธิ์",
+                        "description":  "เวสเปอร์คือผู้นำของภาคีเปลวเพลิงศักดิ์สิทธิ์และเป็นผู้ไต่สวนที่ไร้ความปรานี เขาต่อสู้ในระยะประชิด ยับยั้งศัตรูในขณะที่สร้างความเสียหายอย่างหนัก",
+                        "name":  "เวสเปอร์"
                     },
     "Hero_Husk":  {
-                      "subtitle":  "Manufactured Assassin, Wooden Doll with a Soul",
-                      "description":  "Shell is the perfect instrument of slaughter, incapable of feeling emotion or pain. An assassin who exploits enemy weaknesses with unpredictable movements, eliminating targets in the most efficient way possible.",
-                      "name":  "Shell"
+                      "subtitle":  "นักฆ่าที่ถูกสร้างขึ้น ตุ๊กตาไม้ที่มีจิตวิญญาณ",
+                      "description":  "เชลล์คือเครื่องมือสังหารที่สมบูรณ์แบบ ไร้ซึ่งอารมณ์หรือความเจ็บปวด เป็นนักฆ่าที่ใช้ประโยชน์จากจุดอ่อนของศัตรูด้วยการเคลื่อนไหวที่คาดเดาไม่ได้ กำจัดเป้าหมายด้วยวิธีที่มีประสิทธิภาพที่สุดเท่าที่จะเป็นไปได้",
+                      "name":  "เชลล์"
                   }
 }
