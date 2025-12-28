@@ -1,5 +1,5 @@
 ﻿{
-    "E_Harvest": {
+    "St_E_Harvest": {
         "shortDescription": "ทำเครื่องหมายและระเบิดศัตรู",
         "description": "\u003ccolor=yellow\u003eการโจมตี\u003c/color\u003eจะทิ้ง\u003ccolor=yellow\u003eเครื่องหมาย\u003c/color\u003eไว้บนศัตรูซึ่งสามารถซ้อนทับกันได้อย่างไม่จำกัด ใช้งานความทรงจำนี้เพื่อระเบิด\u003ccolor=yellow\u003eเครื่องหมาย\u003c/color\u003eทั้งหมดที่คุณใส่ไว้ สร้าง\u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e100%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e และลด\u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003eลง 60% เป็นเวลา 1.5 วินาที\n\nความเสียหายจากการระเบิดจะเพิ่มขึ้น 25% ต่อจำนวนการซ้อนทับที่เพิ่มขึ้น และหากศัตรูตายจากการระเบิดนี้ จะ\u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e20%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eพลังชีวิต\u003c/color\u003e",
         "rawDesc": "\u003ccolor=yellow\u003eการโจมตี\u003c/color\u003eจะทิ้ง\u003ccolor=yellow\u003eเครื่องหมาย\u003c/color\u003eไว้บนศัตรูซึ่งสามารถทับซ้อนกันได้อย่างไม่มีที่สิ้นสุด ใช้ความทรงจำนี้เพื่อระเบิด\u003ccolor=yellow\u003eเครื่องหมาย\u003c/color\u003eทั้งหมดที่คุณใช้ไป สร้าง\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {0} และลด\u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003e {1} เป็นเวลา {2} วินาที\n\nความเสียหายจากการระเบิดจะเพิ่มขึ้น {3} ต่อสแต็กเพิ่มเติม และถ้าศัตรูตายจากการระเบิดนี้ จะ\u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e\u003ccolor=yellow\u003eพลังชีวิต\u003c/color\u003e {4}",
@@ -73,7 +73,7 @@
         "name": "Blood Harvest",
         "lore": null
     },
-    "C_SwiftSlash": {
+    "St_C_SwiftSlash": {
         "shortDescription": "พุ่งตัว โจมตี",
         "description": "พุ่งไปข้างหน้าอย่างรวดเร็วและฟันศัตรู, สร้าง \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e220%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eดาเมจ\u003c/color\u003e และกระตุ้น \u003ccolor=yellow\u003eเอฟเฟกต์การโจมตี\u003c/color\u003e 50% การโจมตีศัตรูตัวแรกจะลด \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e 40%",
         "rawDesc": "พุ่งไปข้างหน้าอย่างรวดเร็วและฟันศัตรู สร้าง\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {0} และเกิด\u003ccolor=yellow\u003eเอฟเฟกต์การโจมตี\u003c/color\u003e {1} ครั้ง ศัตรูตัวแรกที่ถูกโจมตีจะลด\u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003eลง {2}",
@@ -121,7 +121,7 @@
         "name": "Swift Slash",
         "lore": null
     },
-    "Q_Reduction": {
+    "St_Q_Reduction": {
         "shortDescription": "สร้างความเสียหายต่อศัตรู, รักษาพันธมิตร",
         "description": "\u003ccolor=yellow\u003eเสียสละ\u003c/color\u003e 8% ของพลังชีวิตสูงสุดของคุณเพื่อปา Gold Shards บางๆ ไปข้างหน้า 3 ครั้ง. Gold Shards จะทะลุเป้าหมาย สร้างความ\u003ccolor=yellow\u003eเสียหาย\u003c/color\u003eแก่ศัตรูที่โดน \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e95%\u003c/color\u003e\u003csprite=5\u003e และ\u003ccolor=yellow\u003eรักษา\u003c/color\u003eพันธมิตร \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e18%\u003c/color\u003e\u003csprite=5\u003e.",
         "rawDesc": "\u003ccolor=yellow\u003eสละ\u003c/color\u003eพลังชีวิตสูงสุดของคุณ {0} เพื่อร่อนแผ่นทองคำบางไปข้างหน้า {1} ครั้ง แผ่นทองคำทะลุเป้าหมาย สร้าง\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {2} แก่ศัตรูที่โดน และ\u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003eพลังชีวิตพันธมิตร {3}",
@@ -182,7 +182,7 @@
         "name": "Reduction",
         "lore": "แก่นแท้ของการวิจัยของข้ามิใช่การทำลายล้าง หากแต่คือ \"การลดทอน\" ข้าคืนวัตถุให้กลับสู่โมเลกุลพื้นฐานที่สุด จากนั้นจึงประกอบสร้างขึ้นใหม่ตามความประสงค์ของข้า\nนี่คืออาณาเขตที่แท้จริงแห่งการสร้างสรรค์ สิ่งที่จิตใจอันหยุดนิ่งของอาร์คานัมไม่อาจจินตนาการได้เลย"
     },
-    "D_ConvergencePoint": {
+    "St_D_ConvergencePoint": {
         "shortDescription": "ดาวบรรจบ",
         "description": "การร่าย \u003ccolor=yellow\u003eความทรงจำ\u003c/color\u003e หรือใช้ \u003ccolor=yellow\u003eภาพติดตา\u003c/color\u003e จะมอบพลังโจมตี 10\u003csprite=5\u003e \u003ccolor=yellow\u003eหน่วย\u003c/color\u003e เป็นเวลา 3 วินาที ในช่วงเวลานี้ \u003ccolor=yellow\u003eการโจมตีปกติ\u003c/color\u003e ของคุณจะถูกเสริมพลัง และกระเด้งไปยังเป้าหมายสูงสุด 2 เป้าหมาย โดยมีประสิทธิภาพ 50%",
         "rawDesc": "การร่าย \u003ccolor=yellow\u003eMemory\u003c/color\u003e หรือใช้ \u003ccolor=yellow\u003eFlicker\u003c/color\u003e จะมอบ {0} \u003ccolor=yellow\u003eAttack Damage\u003c/color\u003e เป็นเวลา {1} วินาที ในช่วงเวลานี้ \u003ccolor=yellow\u003eการโจมตีพื้นฐาน\u003c/color\u003e ของคุณจะได้รับการเสริมพลัง กระดอนไปยังเป้าหมายสูงสุด {2} เป้าหมายด้วยประสิทธิภาพ {3}",
@@ -243,7 +243,7 @@
         "name": "Converging Stars",
         "lore": "ด้วยสัมผัสของข้า ดวงดาวเบื้องบนจะมารวมกันและเต้นรำ พลังแห่งการสร้างสรรค์ที่กระจัดกระจายจะผนึกรวมกันราวกับหยาดน้ำค้างใต้แสงจันทร์\n\nเมื่อหมู่ดาวบนฟากฟ้าเรียงตัวและขับขานอย่างกลมกลืน ดวงตาของข้าจะจับแสงแห่งปฐมกำเนิดอีกครั้ง"
     },
-    "E_SearingCharge": {
+    "St_E_SearingCharge": {
         "shortDescription": "พุ่งโจมตี, ไฟ",
         "description": "ฟาดฟันศัตรูอย่างรวดเร็วด้วยดาบเพลิง สร้างความเสียหายไฟ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e60%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eFire damage\u003c/color\u003e และความเสียหายไฟเพิ่มเติม \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e240%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eFire damage\u003c/color\u003e ความเสียหายและระยะจะเพิ่มตาม \u003ccolor=yellow\u003eMovement Speed\u003c/color\u003e หากศัตรูถูกสังหารด้วยความเสียหายนี้ \u003ccolor=yellow\u003ecooldown\u003c/color\u003e จะถูกรีเซ็ต",
         "rawDesc": "ฟาดฟันศัตรูอย่างรวดเร็วด้วยดาบเพลิง สร้าง \u003ccolor=yellow\u003eความเสียหายจากไฟ\u003c/color\u003e {0} และ \u003ccolor=yellow\u003eความเสียหายจากไฟ\u003c/color\u003e เพิ่มเติม {1} ความเสียหายและระยะจะเพิ่มขึ้นตาม \u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003e หากศัตรูถูกฆ่าด้วยความเสียหายนี้ \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e จะรีเซ็ต",
@@ -278,7 +278,7 @@
         "name": "Searing Charge",
         "lore": null
     },
-    "R_Ignite": {
+    "St_R_Ignite": {
         "shortDescription": "ความเสียหายจากไฟ, ความเสียหายวงกว้าง",
         "description": "สร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e115%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eประเภทไฟ\u003c/color\u003e แก่เป้าหมาย หากเป้าหมายกำลังติดสถานะเผาไหม้อยู่แล้ว ความเสียหายจะเพิ่มขึ้น 50% และสร้าง \u003ccolor=yellow\u003eความเสียหายวงกว้าง\u003c/color\u003e ชาร์จจะถูกฟื้นฟูเต็มจำนวนทันที",
         "rawDesc": "สร้าง \u003ccolor=yellow\u003eความเสียหายจากไฟ\u003c/color\u003e {0} แก่เป้าหมาย หากเป้าหมายติดไฟอยู่ ความเสียหายจะเพิ่มขึ้น {1} และสร้าง \u003ccolor=yellow\u003eความเสียหายวงกว้าง\u003c/color\u003e ชาร์จจะถูกฟื้นฟูจนเต็มในทันที",
@@ -313,7 +313,7 @@
         "name": "Ignite",
         "lore": null
     },
-    "L_PyranasFireball": {
+    "St_L_PyranasFireball": {
         "shortDescription": "แปลงร่างเป็นลูกไฟ",
         "description": "\u003ccolor=yellow\u003eแปลงร่าง\u003c/color\u003eเป็น \u003ccolor=yellow\u003eลูกไฟ\u003c/color\u003e ที่เคลื่อนที่รวดเร็วเป็นเวลา 3 วินาที ได้รับ \u003ccolor=yellow\u003eเกราะ\u003c/color\u003e 50\u003csprite=5\u003e และภูมิคุ้มกันต่อ \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e ทุกครั้งที่โจมตีศัตรู จะสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e220%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e และ \u003ccolor=yellow\u003eยืดระยะเวลา\u003c/color\u003e \u003ccolor=yellow\u003eต่อเนื่อง\u003c/color\u003e ของการแปลงร่าง 0.2\u003csprite=5\u003e วินาที สูงสุดไม่เกิน 3\u003csprite=5\u003e วินาที",
         "rawDesc": "\u003ccolor=yellow\u003eแปลงร่าง\u003c/color\u003eเป็น\u003ccolor=yellow\u003eลูกไฟ\u003c/color\u003eที่เคลื่อนที่เร็วเป็นเวลา {0} วินาที ได้รับ\u003ccolor=yellow\u003eเกราะ\u003c/color\u003e {1} และมีภูมิคุ้มกันต่อ\u003ccolor=yellow\u003eความเสียหายจากไฟ\u003c/color\u003e ทุกครั้งที่โจมตีศัตรู จะสร้าง\u003ccolor=yellow\u003eความเสียหายจากไฟ\u003c/color\u003e {2} และ\u003ccolor=yellow\u003eเพิ่ม\u003c/color\u003e\u003ccolor=yellow\u003eระยะเวลา\u003c/color\u003eการแปลงร่างอีก {3} วินาที สูงสุด {4} วินาที",
@@ -387,7 +387,7 @@
         "name": "Pyrana\u0027s Fireball",
         "lore": null
     },
-    "L_MentalCorruption": {
+    "St_L_MentalCorruption": {
         "shortDescription": "ความเสียหายความมืดเมื่อเวลาผ่านไปจนตาย",
         "description": "เข้าครอบงำจิตใจเป้าหมายและผู้คนรอบข้าง สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e200%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e และ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e60%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e ทุก 0.5 วินาทีจนกว่าจะตาย",
         "rawDesc": "ทำให้จิตใจของเป้าหมายและผู้ที่อยู่รอบ ๆ เป้าหมายเน่าเฟะ สร้างความเสียหาย \u003ccolor=yellow\u003eความมืด\u003c/color\u003e {0} และความเสียหาย \u003ccolor=yellow\u003eความมืด\u003c/color\u003e {1} ทุก ๆ {2} วินาที จนกว่าจะตาย",
@@ -435,7 +435,7 @@
         "name": "Mental Corruption",
         "lore": "ขณะที่ฉันท่องไปในโลกนี้ บางครั้งฉันก็ได้พบกับผู้ที่ตระหนักถึงโลกแห่งความฝัน มีเพียงไม่กี่คนเท่านั้นที่จำการเผชิญหน้าของเราได้อย่างสมบูรณ์ ทำให้เราสามารถเชื่อมต่อกันได้ครั้งแล้วครั้งเล่า\n\nอยู่มาวันหนึ่ง ขณะที่กำลังพูดคุยกับคนเหล่านั้นตามปกติ ฉันสังเกตเห็นว่าแสงในดวงตาของพวกเขาดับลงอย่างกะทันหัน สายตาที่ว่างเปล่านั้นจับจ้องมาที่ฉัน\n\n\"เธอมีความสุขอย่างแท้จริงที่นี่หรือไม่?\"\n\nจู่ๆ เขาก็เรียกฉันพร้อมกับคำถาม\n\n\"หรือเธอเป็นเพียงตุ๊กตาที่สวยงามซึ่งติดอยู่ในกรงที่สมบูรณ์แบบของคุณ?\"\n\nในขณะนั้น โลกของฉันก็สั่นสะเทือน คลื่นแห่งความกลัวแช่แข็งหัวใจของฉัน ราวกับว่าความวิตกกังวลของฉันติดต่อกัน ผู้คนรอบข้างเราทุกคนก็เริ่มบิดเบือน ความเกลียดชังที่ซ่อนเร้นและความกลัวที่มีต่อกันก็ผุดขึ้นมา\n\nด้วยพลังของฉัน ฉันได้ลบต้นตอของความเสื่อมทรามนั้นออกไป โดยไม่เหลือร่องรอยใดๆ ไว้เลย เช่นเดียวกับภาพลวงตา ความวุ่นวายก็หายไป และโลกก็กลับคืนสู่ความสงบที่จอมปลอม แต่มันก็เป็นสิ่งที่ฉันเห็น ในเงามืด บางสิ่งที่มองไม่เห็นกำลังเยาะเย้ยตัวตนที่ลึกที่สุดของฉัน\n\nไม่ ดินแดนในอุดมคตินี้เป็นของฉัน ภรรยาของฉัน... ครอบครัวของฉันจะต้องเป็นจริง ฉันจะสูญเสียพวกเขาอีกไม่ได้แล้ว\n\nฉันจะตรวจสอบให้แน่ใจว่าสิ่งนี้จะไม่เกิดขึ้นอีก ไม่มีรอยร้าว ไม่มีข้อสงสัย\n\nจะไม่ยอมให้เกิดขึ้นอีกเป็นอันขาด"
     },
-    "U_Burrow": {
+    "St_U_Burrow": {
         "shortDescription": "ขุดโพรงใต้ดินเพื่อเป็นอมตะ",
         "description": "มุดลงใต้ดิน ทำให้ได้รับสถานะ \u003ccolor=yellow\u003eอมตะ\u003c/color\u003e เป็นเวลา 2.5 วินาที และเพิ่ม \u003ccolor=yellow\u003eความเร็วเคลื่อนที่\u003c/color\u003e 30%\u003csprite=5\u003e เมื่อโผล่ขึ้นมาจะโจมตีศัตรูใกล้เคียงให้ลอยขึ้นและติดสถานะ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e เป็นเวลา 1 วินาที และสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e550%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e\nสามารถใช้ซ้ำเพื่อยกเลิกเอฟเฟกต์ก่อนกำหนดได้",
         "rawDesc": "มุดดินลงไปใต้พื้นดิน และจะได้รับสถานะ \u003ccolor=yellow\u003eอมตะ\u003c/color\u003e เป็นเวลา {0} วินาที และเพิ่ม \u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003e {1} เมื่อขึ้นจากพื้นดินจะทำให้ศัตรูที่อยู่รอบ ๆ ลอยขึ้นฟ้าและ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e เป็นเวลา {2} วินาที และสร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {3} \nสามารถใช้งานซ้ำได้เพื่อยกเลิกผลกระทบก่อนกำหนด",
@@ -496,7 +496,7 @@
         "name": "Burrow",
         "lore": null
     },
-    "QR_DistortedMind": {
+    "St_QR_DistortedMind": {
         "shortDescription": "ความเสียหายความมืด",
         "description": "\u003ccolor=yellow\u003eกดค้าง\u003c/color\u003eเพื่อชาร์จพลังศรจิต. ปล่อยเพื่อปล่อยศรจิต 1~4\u003csprite=5\u003e ใส่ศัตรูที่อยู่ใกล้เคียง ขึ้นอยู่กับเวลาชาร์จ. ศรจิตแต่ละดอกจะสร้าง\u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e200%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003eแก่ศัตรูในพื้นที่ขนาดเล็ก.",
         "rawDesc": "\u003ccolor=yellow\u003eกดค้าง\u003c/color\u003e เพื่อชาร์จลูกศรพลังจิตเป็นชุด ปล่อยเพื่อยิงลูกศรพลังจิต {0}~{1} ดอกใส่ศัตรูที่อยู่ใกล้เคียง ขึ้นอยู่กับระยะเวลาการชาร์จ ลูกศรพลังจิตแต่ละดอกจะสร้าง \u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e {2} แก่ศัตรูในพื้นที่ขนาดเล็ก",
@@ -538,14 +538,14 @@
         "name": "Distorted Mind",
         "lore": "แต่โลกที่เด็กหญิงคนนั้นมองเห็น บางครั้งก็บิดเบือนไปอย่างน่ากลัว \n\nเมื่อหนังสือเก่าแก่ในจิตใจของเธอจินตนาการถึงเรื่องราวที่ซุกซน \nเศษเสี้ยวของความคิดที่บิดเบือนก็หลั่งไหลลงมาจากฟากฟ้าดุจสายฝนสีดำ \n\nผู้ที่ติดอยู่ในสายฝนนี้ \nจะถูกกักขังอยู่ในห้องมืดมิดที่สุดแห่งจิตใจ"
     },
-    "C_Sneeze": {
+    "St_C_Sneeze": {
         "rawDesc": "ความทรงจำของการจามครั้งใหญ่ที่สดชื่น ปล่อยการจามอันทรงพลังไปข้างหน้า\nความทรงจำนี้ไร้ประโยชน์โดยสิ้นเชิง",
         "lore": null,
         "description": "ความทรงจำของการจามที่สดชื่นและทรงพลัง ปล่อยการจามที่รุนแรงไปข้างหน้า\nความทรงจำนี้ไร้ประโยชน์โดยสิ้นเชิง",
         "name": "Sneeze",
         "shortDescription": "จามแรง"
     },
-    "C_Purgatory": {
+    "St_C_Purgatory": {
         "shortDescription": "สร้างความเสียหายแบบวงกว้างและฟื้นฟูพลังชีวิตให้พันธมิตร",
         "description": "สร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e280%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eแก่ศัตรู\u003c/color\u003eทั้งหมดในตำแหน่งเป้าหมาย และ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003eพันธมิตรแบบสุ่มเป็น \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e45%\u003c/color\u003e\u003csprite=5\u003e ของพลังชีวิต ต่อศัตรูที่ถูกโจมตีหนึ่งตัว หากเป้าหมายคือบอส การฟื้นฟูจะเพิ่มเป็นสามเท่า",
         "rawDesc": "สร้างความเสียหาย {0} \u003ccolor=yellow\u003eแก่ศัตรู\u003c/color\u003eทั้งหมดในตำแหน่งเป้าหมายและ\u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003eพันธมิตรแบบสุ่ม {1} พลังชีวิตต่อศัตรูที่ถูกโจมตี หากเป้าหมายเป็นบอส การฟื้นฟูจะเพิ่มขึ้นเป็นสามเท่า",
@@ -580,7 +580,7 @@
         "name": "Purgatory",
         "lore": null
     },
-    "E_StygianRush": {
+    "St_E_StygianRush": {
         "shortDescription": "มืดมิด ชาร์จเพื่อพลังโจมตีรุนแรง",
         "description": "\u003ccolor=yellow\u003eกดค้าง\u003c/color\u003e เพื่อรวบรวมความมืดไว้ในมือ เมื่อชาร์จเต็มแล้ว จะพุ่งไปข้างหน้าและโจมตีศัตรูตัวแรกที่โดนและศัตรูทั้งหมดที่อยู่ใกล้เคียง ศัตรูจะได้รับ \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e100%\u003c/color\u003e\u003csprite=5\u003e-\u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e500%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e ขึ้นอยู่กับเวลาชาร์จและติดสถานะสตัน 1 วินาที\nการชาร์จเป็นเวลา 1.2 วินาทีจะเพิ่มระยะทางและความเสียหายของการพุ่งได้สูงสุด",
         "rawDesc": "\u003ccolor=yellow\u003eกดค้าง\u003c/color\u003eเพื่อรวบรวมพลังแห่งความมืดไว้ในมือของคุณ เมื่อชาร์จเต็มแล้ว ให้พุ่งไปข้างหน้าและโจมตีศัตรูตัวแรกที่โดนและศัตรูทั้งหมดที่อยู่ใกล้เคียง ศัตรูจะได้รับความเสียหาย\u003ccolor=yellow\u003eความมืด\u003c/color\u003e {0}-{1} ขึ้นอยู่กับเวลาในการชาร์จและติดสถานะสตันเป็นเวลา {2} วินาที\nการชาร์จเป็นเวลา {3} วินาทีจะเพิ่มระยะทางและความเสียหายของการพุ่งได้สูงสุด",
@@ -641,7 +641,7 @@
         "name": "Stygian Rush",
         "lore": null
     },
-    "C_BackStep": {
+    "St_C_BackStep": {
         "shortDescription": "ถอยและทิ้งระเบิด",
         "description": "กระโดดถอยหลังแล้วปล่อยระเบิดช็อตไฟฟ้า 3 ลูก ณ ตำแหน่งเดิม โดยแต่ละลูกสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e168%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eดาเมจ\u003c/color\u003e และ \u003ccolor=yellow\u003eสตั๊น\u003c/color\u003e เป็นเวลา 1 วินาที",
         "rawDesc": "กระโดดถอยหลังแล้วทิ้งช็อกบอมบ์ {0} ลูกที่ตำแหน่งเดิม แต่ละลูกสร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {1} และ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e เป็นเวลา {2} วินาที",
@@ -689,7 +689,7 @@
         "name": "Backstep",
         "lore": null
     },
-    "R_Tranquility": {
+    "St_R_Tranquility": {
         "shortDescription": "อมตะ ลดคูลดาวน์ความทรงจำ",
         "description": "\u003ccolor=yellow\u003eYubar\u003c/color\u003e \u003ccolor=yellow\u003eร่าย\u003c/color\u003e เป็นเวลา 1 วินาทีเพื่อเรียกความสงบกลับคืนมา กลายเป็น \u003ccolor=yellow\u003eอมตะ\u003c/color\u003e โดยจะเพิ่ม \u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003e ขึ้น 40% และลด \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e ของความทรงจำอื่นทั้งหมดลง 3.5\u003csprite=5\u003e วินาที",
         "rawDesc": "\u003ccolor=yellow\u003eYubar\u003c/color\u003e \u003ccolor=yellow\u003eรวบรวมพลัง\u003c/color\u003e เป็นเวลา {0} วินาที เพื่อฟื้นความสงบ ได้รับสถานะ \u003ccolor=yellow\u003eอมตะ\u003c/color\u003e, เพิ่ม \u003ccolor=yellow\u003eความเร็วเคลื่อนที่\u003c/color\u003e {1}, และลด \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e ของความทรงจำอื่นทั้งหมดลง {2} วินาที",
@@ -737,7 +737,7 @@
         "name": "Tranquility",
         "lore": "แม้แต่จักรวาลเองก็ยังดึงดูดพลังใหม่จากความสงบนิ่ง\nในห้วงแห่งสันติสุขชั่วขณะนี้ ดวงวิญญาณของข้าจะโอบรับแสงแห่งการสรรค์สร้างอีกครั้งและได้รับการฟื้นฟูเยี่ยงดวงดาวที่เริงระบำไปตามเส้นทางแห่งสรวงสวรรค์..."
     },
-    "D_TheKillingFlow": {
+    "St_D_TheKillingFlow": {
         "shortDescription": "ยิงหนึ่งนัดสังหารหนึ่งคน",
         "description": "แทนที่จะได้รับโบนัส \u003ccolor=yellow\u003eAttack Speed\u003c/color\u003e พลัง \u003ccolor=yellow\u003eAttack Damage\u003c/color\u003e ของคุณจะเพิ่มขึ้น 0.5\u003csprite=5\u003e ทุก 1% ของ \u003ccolor=yellow\u003eAdditional Attack Speed\u003c/color\u003e.\nหลังจาก \u003ccolor=yellow\u003eDash\u003c/color\u003e หรือ \u003ccolor=yellow\u003eTeleport\u003c/color\u003e การ \u003ccolor=yellow\u003eBasic Attack\u003c/color\u003e ครั้งต่อไปของคุณจะติดคริติคอล.\n\nการสังหาร \u003ccolor=yellow\u003eBoss\u003c/color\u003e ตัวใดก็ตามจะ \u003ccolor=yellow\u003erestores\u003c/color\u003e \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e200%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eHealth\u003c/color\u003e.",
         "rawDesc": "แทนที่จะได้รับโบนัส \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e แต่ \u003ccolor=yellow\u003eพลังโจมตี\u003c/color\u003e ของคุณจะเพิ่มขึ้น {0} ต่อทุก 1% ของ \u003ccolor=yellow\u003eความเร็วโจมตีเพิ่มเติม\u003c/color\u003e\nหลังจาก \u003ccolor=yellow\u003eพุ่ง\u003c/color\u003e หรือ \u003ccolor=yellow\u003eวาร์ป\u003c/color\u003e การ \u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003e ครั้งต่อไปของคุณจะเป็นการโจมตีคริติคอล\n\nการสังหาร \u003ccolor=yellow\u003eบอส\u003c/color\u003e ใด ๆ จะ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e \u003ccolor=yellow\u003eพลังชีวิต\u003c/color\u003e {1}",
@@ -772,14 +772,14 @@
         "name": "One Step, One Kill",
         "lore": "ทุกย่างก้าวคือการพรากไปซึ่งชีวิต\nไม่มีอารมณ์ ไม่มีความเจ็บปวด มีเพียงร่างกายที่จดจำทุกการเคลื่อนไหว"
     },
-    "M_Flicker": {
+    "St_M_Flicker": {
         "rawDesc": "เทเลพอร์ตอย่างรวดเร็วเพื่อหลบหลีกการโจมตีของศัตรู\n\u003ccolor=yellow\u003eสามารถใช้ได้แม้ในขณะที่ไม่สามารถใช้ความทรงจำได้\u003c/color\u003e",
         "lore": null,
         "description": "วาร์ปอย่างรวดเร็วเพื่อหลบหลีกการโจมตีของศัตรู\n\u003ccolor=yellow\u003eใช้ได้แม้ในขณะที่ไม่สามารถใช้เมมโมรี่ได้\u003c/color\u003e",
         "name": "Flicker",
         "shortDescription": "The cell is empty, please provide text to translate."
     },
-    "R_Scattershot": {
+    "St_R_Scattershot": {
         "shortDescription": "สร้างความเสียหายธาตุมืดแบบกระจายด้านหน้า",
         "description": "ยิงกระสุนมืด 5 นัดกระจายออกไปด้านหน้า กระสุนแต่ละนัดสร้างความเสียหายมืด \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e100%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eDark damage\u003c/color\u003e และกระตุ้น \u003ccolor=yellow\u003eattack effects\u003c/color\u003e 50%",
         "rawDesc": "ยิงกระสุนความมืด {0} นัดที่กระจายออกไปด้านหน้า กระสุนแต่ละนัดสร้าง {1} \u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e และกระตุ้น {2} \u003ccolor=yellow\u003eเอฟเฟกต์โจมตี\u003c/color\u003e",
@@ -827,7 +827,7 @@
         "name": "Scattershot",
         "lore": null
     },
-    "R_FlamingWhip": {
+    "St_R_FlamingWhip": {
         "shortDescription": "ความเสียหายจากไฟในพื้นที่ด้านหน้า",
         "description": "เหวี่ยงแส้เพลิง สร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e200%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e แก่ศัตรูที่อยู่ด้านหน้า และลด \u003ccolor=yellow\u003eความเร็วเคลื่อนที่\u003c/color\u003e ของศัตรูลงชั่วขณะ\n\u003ccolor=yellow\u003eการร่าย\u003c/color\u003e Memory อื่นที่ไม่ใช่ \u003ccolor=yellow\u003eแส้เพลิง\u003c/color\u003e จะรีเซ็ต \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e ของแส้",
         "rawDesc": "เหวี่ยงแส้เพลิง สร้าง\u003ccolor=yellow\u003eความเสียหายธาตุไฟ\u003c/color\u003e {0} ให้ศัตรูที่อยู่ด้านหน้าและลด\u003ccolor=yellow\u003eความเร็วเคลื่อนที่\u003c/color\u003eของพวกเขาชั่วคราว\nการ\u003ccolor=yellow\u003eร่าย\u003c/color\u003e Memory อื่นที่ไม่ใช่\u003ccolor=yellow\u003eแส้เพลิง\u003c/color\u003eจะรีเซ็ต\u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003eของแส้",
@@ -849,7 +849,7 @@
         "name": "Flaming Whip",
         "lore": null
     },
-    "U_BeamOfBalance": {
+    "St_U_BeamOfBalance": {
         "shortDescription": "ปล่อยลำแสงขนาดใหญ่ที่สร้างความเสียหายและรักษาไปพร้อมกัน",
         "description": "ทะยานขึ้นเป็นเวลา 8 วินาที และได้รับสถานะ \u003ccolor=yellow\u003eอมตะ\u003c/color\u003e ในช่วงเวลานี้ ควบคุม \u003ccolor=yellow\u003eลำแสงแห่งสมดุล\u003c/color\u003e ที่เคลื่อนที่ช้า ซึ่งสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e350%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e ต่อศัตรูต่อวินาที และ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e พลังชีวิตให้พันธมิตร \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e150%\u003c/color\u003e\u003csprite=5\u003e ต่อวินาที",
         "rawDesc": "ทะยานขึ้นเป็นเวลา {0} วินาที และได้รับสถานะ\u003ccolor=yellow\u003eอมตะ\u003c/color\u003e ในช่วงเวลานี้ คุณจะควบคุม\u003ccolor=yellow\u003eลำแสงแห่งสมดุล\u003c/color\u003eที่เคลื่อนที่ช้าๆ ซึ่งสร้าง\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {1} ต่อศัตรูต่อวินาที และ\u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003eพันธมิตร {2} ต่อวินาที",
@@ -897,7 +897,7 @@
         "name": "Beam of Balance",
         "lore": null
     },
-    "D_MercyOfEl": {
+    "St_D_MercyOfEl": {
         "shortDescription": "Please provide the Short Description you would like translated to Thai.",
         "description": "\u003ccolor=yellow\u003eพลังโจมตี\u003c/color\u003e เพิ่มขึ้น 12\u003csprite=5\u003e ทุกๆ \u003ccolor=yellow\u003eการโจมตีพื้นฐาน\u003c/color\u003e ครั้งที่ 4 จะเป็นการโจมตีแบบ \u003ccolor=yellow\u003eคริติคอล\u003c/color\u003e และสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e70%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e เพิ่มเติม\nทุกครั้งที่คุณ \u003ccolor=yellow\u003eโจมตี\u003c/color\u003e ศัตรู \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e จะเพิ่มขึ้น 4%\u003csprite=5\u003e เป็นเวลา 4 วินาที สูงสุด 24%\u003csprite=5\u003e เมื่อ \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e อยู่ในระดับสูงสุด การ \u003ccolor=yellow\u003eโจมตี\u003c/color\u003e ศัตรูจะ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e 1%\u003csprite=5\u003e ของ \u003ccolor=yellow\u003eพลังชีวิตที่หายไป\u003c/color\u003e ของคุณ",
         "rawDesc": "\u003ccolor=yellow\u003eพลังโจมตี\u003c/color\u003eเพิ่มขึ้น {0} ทุกการ\u003ccolor=yellow\u003eโจมตีปกติ\u003c/color\u003eครั้งที่ 4 จะเป็นการ\u003ccolor=yellow\u003eโจมตีคริติคอล\u003c/color\u003eและสร้าง\u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003eเพิ่มเติม {1}\nทุกครั้งที่\u003ccolor=yellow\u003eโจมตี\u003c/color\u003eศัตรู \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003eจะเพิ่มขึ้น {2} เป็นเวลา {3} วินาที สูงสุดไม่เกิน {4} เมื่อ\u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003eถึงขีดสูงสุด การ\u003ccolor=yellow\u003eโจมตี\u003c/color\u003eศัตรูจะ\u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e\u003ccolor=yellow\u003eพลังชีวิตที่ขาดหายไป\u003c/color\u003e {5}",
@@ -978,7 +978,7 @@
         "name": "El\u0027s Mercy",
         "lore": "พวกผู้โง่เขลาและลบหลู่ จงดูเถิด! สิ่งที่เรามอบให้แก่พวกเจ้ามิใช่ความทุกข์ทรมาน หากแต่เป็นความรักและความเมตตาของเอลไพรอส ผู้ซึ่งมุ่งหวังจะไถ่ถอนดวงวิญญาณของพวกเจ้าทุกคน!"
     },
-    "R_Cataclysm": {
+    "St_R_Cataclysm": {
         "shortDescription": "เพิ่มพลังสกิล เมื่อใช้งานซ้ำจะเรียกอุกกาบาต",
         "description": "ได้รับ Barrier ขนาด \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e150%\u003c/color\u003e\u003csprite=5\u003e และเพิ่ม \u003ccolor=yellow\u003eพลังโจมตีสกิล\u003c/color\u003e 30%\u003csprite=5\u003e เป็นเวลา 12 วินาที ในช่วงเวลานี้ สามารถเปิดใช้ \u003ccolor=yellow\u003eCataclysm\u003c/color\u003e ได้อีกสูงสุด 3 ครั้งเพื่อปล่อยอุกกาบาตลงบนพื้นที่เป้าหมาย อุกกาบาตจะสตันศัตรูชั่วขณะ และสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e250%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e",
         "rawDesc": "ได้รับ Barrier {0} และเพิ่ม \u003ccolor=yellow\u003eพลังความสามารถ\u003c/color\u003e ขึ้น {1} เป็นเวลา {2} วินาที ในระหว่างนี้ \u003ccolor=yellow\u003eCataclysm\u003c/color\u003e สามารถใช้งานซ้ำได้สูงสุด {3} ครั้ง เพื่อปล่อยดาวตกในตำแหน่งเป้าหมาย ดาวตกจะสตันศัตรูชั่วขณะและสร้าง \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e {4}",
@@ -1052,7 +1052,7 @@
         "name": "Cataclysm",
         "lore": "อย่ารีบร้อนนักเลย โพลาริส\nไม่จำเป็นต้องท้อแท้สิ้นหวังในความไม่รู้ของตนเอง\n\nข้าจะเผชิญหน้ากับความจริงด้วยดวงตาคู่นี้ และเลือกเส้นทางของข้าด้วยหัวใจดวงนี้"
     },
-    "R_QuickTrigger": {
+    "St_R_QuickTrigger": {
         "shortDescription": "ยิงทะลวง",
         "description": "ยิง 3 นัดทะลุทะลวงอย่างรวดเร็ว สร้างความเสียหาย \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e120%\u003c/color\u003e\u003csprite=5\u003e แก่ศัตรูสูงสุด 3 ตัว",
         "rawDesc": "ยิงลูกศรทะลวง {0} นัดอย่างรวดเร็ว สร้างความเสียหาย {1} แก่ศัตรูสูงสุด {2} ตัว",
@@ -1100,14 +1100,14 @@
         "name": "Quick Draw",
         "lore": "ถึงจะมีอุบัติเหตุที่กระสุนพลาดไปถูกเข่าของยามคนหนึ่ง แต่ธรรมเนียมการซ้อมยิงเหรียญที่ถูกปล่อยจากความสูงระดับหัวไหล่ก็ยังคงเป็นกิจกรรมยอดนิยมในหมู่ทหารสืบไป"
     },
-    "M_FlashStep": {
+    "St_M_FlashStep": {
         "rawDesc": "เคลื่อนที่อย่างรวดเร็วเพื่อหลบการโจมตีของศัตรู",
         "lore": null,
         "description": "เคลื่อนที่อย่างรวดเร็วเพื่อหลบหลีกการโจมตีของศัตรู",
         "name": "Flash Step",
         "shortDescription": "Please provide the Short Description text you want translated."
     },
-    "R_SanctuaryOfEl": {
+    "St_R_SanctuaryOfEl": {
         "shortDescription": "อัลติเมต สร้างเขตป้องกัน",
         "description": "\u003ccolor=yellow\u003eVesper\u003c/color\u003e \u003ccolor=yellow\u003eอวยพร\u003c/color\u003e พื้นดินโดยรอบเป็นเวลา 10 วินาที สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e500%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e แก่ศัตรูที่อยู่ใกล้เคียง และมอบ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e200%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eบาเรีย\u003c/color\u003e แก่พันธมิตรที่คงอยู่ 4 วินาที พันธมิตรที่อยู่บนพื้นดินที่ได้รับพรจะได้รับ 18\u003csprite=5\u003e \u003ccolor=yellow\u003eเกราะ\u003c/color\u003e และ 20%\u003csprite=5\u003e \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e\n\n\u003ccolor=yellow\u003eVesper\u003c/color\u003e จะได้รับผล 200% และจะกลายเป็น \u003ccolor=yellow\u003eไม่สามารถหยุดยั้งได้\u003c/color\u003e ขณะที่อยู่ภายใต้ผลของสกิล",
         "rawDesc": "\u003ccolor=yellow\u003eVesper\u003c/color\u003e \u003ccolor=yellow\u003eอำนวยพร\u003c/color\u003e พื้นดินโดยรอบเป็นเวลา {0} วินาที สร้าง \u003ccolor=yellow\u003eความเสียหายธาตุแสง\u003c/color\u003e {1} ให้แก่ศัตรูที่อยู่ใกล้เคียง และมอบ \u003ccolor=yellow\u003eบาเรีย\u003c/color\u003e {2} ให้แก่พันธมิตรที่คงอยู่เป็นเวลา {3} วินาที พันธมิตรที่อยู่บนพื้นดินที่ได้รับพรจะได้รับ \u003ccolor=yellow\u003eเกราะ\u003c/color\u003e {4} และ \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e {5} \n\n\u003ccolor=yellow\u003eVesper\u003c/color\u003e ตัวเขาเองได้รับผล {6} ของเอฟเฟกต์และกลายเป็น \u003ccolor=yellow\u003eต้านทานหยุดยั้ง\u003c/color\u003e ขณะที่อยู่ภายใต้เอฟเฟกต์",
@@ -1207,7 +1207,7 @@
         "name": "El\u0027s Sanctuary",
         "lore": "ข้าขอประกาศพระพรแห่งเอลไพรอสเหนือผืนแผ่นดินนี้! ขอเกียรติจงมีแก่ผู้รับใช้ของพระองค์ และขอความพินาศจงมีแก่เหล่าคนนอกรีตที่น่ารังเกียจ!"
     },
-    "C_PressurePoint": {
+    "St_C_PressurePoint": {
         "shortDescription": "ความเสียหายระยะประชิด ผลักถอยหลัง",
         "description": "ปล่อยพลังงานจากฝ่ามือ สร้าง\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e180%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003eและผลักศัตรูทั้งหมดที่โดนออกไป ทำให้ติดสถานะสตัน 1 วินาที หากเป้าหมายไม่สามารถหยุดยั้งได้หรือชนกับกำแพง จะสร้าง\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e504%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003eเพิ่มเติม",
         "rawDesc": "ปล่อยพลังงานจากฝ่ามือ สร้างความเสียหาย {0} \u003ccolor=yellow\u003edamage\u003c/color\u003e และผลักศัตรูทั้งหมดที่โดนออกไป ทำให้ติดสตัน {1} วินาที หากเป้าหมายไม่สามารถหยุดยั้งได้ หรือชนกับกำแพง จะสร้างความเสียหาย \u003ccolor=yellow\u003edamage\u003c/color\u003e เพิ่มเติม {2}",
@@ -1249,7 +1249,7 @@
         "name": "Pressure Point",
         "lore": null
     },
-    "R_AnnihilationStance": {
+    "St_R_AnnihilationStance": {
         "shortDescription": "เพิ่มพลังโจมตีพื้นฐาน",
         "description": "ห่อหุ้มใบมีดของคุณด้วย \u003ccolor=yellow\u003eพลังงานดาบ\u003c/color\u003e ทำลายล้างเป็นเวลา 10 วินาที ขณะที่ผลนี้ทำงานอยู่ คุณจะไม่สามารถ \u003ccolor=yellow\u003eร่าย\u003c/color\u003e \u003ccolor=yellow\u003eความทรงจำ\u003c/color\u003e ได้ แต่ \u003ccolor=yellow\u003eความเสียหายจากการโจมตี\u003c/color\u003e ของคุณจะเพิ่มขึ้น 30%\u003csprite=5\u003e, \u003ccolor=yellow\u003eระยะโจมตี\u003c/color\u003e ของคุณจะเพิ่มขึ้น และการ \u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003e แต่ละครั้งจะยิง \u003ccolor=yellow\u003eพลังงานดาบ\u003c/color\u003e ที่สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e400%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e ให้กับศัตรู คุณสามารถทำการ \u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003e 1.5\u003csprite=5\u003e ครั้งต่อวินาทีขณะที่ผลนี้ทำงานอยู่ และอัตรานี้จะไม่ได้รับผลกระทบจากผลความเร็วโจมตีอื่นๆ",
         "rawDesc": "ห่อหุ้มดาบของคุณด้วย \u003ccolor=yellow\u003eพลังดาบ\u003c/color\u003eอันรุนแรงเป็นเวลา {0} วินาที ในขณะที่ผลนี้ยังคงอยู่ คุณจะไม่สามารถ \u003ccolor=yellow\u003eร่าย\u003c/color\u003e \u003ccolor=yellow\u003eความทรงจำ\u003c/color\u003eได้ แต่ \u003ccolor=yellow\u003eความเสียหายจากการโจมตี\u003c/color\u003eของคุณจะเพิ่มขึ้น {1} \u003ccolor=yellow\u003eระยะโจมตี\u003c/color\u003eของคุณจะเพิ่มขึ้น และการ\u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003eแต่ละครั้งจะยิง \u003ccolor=yellow\u003eพลังดาบ\u003c/color\u003eที่สร้าง \u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e {2} ให้กับศัตรู คุณสามารถดำเนินการ \u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003eได้ {3} ครั้งต่อวินาทีขณะที่ผลนี้ยังคงอยู่ และอัตรานี้จะไม่ได้รับผลกระทบจากผลของความเร็วโจมตีอื่น ๆ",
@@ -1310,7 +1310,7 @@
         "name": "Annihilation Stance",
         "lore": "อย่าให้มีผู้ใดรอดชีวิตเป็นประจักษ์พยาน"
     },
-    "Q_GoldenBurst": {
+    "St_Q_GoldenBurst": {
         "shortDescription": "สร้างความเสียหายเบา, รักษาพันธมิตร",
         "description": "สร้าง Golden Explosion ไปข้างหน้า สร้างความเสียหายแสง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e110%\u003c/color\u003e\u003csprite=5\u003e แก่ศัตรู และ\u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e28%\u003c/color\u003e\u003csprite=5\u003e พลังชีวิตให้แก่พันธมิตร เมื่อโจมตีเป้าหมายเดียว \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003eหรือ\u003ccolor=yellow\u003eการรักษา\u003c/color\u003eของการระเบิดนี้จะเพิ่มขึ้น 100%\n\nเมื่อร่าย จะได้รับสแต็ค \u003ccolor=yellow\u003eWither\u003c/color\u003e เป็นเวลา 3.5 วินาที และ\u003ccolor=yellow\u003eเสียสละ\u003c/color\u003e 5% ของพลังชีวิตสูงสุดของคุณ สแต็ค \u003ccolor=yellow\u003eWither\u003c/color\u003e แต่ละสแต็คจะเพิ่ม\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003eและ\u003ccolor=yellow\u003eการรักษา\u003c/color\u003eของการระเบิด 100% แต่ยังเพิ่มพลังชีวิตที่\u003ccolor=yellow\u003eเสียสละ\u003c/color\u003e 7% ของพลังชีวิตสูงสุดของคุณด้วย",
         "rawDesc": "สร้างการระเบิดสีทองไปข้างหน้า สร้างความเสียหายแสงแก่ศัตรู {0} และ\u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003eพลังชีวิตแก่พันธมิตร {1} เมื่อโจมตีเป้าหมายเดียว ความเสียหายหรือการ\u003ccolor=yellow\u003eรักษา\u003c/color\u003eจากการระเบิดนี้จะเพิ่มขึ้น {2}\n\nเมื่อร่าย จะได้รับสถานะ\u003ccolor=yellow\u003eWither\u003c/color\u003e เป็นเวลา {3} วินาที และ\u003ccolor=yellow\u003eเสียสละ\u003c/color\u003eพลังชีวิตสูงสุดของคุณ {4} แต่ละสถานะ\u003ccolor=yellow\u003eWither\u003c/color\u003e จะเพิ่มความเสียหายและการ\u003ccolor=yellow\u003eรักษา\u003c/color\u003eจากการระเบิดขึ้น {5} แต่ก็เพิ่มพลังชีวิตที่\u003ccolor=yellow\u003eเสียสละ\u003c/color\u003eขึ้น {6} ของพลังชีวิตสูงสุดของคุณด้วย",
@@ -1410,7 +1410,7 @@
         "name": "Golden Explosion",
         "lore": "ปริมาณพลังงานของการย่อยสลายที่ป้อนเข้ามีความสัมพันธ์โดยตรงกับพลังทำลายที่ออกมา\n\nความอ่อนล้าที่ตามมาหลังการทดลองแต่ละครั้งนั้นน่าสนใจ แต่ไม่ได้สำคัญเป็นพิเศษ"
     },
-    "Q_Lunge": {
+    "St_Q_Lunge": {
         "shortDescription": "พุ่งไปข้างหน้า, โจมตี",
         "description": "พุ่งไปด้านหน้าและแทงดาบใส่ศัตรูที่อยู่ใกล้ที่สุด กระตุ้น \u003ccolor=yellow\u003eเอฟเฟกต์การโจมตี\u003c/color\u003e และสร้างความเสียหาย \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e200%\u003c/color\u003e\u003csprite=5\u003e แก่ศัตรูทั้งหมดที่โดนดาบ ทุกครั้งที่ \u003ccolor=yellow\u003eAstrid\u0027s Masterpiece\u003c/color\u003e ทำงาน คูลดาวน์ของเมมโมรี่นี้จะลดลง 0.5 วินาที",
         "rawDesc": "พุ่งไปข้างหน้าและแทงดาบเข้าใส่ศัตรูที่อยู่ใกล้ที่สุด กระตุ้น \u003ccolor=yellow\u003eเอฟเฟกต์การโจมตี\u003c/color\u003e และสร้างความเสียหาย {0} แก่ศัตรูทั้งหมดที่โดนดาบ ทุกครั้งที่ \u003ccolor=yellow\u003eAstrid\u0027s Masterpiece\u003c/color\u003e ทำงาน จะลด \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e ของ Memory นี้ลง {1} วินาที",
@@ -1445,7 +1445,7 @@
         "name": "Lunge",
         "lore": "หลบหลีก แวบเดียวในพริบตา"
     },
-    "C_Whirlwind": {
+    "St_C_Whirlwind": {
         "shortDescription": "หมุนเพื่อโจมตี",
         "description": "\u003ccolor=yellow\u003eร่าย\u003c/color\u003eเป็นเวลา 3.5 วินาที แกว่งดาบสร้าง\u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e240%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003eต่อวินาทีแก่ศัตรูที่อยู่ใกล้เคียง และจะเกิด\u003ccolor=yellow\u003eผลของการโจมตี\u003c/color\u003e 35% แกว่งเร็วขึ้นตาม\u003ccolor=yellow\u003eความเร็วในการโจมตี\u003c/color\u003eที่สูงขึ้น",
         "rawDesc": "\u003ccolor=yellow\u003eร่าย\u003c/color\u003eเป็นเวลา {0} วินาที เหวี่ยงดาบสร้าง\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {1} ต่อวินาทีแก่ศัตรูที่อยู่ใกล้เคียง และกระตุ้น\u003ccolor=yellow\u003eเอฟเฟกต์โจมตี\u003c/color\u003e {2} เหวี่ยงได้เร็วขึ้นด้วย\u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003eที่สูงขึ้น",
@@ -1487,14 +1487,14 @@
         "name": "Spinning Whirlwind",
         "lore": "ส่วนหนึ่งจากบันทึกพงศาวดารแห่งภูเขาหิมะที่ถูกลืมเลือน:\n\nในยุคก่อนที่ภูเขาลูกใหญ่จะแตกสลาย เหล่าลูกหลานยักษ์เล่นเกมที่เรียกว่า \"การไล่ล่าพายุหิมะ\" เด็กแต่ละคนจะถือขวานไม้เล่มเล็ก ๆ เลียนแบบผู้ปกครองของพวกเขา คือ สกอลล์ ความพินาศอันบ้าคลั่งและหมุนคว้างของเขาปรากฏแก่พวกเขาดุจการร่ายรำของวีรบุรุษและบทเพลงแห่งความรุ่งโรจน์\n\nเด็ก ๆ จะหมุนตัวไปเรื่อย ๆ จนกว่าจะล้มลงด้วยความวิงเวียน ฝันว่าสักวันหนึ่งพวกเขาจะสามารถปกป้องภูเขาได้เช่นเดียวกับพายุใหญ่เอง\n\nไม่มีใครรู้เลย\n\nว่าการร่ายรำของวีรบุรุษที่พวกเขาชื่นชมนั้น จะกลายเป็นพายุที่ทำลายโลกของพวกเขา บทเพลงแห่งความรุ่งโรจน์ที่พวกเขาร้อง จะกลายเป็นเพลงไว้อาลัยของภูเขา"
     },
-    "M_FastFeet": {
+    "St_M_FastFeet": {
         "rawDesc": "เคลื่อนที่อย่างรวดเร็วเพื่อหลบการโจมตีของศัตรู",
         "lore": null,
         "description": "เคลื่อนที่อย่างรวดเร็วเพื่อหลบหลีกการโจมตีของศัตรู",
         "name": "Swift Steps",
         "shortDescription": "สวิฟต์สเต็ป"
     },
-    "D_Resolve": {
+    "St_D_Resolve": {
         "shortDescription": "Please provide the Short Description text to translate.",
         "description": "เพิ่ม \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e 80\u003csprite=5\u003e ทุกๆ การ\u003ccolor=yellow\u003eโจมตีปกติ\u003c/color\u003e ครั้งที่ 4 จะเป็น \u003ccolor=yellow\u003eคริติคอล\u003c/color\u003e ที่ผลักศัตรูให้กระเด็นออกไปและทำให้ติดสตัน 1 วินาที เมื่อ \u003ccolor=yellow\u003eResolve\u003c/color\u003e โจมตีโดนศัตรู \u003ccolor=yellow\u003eVesper\u003c/color\u003e จะ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e พลังชีวิตสูงสุด 3%\u003csprite=5\u003e ของเขา",
         "rawDesc": "เพิ่ม \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e ขึ้น {0} ทุก ๆ การ \u003ccolor=yellow\u003eโจมตีปกติ\u003c/color\u003e ครั้งที่ 4 จะกลายเป็นการ \u003ccolor=yellow\u003eโจมตีคริติคอล\u003c/color\u003e ที่ผลักศัตรูให้กระเด็นออกไปและทำให้ติดสตัน {1} วินาที เมื่อ \u003ccolor=yellow\u003eResolve\u003c/color\u003e โจมตีศัตรูสำเร็จ \u003ccolor=yellow\u003eVesper\u003c/color\u003e จะ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e {2} ของ \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e ของเขา",
@@ -1542,7 +1542,7 @@
         "name": "Resolve",
         "lore": "\"เนื้อหนังมังสาของข้าคือตัวแทนแห่งเจตจำนงของศาสนจักรโดยแท้จริง รอยแผลเป็นที่สลักลงบนกายมิได้เป็นอื่นใด นอกเสียจากเหรียญกล้าหาญที่พิสูจน์ความมุ่งมั่นของข้า ตราบใดที่เจตจำนงของ \u0027เอลไพรอส\u0027 ยังไม่สำเร็จลุล่วง ข้าจักไม่มีวันล้ม\""
     },
-    "E_SliceThroat": {
+    "St_E_SliceThroat": {
         "shortDescription": "ความเสียหายความมืด พลังโจมตีเพิ่มขึ้นเมื่อโจมตีด้วยขอบนอก",
         "description": "หลังจาก 0.5 วินาที พุ่งตัวไปข้างหน้าพร้อมกับดาบแห่งความมืด สร้างความเสียหาย \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e65%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความมืด\u003c/color\u003e แก่ศัตรู ศัตรูที่โดนขอบนอกจะได้รับความเสียหาย \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e250%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความมืด\u003c/color\u003e แทน, ทำให้เกิด \u003ccolor=yellow\u003eผลกระทบการโจมตี\u003c/color\u003e 50%, และฟื้นฟูพลังชีวิต 8% ของ \u003ccolor=yellow\u003eพลังชีวิตที่หายไป\u003c/color\u003e ต่อศัตรูที่ถูกโจมตีแต่ละตัว\n\nสำหรับศัตรูแต่ละตัวที่โดนขอบนอก, ลด \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e ลง 20%",
         "rawDesc": "หลังจาก {0} วินาที กรีดไปข้างหน้าด้วยคมดาบแห่งความมืด สร้างความเสียหาย \u003ccolor=yellow\u003eความมืด\u003c/color\u003e {1} หน่วยแก่ศัตรู ศัตรูที่ถูกขอบด้านนอกจะได้รับความเสียหาย \u003ccolor=yellow\u003eความมืด\u003c/color\u003e {2} หน่วยแทน พร้อมกระตุ้น \u003ccolor=yellow\u003eเอฟเฟกต์โจมตี\u003c/color\u003e {3} และฟื้นฟู \u003ccolor=yellow\u003eพลังชีวิตที่ขาดหายไป\u003c/color\u003e {4} ของคุณสำหรับศัตรูแต่ละตัวที่ถูกโจมตี\n\nสำหรับศัตรูแต่ละตัวที่ถูกขอบด้านนอก ลด \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e ลง {5}",
@@ -1629,7 +1629,7 @@
         "name": "Cutthroat",
         "lore": null
     },
-    "R_ShadowOverdrive": {
+    "St_R_ShadowOverdrive": {
         "shortDescription": "สร้างความเสียหายธาตุมืดและเพิ่มความเร็วโจมตี",
         "description": "ร่ายเป็นเวลา 0.7 วินาที เพื่อเพิ่ม \u003ccolor=yellow\u003eความเร็วเคลื่อนที่\u003c/color\u003e ขึ้น 30%\u003csprite=5\u003e หลังร่าย จะปล่อยมิสไซล์นำวิถี 5 ลูก สร้าง \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e50%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายธาตุมืด\u003c/color\u003e ต่อศัตรูใกล้เคียงแบบสุ่ม และเพิ่ม \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e ให้แก่คุณ 20%\u003csprite=5\u003e เป็นเวลา 3 วินาที",
         "rawDesc": "ร่ายเป็นเวลา {0} วินาที เพื่อเพิ่ม \u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003e {1} หลังจากร่ายเสร็จ จะยิงมิสไซล์นำวิถี {2} ลูก สร้าง\u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e {3} แก่ศัตรูแบบสุ่มที่อยู่ใกล้เคียง และมอบความเร็วในการโจมตีเพิ่มขึ้น {4} ให้แก่คุณเป็นเวลา {5} วินาที",
@@ -1716,7 +1716,7 @@
         "name": "Shadow Overdrive",
         "lore": null
     },
-    "C_MagicSword": {
+    "St_C_MagicSword": {
         "shortDescription": "ความเสียหายด้านหน้า",
         "description": "พุ่งไปข้างหน้าและเหวี่ยง Teal Blade โจมตี\u003ccolor=yellow\u003eสร้างความเสียหาย\u003c/color\u003eแก่ศัตรูที่อยู่ด้านหน้า สร้างความเสียหายที่มากกว่าระหว่าง \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e200%\u003c/color\u003e\u003csprite=5\u003e หรือ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e200%\u003c/color\u003e\u003csprite=5\u003e และจะ\u003ccolor=yellow\u003eเกิดเอฟเฟกต์การโจมตี\u003c/color\u003eหาก\u003ccolor=yellow\u003eความเสียหายจากการโจมตี\u003c/color\u003eของคุณสูงกว่า",
         "rawDesc": "พุ่งไปด้านหน้าช่วงสั้น ๆ และแกว่ง Teal Blade สร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e แก่ศัตรูที่อยู่ด้านหน้า สร้างความเสียหายที่มากกว่าระหว่าง {0} หรือ {1} และจะก่อให้เกิด \u003ccolor=yellow\u003eผลกระทบการโจมตี\u003c/color\u003e หาก \u003ccolor=yellow\u003eพลังโจมตี\u003c/color\u003e ของคุณสูงกว่า",
@@ -1751,7 +1751,7 @@
         "name": "Teal Blade",
         "lore": "ในยามอรุณเงียบสงบ\nเมื่อข้าได้มาเยือนสวนหลังคฤหาสน์ไฮเกต\nความทรงจำหนึ่งก็ผุดขึ้นมาโดยมิได้เชื้อเชิญ\n\nอากาศเย็นเยียบในห้องฝึกเก่า ยังคงปะทะผิวกายข้าอยู่\nตัวข้าในวัยเด็ก ทอดเงาเพียงน้อยนิด\nเสียงมารดา คมชัดราวกับน้ำค้างแข็ง\n\nดาบสีฟ้าคราม\nดาบประจำตระกูล—ความแข็งแกร่งและความภาคภูมิของตระกูลเวอร์เดซิลเวอร์\nมารดาแสดงให้ข้าเห็นดาบนั้นในวันนั้น\nประดุจต้นไม้ที่มั่นคง ยืนหยัดอย่างเที่ยงตรงไม่หวั่นไหว\n\nแต่ดาบของข้าไม่อาจดำเนินตามคำสอนของนางได้\nปลายดาบสั่นเทาเหมือนใบไม้ที่เต้นรำไปตามสายลม และพละกำลังของข้าก็ไหลหายไปเหมือนสายน้ำ\n\nมันช่างน่าเย้ยหยันใช่ไหมท่านแม่?\nต้นไม้แห่งความภาคภูมิที่ท่านต่อสู้เพื่อปกป้องอย่างหนัก ได้ล้มลงและแตกหักแล้ว\nในขณะที่ใบไม้ไร้ค่านี้ ถูกพัดพาไปตามสายลม\nกลับเป็นผู้รอดชีวิต\n\nบัดนี้ความภาคภูมิของตระกูลได้หายไปแล้ว น้ำหนักของต้นไม้ได้ถูกปลดเปลื้อง...\nแต่ข้าไม่มีความเสียใจเลย\n\nสิ่งที่ข้าปรารถนาในตอนนี้คือ...\nที่จะได้กวัดแกว่งดาบนี้ ดุจดั่งสายหมอกไร้นามที่สูญสิ้นสีฟ้าครามไปแล้ว\nเพื่อความสุขของน้องชาย/น้องสาวของข้า"
     },
-    "D_SalamanderPowder": {
+    "St_D_SalamanderPowder": {
         "shortDescription": "ผงซาลาแมนเดอร์",
         "description": "ทุกการ\u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003eครั้งที่ 4 จะเป็น\u003ccolor=yellow\u003eคริติคอล\u003c/color\u003eและระเบิด สร้างความเสียหาย\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e145%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003eแบบวงกว้างแก่ศัตรู ความเสียหายจากการระเบิดจะเพิ่มขึ้น 100% ต่อ\u003ccolor=yellow\u003eศัตรูที่ติดสถานะเผาไหม้\u003c/color\u003e",
         "rawDesc": "การ\u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003eทุก ๆ ครั้งที่ 4 จะเป็น\u003ccolor=yellow\u003eคริติคอล\u003c/color\u003eและระเบิด สร้างความเสียหาย\u003ccolor=yellow\u003eไฟ\u003c/color\u003eพื้นที่ {0} แก่ศัตรู ความเสียหายจากการระเบิดจะเพิ่มขึ้น {1} เมื่อโจมตี\u003ccolor=yellow\u003eศัตรูที่กำลังติดไฟ\u003c/color\u003e",
@@ -1786,7 +1786,7 @@
         "name": "Salamander Powder",
         "lore": "การนำตัวนิวท์หนองน้ำสีแดงมาตากแห้งและบดให้เป็นผงละเอียด จะได้ดินปืนที่สามารถติดไฟและระเบิดได้อย่างรุนแรงแม้จากประกายไฟเพียงเล็กน้อย"
     },
-    "C_CorrosiveTrails": {
+    "St_C_CorrosiveTrails": {
         "shortDescription": "ปล่อยควันพิษ",
         "description": "เป็นเวลา 4 วินาที ปล่อยก๊าซพิษในเส้นทางของคุณซึ่งจะ\u003ccolor=yellow\u003eวางยาพิษ\u003c/color\u003eศัตรูเป็นเวลา 3 วินาที ขณะที่เพิ่ม\u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003eของคุณ 15%\u003csprite=5\u003e ศัตรูที่\u003ccolor=yellow\u003eได้รับพิษ\u003c/color\u003eจะได้รับ\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e100%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003eต่อวินาที",
         "rawDesc": "เป็นเวลา {0} วินาที ปล่อยแก๊สพิษไว้ตามทางของคุณที่จะ\u003ccolor=yellow\u003eวางยาพิษ\u003c/color\u003eศัตรูเป็นเวลา {1} วินาที ขณะที่เพิ่ม\u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003eของคุณ {2} ศัตรูที่\u003ccolor=yellow\u003eถูกพิษ\u003c/color\u003eจะได้รับ\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {3} ต่อวินาที",
@@ -1841,7 +1841,7 @@
         "name": "Corrosive Trails",
         "lore": null
     },
-    "C_IceClaw": {
+    "St_C_IceClaw": {
         "shortDescription": "สร้างความเสียหายน้ำแข็งระยะใกล้ ฟื้นฟูพลังชีวิต",
         "description": "เหวี่ยงกรงเล็บไปด้านหน้าเพื่อสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e140%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายธาตุน้ำแข็ง\u003c/color\u003e แก่ศัตรู และ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e เป็นเวลา 0.5 วินาที คุณสามารถเหวี่ยงได้อีกครั้งเพื่อสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e264%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายธาตุน้ำแข็ง\u003c/color\u003e และ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e เป็นเวลา 1 วินาที\n\nเมื่อกรงเล็บของคุณโจมตีศัตรูสำเร็จ จะ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e 12% ของ \u003ccolor=yellow\u003eพลังชีวิต\u003c/color\u003e ตามความเสียหายที่สร้างได้",
         "rawDesc": "เหวี่ยงกรงเล็บไปข้างหน้าเพื่อสร้าง \u003ccolor=yellow\u003eความเสียหายน้ำแข็ง\u003c/color\u003e {0} แก่ศัตรู และ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e เป็นเวลา {1} วินาที คุณสามารถเหวี่ยงได้อีกครั้งเพื่อสร้าง \u003ccolor=yellow\u003eความเสียหายน้ำแข็ง\u003c/color\u003e {2} และ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e เป็นเวลา {3} วินาที\n\nเมื่อกรงเล็บโจมตีศัตรู จะ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e \u003ccolor=yellow\u003eพลังชีวิต\u003c/color\u003e {4} ตามความเสียหายที่ทำได้",
@@ -1915,7 +1915,7 @@
         "name": "Ice Claw",
         "lore": null
     },
-    "R_Immolation": {
+    "St_R_Immolation": {
         "shortDescription": "เสียสละพลังชีวิต, สร้างความเสียหายธาตุไฟแก่ศัตรูที่อยู่ใกล้เคียง",
         "description": "จุดชนวนร่างกาย สละ 12% ของพลังชีวิตปัจจุบันเป็นเวลา 3.5 วินาที ขณะที่ติดไฟ \u003ccolor=yellow\u003eความเร็วเคลื่อนที่\u003c/color\u003e ของคุณจะเพิ่มขึ้น 20%\u003csprite=5\u003e และคุณสร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e165%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายจากไฟ\u003c/color\u003e ต่อวินาทีแก่ศัตรูที่อยู่ใกล้เคียง",
         "rawDesc": "จุดไฟให้ร่างกายของคุณ, สละพลังชีวิตปัจจุบัน {0} ของคุณเป็นเวลา {1} วินาที ขณะที่กำลังลุกไหม้, \u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003eของคุณเพิ่มขึ้น {2} และคุณจะสร้าง \u003ccolor=yellow\u003eความเสียหายจากไฟ\u003c/color\u003e {3} ต่อวินาทีแก่ศัตรูที่อยู่ใกล้เคียง",
@@ -1970,7 +1970,7 @@
         "name": "Immolation",
         "lore": "ร่างกายที่อ่อนล้าและอ่อนแอไร้เรี่ยวแรงนี้ จะกลายเป็นโซ่ตรวนสุดท้ายที่พันธนาการข้าไว้ในไม่ช้า\nแม้ว่าข้าจะร่อนเร่ผ่านความยากจนและความเจ็บปวดมาทั้งชีวิต แต่ข้าไม่เคยสงสัยในพระองค์เลยแม้แต่ครั้งเดียว บาทหลวงแห่งคณะนักบวชกล่าวว่า \"ดวงวิญญาณที่บริสุทธิ์ที่สุดจะเผาผลาญตนเองเพื่อปลดเปลื้องโซ่แห่งเนื้อหนัง และเมื่อนั้นพวกเขาก็จะกลายเป็นแสงสว่างที่ไปถึงเอลไพโรสได้\"\n\nข้าไม่กลัว\nตรงกันข้าม ข้ารู้สึกซาบซึ้งใจ ที่ช่วงเวลาสุดท้ายของชีวิตที่เจ็บปวดนี้จะรุ่งโรจน์ถึงเพียงนี้... จะมีความเมตตาใดที่ยิ่งใหญ่ไปกว่านี้อีกเล่า\n\nที่นั่น ข้าเห็นสุริยปราสาท (Solar Spire) ในไม่ช้า ข้าก็จะกลายเป็นส่วนหนึ่งของแสงนั้นด้วย\nโอ้ พระอาทิตย์อันเจิดจรัส!\n\n\n- ร่องรอยความทรงจำจากร่างที่ถูกเผาไหม้เล็กๆ ใกล้สุริยปราสาท"
     },
-    "M_Sprint": {
+    "St_M_Sprint": {
         "shortDescription": "การพุ่งตัวแบบบิดเบือน",
         "description": "พุ่งตัวเป็นระยะสั้นๆ เพื่อหลบการโจมตีของศัตรู จากนั้นเพิ่ม \u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003e 75% และ \u003ccolor=yellow\u003eความเร็วในการโจมตี\u003c/color\u003e 100% เป็นเวลา 1 วินาที",
         "rawDesc": "พุ่งตัวในระยะสั้นๆ เพื่อหลบการโจมตีของศัตรู จากนั้นเพิ่ม \u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003e {0} และ \u003ccolor=yellow\u003eความเร็วในการโจมตี\u003c/color\u003e {1} เป็นเวลา {2} วินาที",
@@ -2018,7 +2018,7 @@
         "name": "Distorting Sprint",
         "lore": null
     },
-    "R_BlackArbalest": {
+    "St_R_BlackArbalest": {
         "shortDescription": "สร้างความเสียหายความมืดเจาะทะลุ",
         "description": "ยิงลูกศรเกาทัณฑ์ที่ \u003ccolor=yellow\u003eเจาะทะลุ\u003c/color\u003e ศัตรู สร้าง \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e250%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e, ผลักศัตรูถอยหลัง และกระตุ้น \u003ccolor=yellow\u003eผลของการโจมตี\u003c/color\u003e ทุกครั้งที่ศัตรูถูก \u003ccolor=yellow\u003eเจาะทะลุ\u003c/color\u003e, \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e ที่สร้างแก่ศัตรูตัวถัดไปจะเพิ่มขึ้น 35%",
         "rawDesc": "ยิงสลักเกลียวอาบัลเลสต์ที่ \u003ccolor=yellow\u003eเจาะ\u003c/color\u003eทะลุศัตรู สร้าง\u003ccolor=yellow\u003eความเสียหายมืด\u003c/color\u003e {0} ทำให้ศัตรูกระเด็นถอยหลัง และกระตุ้น\u003ccolor=yellow\u003eเอฟเฟกต์การโจมตี\u003c/color\u003e ทุกครั้งที่ศัตรูถูก \u003ccolor=yellow\u003eเจาะ\u003c/color\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e ที่มอบให้กับศัตรูถัดไปจะเพิ่มขึ้น {1}",
@@ -2053,7 +2053,7 @@
         "name": "Black Arbalest",
         "lore": null
     },
-    "Q_SuperNova": {
+    "St_Q_SuperNova": {
         "shortDescription": "ชาร์จพลังเพื่อสร้างความเสียหายธาตุแสงอย่างรุนแรง",
         "description": "สร้างดวงดาวขยายตัว ณ ตำแหน่งเป้าหมายที่จะทำให้ศัตรูเคลื่อนไหวช้าลง จากนั้นร่ายพลังได้นานสูงสุด 3 วินาที คุณจะไม่สามารถโจมตีหรือใช้ความทรงจำขณะร่ายพลังได้ การเปิดใช้งาน \u003ccolor=yellow\u003eSupernova\u003c/color\u003e อีกครั้งจะทำให้ดาวระเบิด สร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e200%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eLight damage\u003c/color\u003e ให้กับศัตรู การระเบิดจะทรงพลังขึ้นตามเวลาในการชาร์จ โดยเพิ่มความเสียหายสูงสุดถึง 225% หลังจากผ่านไป 1.3 วินาที",
         "rawDesc": "สร้างดวงดาวขยายตัว ณ ตำแหน่งเป้าหมายที่ทำให้ศัตรูช้าลง จากนั้นร่ายเวทย์ได้นานสูงสุด {0} วินาที คุณไม่สามารถโจมตีหรือใช้ความทรงจำขณะร่ายเวทย์ การเปิดใช้งาน \u003ccolor=yellow\u003eซูเปอร์โนวา\u003c/color\u003e อีกครั้งจะทำให้ดวงดาวระเบิด สร้างความเสียหาย\u003ccolor=yellow\u003eธาตุแสง\u003c/color\u003e {1} แก่ศัตรู การระเบิดจะมีพลังมากขึ้นตามระยะเวลาการชาร์จ โดยจะเพิ่มความเสียหายสูงสุดเป็น {2} หลังจาก {3} วินาที",
@@ -2114,7 +2114,7 @@
         "name": "Supernova",
         "lore": "ช่างเป็นความย้อนแย้งที่งดงามและน่าเศร้า\nดวงดาราสละซึ่งแก่นแท้ของตนเพื่อส่องประกายเจิดจ้าที่สุด\nแต่ห้วงยามนั้นกลับเป็นสัญญาณของการเริ่มต้นแห่งความเงียบงันชั่วนิรันดร์"
     },
-    "C_FlashFreeze": {
+    "St_C_FlashFreeze": {
         "shortDescription": "สร้างความเสียหายจากความเย็นแบบวงกว้าง, ติดสถานะรูท",
         "description": "ปล่อยพลังงานน้ำแข็งไปข้างหน้า สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e130%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายน้ำแข็ง\u003c/color\u003e แก่ศัตรู และมอบ \u003ccolor=yellow\u003eโล่\u003c/color\u003e ให้ตนเองและพันธมิตร \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e90%\u003c/color\u003e\u003csprite=5\u003e นาน 3 วินาที หากศัตรูถูกผลของ \u003ccolor=yellow\u003eน้ำแข็ง\u003c/color\u003e อยู่ก่อนแล้ว \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e จะเพิ่มขึ้น 100% และศัตรูจะถูก \u003ccolor=yellow\u003eตรึง\u003c/color\u003e 1.5 วินาที\n\n\u003ccolor=yellow\u003eชาร์จ\u003c/color\u003e จะถูกฟื้นฟูทั้งหมดพร้อมกัน",
         "rawDesc": "ปลดปล่อยพลังงานเยือกแข็งไปข้างหน้า สร้าง \u003ccolor=yellow\u003eความเสียหายเยือกแข็ง\u003c/color\u003e {0} แก่ศัตรู และมอบ \u003ccolor=yellow\u003eโล่\u003c/color\u003e {1} ให้แก่ตนเองและพันธมิตรเป็นเวลา {2} วินาที หากศัตรูได้รับผลกระทบจาก \u003ccolor=yellow\u003eเยือกแข็ง\u003c/color\u003e อยู่แล้ว \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e จะเพิ่มขึ้น {3} และพวกเขาจะถูก \u003ccolor=yellow\u003eตรึง\u003c/color\u003e เป็นเวลา {4} วินาที\n\n\u003ccolor=yellow\u003eชาร์จ\u003c/color\u003e จะถูกเติมให้เต็มพร้อมกันทั้งหมด",
@@ -2188,7 +2188,7 @@
         "name": "Flash Freeze",
         "lore": null
     },
-    "E_ShadowVolley": {
+    "St_E_ShadowVolley": {
         "shortDescription": "ยิงชุดโปรเจ็กไทล์ที่เสริมพลังด้วยโอกาสคริติคอลและความเร็วโจมตี",
         "description": "ร่าย 1.3\u003csprite=5\u003e วินาที เพื่อยิง \u003ccolor=yellow\u003eShadow Volleys\u003c/color\u003e 7\u003csprite=5\u003e ครั้ง โดยแต่ละครั้งจะสร้าง \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e60%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายธาตุมืด\u003c/color\u003e แก่ศัตรูตัวแรกที่โดน\nเวลาในการร่ายจะลดลงตาม \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e และจำนวนโปรเจกไทล์จะเพิ่มขึ้นตาม \u003ccolor=yellow\u003eโอกาสคริติคอล\u003c/color\u003e",
         "rawDesc": "ร่ายเป็นเวลา {0} วินาที เพื่อยิง \u003ccolor=yellow\u003eเงามืดวอลเลย์\u003c/color\u003e จำนวน {1} ครั้ง ซึ่งแต่ละครั้งจะสร้าง \u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e จำนวน {2} ให้แก่ศัตรูตัวแรกที่โดน\nระยะเวลาร่ายจะลดลงตาม \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e ของคุณ และจำนวนกระสุนจะเพิ่มขึ้นตาม \u003ccolor=yellow\u003eโอกาสคริติคอล\u003c/color\u003e ของคุณ",
@@ -2236,7 +2236,7 @@
         "name": "Shadow Volley",
         "lore": null
     },
-    "C_Pew": {
+    "St_C_Pew": {
         "shortDescription": "ชาร์จยิงไฟ",
         "description": "\u003ccolor=yellow\u003eกดค้าง\u003c/color\u003eเพื่อชาร์จกระสุนไฟ เมื่อชาร์จเต็มแล้ว ให้ยิงกระสุนออกไปเพื่อสร้างความเสียหาย\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e150%\u003c/color\u003e\u003csprite=5\u003e-\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e400%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e แก่ศัตรูทั้งหมดที่โดน โดยขึ้นอยู่กับระยะเวลาชาร์จ\n\nการยิงก่อนชาร์จเต็มจะช่วยลด\u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003eได้สูงสุดถึง 80% การชาร์จเป็นเวลา 1.35 วินาที จะเพิ่มความกว้างและความเสียหายของกระสุนสูงสุด",
         "rawDesc": "\u003ccolor=yellow\u003eกดค้าง\u003c/color\u003eเพื่อชาร์จกระสุนเพลิง เมื่อชาร์จเต็มแล้ว ให้ยิงกระสุนเพื่อสร้าง\u003ccolor=yellow\u003eความเสียหายเพลิง\u003c/color\u003e {0}-{1} ให้ศัตรูทั้งหมดที่โดน โดยขึ้นอยู่กับเวลาการชาร์จ\n\nการยิงก่อนชาร์จเต็มจะลด\u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003eได้สูงสุด {2} การชาร์จเป็นเวลา {3} วินาที จะเพิ่มความกว้างและความเสียหายของกระสุนสูงสุด",
@@ -2297,7 +2297,7 @@
         "name": "Pew",
         "lore": null
     },
-    "L_LightExplosion": {
+    "St_L_LightExplosion": {
         "shortDescription": "สร้างความเสียหายแสงแก่พื้นที่ ทำให้ศัตรูติดสถานะมึนงง และทำซ้ำเมื่อสังหารได้",
         "description": "เล็งเป้าหมายพันธมิตรหรือศัตรูเพื่อสร้าง \u003ccolor=yellow\u003eระเบิดแสงเรืองรอง\u003c/color\u003e ณ ตำแหน่งของพวกเขาหลังจาก 1.5 วินาที ระเบิดจะสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e400%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e แก่ศัตรูที่อยู่ใกล้เคียงและ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e พวกเขาเป็นเวลา 1 วินาที ถ้าศัตรู \u003ccolor=yellow\u003eถูกสังหาร\u003c/color\u003e ด้วยระเบิด ระเบิดจะ \u003ccolor=yellow\u003eระเบิดซ้ำ\u003c/color\u003e",
         "rawDesc": "กำหนดเป้าหมายพันธมิตรหรือศัตรูเพื่อสร้าง \u003ccolor=yellow\u003eระเบิดรัศมี\u003c/color\u003e ณ ตำแหน่งของพวกเขาหลังจากผ่านไป {0} วินาที ระเบิดจะสร้างความเสียหาย \u003ccolor=yellow\u003eแสงสว่าง\u003c/color\u003e {1} ให้แก่ศัตรูที่อยู่ใกล้เคียงและ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e พวกเขาเป็นเวลา {2} วินาที หากศัตรู \u003ccolor=yellow\u003eถูกสังหาร\u003c/color\u003e ด้วยระเบิด ระเบิดจะ \u003ccolor=yellow\u003eเกิดขึ้นซ้ำ\u003c/color\u003e",
@@ -2345,7 +2345,7 @@
         "name": "Radiant Explosion",
         "lore": null
     },
-    "R_RepulsiveShield": {
+    "St_R_RepulsiveShield": {
         "shortDescription": "สะท้อนดาเมจ",
         "description": "ป้องกันความเสียหายจากศัตรูที่อยู่ด้านหน้าเป็นเวลา 1.9\u003csprite=5\u003e วินาที ทุกครั้งที่ป้องกันความเสียหายสำเร็จ จะสร้าง\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e240%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003eแก่ศัตรูที่อยู่ด้านหน้าสูงสุด 4 ตัว",
         "rawDesc": "บล็อกความเสียหายจากศัตรูที่อยู่ด้านหน้าเป็นเวลา {0} วินาที ทุกครั้งที่บล็อกความเสียหาย จะสร้าง {1} \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e ให้กับศัตรูสูงสุด {2} ตัวที่อยู่ด้านหน้า",
@@ -2393,7 +2393,7 @@
         "name": "Repulsive Shield",
         "lore": "\"มาเลย ทุ่มสุดตัวไปเลย\"\n\n\"แน่ใจนะ?\"\n\n\"เออ เอาเลย!\"\n\nชายคนนั้นเหวี่ยงดาบสุดแรง แต่ดาบกลับปะทะเข้ากับโล่ด้วยเสียงก้องกังวานของโลหะที่ดังกึกก้อง\n\nในขณะเดียวกัน รอยฟันดาบก็ปรากฏขึ้นบนต้นไม้ด้านหลังเขา\n\n\"นี่มันอะไรกัน...\"\n\n\"ฮ่าฮ่า เห็นไหมล่ะ? ข้าไม่มีวันพ่ายแพ้แล้ว!\"  - เศษเสี้ยวความทรงจำจากทหารที่มีรอยแผลเป็นที่ท้ายทอย"
     },
-    "R_SerpentineBlessing": {
+    "St_R_SerpentineBlessing": {
         "shortDescription": "เสริมพลังพันธมิตร",
         "description": "Grants \u003ccolor=yellow\u003eSerpent\u0027s Blessing\u003c/color\u003e to Nachia and the target ally for 12 seconds. This blessing grants 55\u003csprite=5\u003e \u003ccolor=yellow\u003eArmor\u003c/color\u003e and increases \u003ccolor=yellow\u003eAttack Speed\u003c/color\u003e by 25%\u003csprite=5\u003e. Whenever the blessed target performs a \u003ccolor=yellow\u003ebasic attack\u003c/color\u003e, they \u003ccolor=yellow\u003erestore\u003c/color\u003e 2.5%\u003csprite=5\u003e of their \u003ccolor=yellow\u003eMaximum Health\u003c/color\u003e, and their attack target takes \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e100%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003edamage\u003c/color\u003e and is \u003ccolor=yellow\u003estunned\u003c/color\u003e for 0.5 seconds.\n\nIf the blessed target is a \u003ccolor=yellow\u003esummon\u003c/color\u003e, it \u003ccolor=yellow\u003erestores\u003c/color\u003e 25% of its Maximum Health.\nมอบ \u003ccolor=yellow\u003eพรแห่งอสรพิษ\u003c/color\u003e ให้ Nachia และเป้าหมายพันธมิตรเป็นเวลา 12 วินาที พรนี้มอบ 55\u003csprite=5\u003e \u003ccolor=yellow\u003eเกราะ\u003c/color\u003e และเพิ่ม \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e 25%\u003csprite=5\u003e ทุกครั้งที่เป้าหมายที่ได้รับพร \u003ccolor=yellow\u003eโจมตีปกติ\u003c/color\u003e พวกเขาจะ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e 2.5%\u003csprite=5\u003e ของ \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e และเป้าหมายการโจมตีของพวกเขาจะได้รับ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e100%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e และถูก \u003ccolor=yellow\u003eสตั๊น\u003c/color\u003e เป็นเวลา 0.5 วินาที\n\nหากเป้าหมายที่ได้รับพรเป็น \u003ccolor=yellow\u003eซัมมอน\u003c/color\u003e มันจะ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e 25% ของพลังชีวิตสูงสุด",
         "rawDesc": "มอบ \u003ccolor=yellow\u003eพรแห่งอสรพิษ\u003c/color\u003e ให้กับนาเคียและพันธมิตรเป้าหมายเป็นเวลา {0} วินาที พรนี้มอบ \u003ccolor=yellow\u003eเกราะ\u003c/color\u003e {1} และเพิ่ม \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e {2} เมื่อใดก็ตามที่เป้าหมายที่ได้รับพรทำการ \u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003e พวกเขาจะ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e {3} ของ \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e และเป้าหมายการโจมตีของพวกเขาจะได้รับ \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {4} และ \u003ccolor=yellow\u003eติดสตัน\u003c/color\u003e เป็นเวลา {5} วินาที\n\nหากเป้าหมายที่ได้รับพรเป็น \u003ccolor=yellow\u003eอัญเชิญ\u003c/color\u003e มันจะ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e {6} ของพลังชีวิตสูงสุด",
@@ -2493,7 +2493,7 @@
         "name": "Serpent\u0027s Blessing",
         "lore": "ในตำนานของพงไพรแห่งอีเธอเรีย งูใหญ่ดึกดำบรรพ์เป็นสัญลักษณ์ของชีวิตที่เอาชนะความตาย และความแข็งแกร่งที่ผลิบานจากบาดแผล\nนาเคียได้มอบพรโบราณนี้แก่ผู้ที่นางปกป้อง"
     },
-    "R_GlacialHammer": {
+    "St_R_GlacialHammer": {
         "shortDescription": "สร้างความเสียหายน้ำแข็ง ดึง",
         "description": "ทุบค้อนน้ำแข็งด้านหน้า สร้างความเสียหายน้ำแข็ง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e220%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eCold damage\u003c/color\u003e แก่ศัตรู และดึงพวกมันมายังตำแหน่งของคุณ ศัตรูที่ถูกค้อนกระแทกตรงกลางจะได้รับ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e385%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eCold damage\u003c/color\u003e แทน",
         "rawDesc": "ฟาดค้อนน้ำแข็งข้างหน้าคุณ สร้างความเสียหาย \u003ccolor=yellow\u003eน้ำแข็ง\u003c/color\u003e {0} แก่ศัตรู และดึงพวกมันมายังตำแหน่งของคุณ ศัตรูที่โดนตรงกลางค้อนจะได้รับความเสียหาย \u003ccolor=yellow\u003eน้ำแข็ง\u003c/color\u003e {1} แทน",
@@ -2522,7 +2522,7 @@
         "name": "Glacial Hammer",
         "lore": null
     },
-    "C_GlacialStomp": {
+    "St_C_GlacialStomp": {
         "shortDescription": "ความเสียหายความเย็นแบบวงกว้าง, บาเรีย",
         "description": "กระทืบพื้นรอบตัวคุณ ทำให้ศัตรูมึนงงเป็นเวลา 1.5 วินาที และสร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e230%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายน้ำแข็ง\u003c/color\u003e ได้รับบาเรียที่คงอยู่ 3 วินาที และดูดซับความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e60%\u003c/color\u003e\u003csprite=5\u003e ต่อศัตรูแต่ละตัวที่ถูกโจมตี",
         "rawDesc": "กระทืบพื้นรอบตัวคุณ, ทำให้ศัตรูมึนงงเป็นเวลา {0} วินาที และสร้าง {1} \u003ccolor=yellow\u003eความเสียหายธาตุน้ำแข็ง\u003c/color\u003e ได้รับบาเรียที่คงอยู่เป็นเวลา {2} วินาที และดูดซับ {3} ความเสียหายสำหรับศัตรูแต่ละตัวที่โดน",
@@ -2583,7 +2583,7 @@
         "name": "Glacial Stomp",
         "lore": null
     },
-    "E_Rewind": {
+    "St_E_Rewind": {
         "shortDescription": "ลดคูลดาวน์ของ Memories อื่นๆ",
         "description": "ลด\u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003eของ\u003ccolor=yellow\u003eความทรงจำ\u003c/color\u003eที่ใช้ล่าสุดลง 5.5\u003csprite=5\u003e วินาที \u003ccolor=yellow\u003eความทรงจำ\u003c/color\u003eครั้งต่อไปที่ร่ายภายใน 8 วินาทีจะถูกเสริมพลัง สร้าง\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003eเพิ่มอีก \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e160%\u003c/color\u003e\u003csprite=5\u003e เมื่อโจมตีศัตรูเป็นครั้งแรก",
         "rawDesc": "ลด\u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003eของ\u003ccolor=yellow\u003eเมมโมรี่\u003c/color\u003eที่ใช้ล่าสุดลง {0} วินาที \u003ccolor=yellow\u003eเมมโมรี่\u003c/color\u003eครั้งถัดไปที่ร่ายภายใน {1} วินาทีจะถูกเสริมพลัง สร้าง\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003eเพิ่มเติม {2} เมื่อโจมตีศัตรูเป็นครั้งแรก",
@@ -2631,7 +2631,7 @@
         "name": "Undo",
         "lore": "ความเสียใจอันแรงกล้าและแรงขับเคลื่อนที่ไม่สิ้นสุดของใครบางคน\nความปรารถนาอย่างยิ่งที่จะย้อนเวลากลับไปแก้ไขความผิดพลาดในอดีต\nและความทรงจำที่ยังคงหลงเหลือของผู้ที่จุดประกายความปรารถนานี้ให้เกิดขึ้น"
     },
-    "QR_ValiantHeart": {
+    "St_QR_ValiantHeart": {
         "shortDescription": "ความเสียหายวงกว้างระยะประชิด ผลักถอยหลัง",
         "description": "แกว่งดาบเวทมนตร์โจมตีศัตรูที่อยู่ใกล้ที่สุด สร้างความเสียหาย \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e300%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003edamage\u003c/color\u003e และผลักพวกเขากระเด็นเล็กน้อย เมื่อดาบโจมตีโดนศัตรู \u003ccolor=yellow\u003eMovement Speed\u003c/color\u003e ของ Bismuth จะเพิ่มขึ้น 15%\u003csprite=5\u003e เป็นเวลา 1 วินาที",
         "rawDesc": "เหวี่ยงดาบเวทมนตร์ไปยังศัตรูที่อยู่ใกล้ที่สุด สร้าง\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {0} และผลักศัตรูเล็กน้อย เมื่อดาบโดนศัตรู \u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003eของ Bismuth จะเพิ่มขึ้น {1} เป็นเวลา {2} วินาที",
@@ -2679,7 +2679,7 @@
         "name": "Valiant Heart",
         "lore": "เด็กสาวเชื่อมั่นอย่างแรงกล้าว่าตนเองคือตัวเอกผู้กล้าหาญในเรื่องราวที่เธอกำลังเขียนขึ้นมาเอง\n\n\u0027ดาบแห่งความกล้า จงปรากฏ!\u0027 \n\nเมื่อเด็กสาวตะโกน หนังสือเก่าเล่มนั้นก็วางเรื่องราวที่ส่องประกายลงในมือของเธอ \n\nเมื่อผู้คนเห็นดาบที่ส่องแสง พวกเขาก็พลันร้องตะโกนและรีบพุ่งเข้ามาหาเธอ \nพวกเขาล้วนเป็นตัวร้ายที่ซ่อนหัวใจอันชั่วร้ายเอาไว้! \n\n\u0027รับไปซะ พวกวายร้าย!\u0027 \n\nเด็กสาวผู้กล้าหาญใช้ดาบฟันพวกเขาลงทีละคน!"
     },
-    "Q_EtherealInfluence": {
+    "St_Q_EtherealInfluence": {
         "shortDescription": "ความเสียหายเบา, เปิดใช้งานซ้ำเพื่อราก",
         "description": "ปล่อย \u003ccolor=yellow\u003eอีเธอร์\u003c/color\u003e เคลื่อนที่ไปข้างหน้าแล้วกลับมา สร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e160%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e ให้แก่ศัตรู เปิดใช้งานซ้ำเพื่อให้ \u003ccolor=yellow\u003eอีเธอร์\u003c/color\u003e \u003ccolor=yellow\u003eระเบิด\u003c/color\u003e สร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e180%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e และ \u003ccolor=yellow\u003eตรึง\u003c/color\u003e ศัตรูเป็นเวลา 3 วินาที",
         "rawDesc": "ปล่อย \u003ccolor=yellow\u003eEther\u003c/color\u003e ที่เคลื่อนที่ไปข้างหน้าและย้อนกลับ สร้าง\u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e {0} แก่ศัตรู เปิดใช้งานอีกครั้งเพื่อให้ \u003ccolor=yellow\u003eEther\u003c/color\u003e \u003ccolor=yellow\u003eระเบิด\u003c/color\u003e สร้าง \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e {1} และ\u003ccolor=yellow\u003eตรึง\u003c/color\u003eศัตรูเป็นเวลา {2} วินาที",
@@ -2727,7 +2727,7 @@
         "name": "Ether\u0027s Influence",
         "lore": "จงทอดทัศนา สารัตถะอันเป็นมูลฐานนี้เถิด\nจากจิตวิญญาณของท่านไปจนถึงผืนพสุธาใต้เท้า มันคือปฐมบทและอวสานของการดำรงอยู่ทั้งมวล\nดุจดังลมหายใจแรกของจักรวาลนั่นเอง..."
     },
-    "Q_HandCannon": {
+    "St_Q_HandCannon": {
         "shortDescription": "ความเสียหายไฟแบบพื้นที่, ผลักกระเด็น",
         "description": "ยิงกระสุนเพลิงที่ผลักคุณถอยหลัง สร้างความเสียหาย\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e80%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003eให้ศัตรูที่อยู่ด้านหน้า ศัตรูที่อยู่ใกล้เคียงที่ถูกโจมตีจะได้รับความเสียหาย\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e180%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e และถูกผลักกระเด็นแทน",
         "rawDesc": "ยิงกระสุนเพลิงที่ผลักคุณถอยหลัง สร้างความเสียหาย\u003ccolor=yellow\u003eไฟ\u003c/color\u003e {0} แก่ศัตรูที่อยู่ด้านหน้า ศัตรูที่อยู่ใกล้เคียงที่ถูกโจมตีจะได้รับความเสียหาย\u003ccolor=yellow\u003eไฟ\u003c/color\u003e {1} แทนและถูกผลักกระเด็น",
@@ -2762,7 +2762,7 @@
         "name": "Hand Cannon",
         "lore": "เพียงแค่การใช้งานครั้งเดียว ก็ทำให้การบำรุงรักษาอาวุธปืนนี้เป็นเรื่องยากยิ่งนัก"
     },
-    "R_Inspire": {
+    "St_R_Inspire": {
         "shortDescription": "เสริมพลังโจมตีแก่พันธมิตรที่อยู่ใกล้เคียง",
         "description": "\u003ccolor=yellow\u003eสร้างแรงบันดาลใจ\u003c/color\u003eให้พันธมิตรที่อยู่ใกล้เคียงทั้งหมดเป็นเวลา 4 วินาที พันธมิตรที่ได้รับ\u003ccolor=yellow\u003eแรงบันดาลใจ\u003c/color\u003eจะได้รับ\u003csprite=5\u003eเพิ่มขึ้น 10% สำหรับ\u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e และสร้างความเสียหาย\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e13%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eเพิ่มเติม\u003c/color\u003eในการ\u003ccolor=yellow\u003eโจมตี\u003c/color\u003e คุณได้รับผล 200%",
         "rawDesc": "\u003ccolor=yellow\u003eสร้างแรงบันดาลใจ\u003c/color\u003eให้แก่พันธมิตรที่อยู่ใกล้เคียงทั้งหมดเป็นเวลา {0} วินาที พันธมิตรที่\u003ccolor=yellow\u003eได้รับแรงบันดาลใจ\u003c/color\u003eจะได้รับ\u003ccolor=yellow\u003eความเร็วในการโจมตี\u003c/color\u003eเพิ่มขึ้น {1} และสร้าง\u003ccolor=yellow\u003eความเสียหายเพิ่มเติม\u003c/color\u003e {2} เมื่อ\u003ccolor=yellow\u003eโจมตี\u003c/color\u003e คุณจะได้รับผล {3}",
@@ -2823,7 +2823,7 @@
         "name": "Battle Cry",
         "lore": null
     },
-    "R_PrecisionShot": {
+    "St_R_PrecisionShot": {
         "shortDescription": "ยิงลูกอย่างทรงพลังหลังจากชาร์จเต็ม",
         "description": "\u003ccolor=yellow\u003eกด\u003c/color\u003e ปุ่มร่ายค้างไว้เพื่อเข้าสู่ท่าเล็งเป้า หลังจากเล็งแล้ว ให้ปล่อยเพื่อยิงกระสุนเจาะทะลุที่สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e150%\u003c/color\u003e\u003csprite=5\u003e-\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e800%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e แก่ศัตรูทั้งหมดที่ถูกโจมตี และ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e พวกเขาเป็นเวลา 0.5-2.5 วินาที ขึ้นอยู่กับระยะเวลาที่คุณเล็ง\nการค้างท่าเล็งเป็นเวลา 1 วินาทีจะเพิ่มระยะ, ระยะเวลาสตัน, และความเสียหายสูงสุด",
         "rawDesc": "\u003ccolor=yellow\u003eกด\u003c/color\u003eปุ่มร่ายค้างไว้เพื่อเข้าสู่ท่าเล็ง เมื่อเล็งเสร็จแล้ว ปล่อยเพื่อยิงกระสุนเจาะทะลุที่สร้าง\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {0}-{1} ให้ศัตรูทั้งหมดที่โดน และ\u003ccolor=yellow\u003eสตัน\u003c/color\u003eพวกมันเป็นเวลา {2}-{3} วินาที ขึ้นอยู่กับระยะเวลาที่คุณเล็ง\nการค้างท่าเล็งเป็นเวลา {4} วินาทีจะเพิ่มระยะทาง ระยะเวลาสตัน และความเสียหายสูงสุด",
@@ -2897,7 +2897,7 @@
         "name": "Precision Shot",
         "lore": "หลังจากการยุบหน่วยของลาแซร์ตา ทักษะการใช้ปืนยาวและความเชี่ยวชาญด้านกลยุทธ์ของเขาก็ช่วยให้เขาสามารถเลี้ยงชีพได้อย่างเพียงพอด้วยการล่าสัตว์และเก็บเกี่ยว"
     },
-    "D_AstridsMasterpiecePriorite": {
+    "St_D_AstridsMasterpiecePriorite": {
         "shortDescription": "Please provide the Short Description you would like translated.",
         "description": "ทุก 5\u003csprite=5\u003e วินาที, สร้าง \u003ccolor=yellow\u003eMark\u003c/color\u003e ใส่ศัตรูแบบสุ่มที่อยู่ใกล้. ทุก \u003ccolor=yellow\u003eการโจมตี\u003c/color\u003e ต่อศัตรูที่มี Mark จะได้รับความเร็วเคลื่อนที่ 25% เป็นเวลา 1.5 วินาที และสร้างความเสียหายเพิ่มเติม \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e35%\u003c/color\u003e\u003csprite=5\u003e .\nความเสียหายที่สร้างต่อ \u003ccolor=yellow\u003eMark\u003c/color\u003e เพิ่มขึ้น 50% ต่อการโจมตีต่อเนื่องแต่ละครั้ง. ในการโจมตีครั้งที่ 6, มันจะระเบิดและสร้างความเสียหาย \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e200%\u003c/color\u003e\u003csprite=5\u003e",
         "rawDesc": "ทุก {0} วินาที จะใช้ \u003ccolor=yellow\u003eเครื่องหมาย\u003c/color\u003e กับศัตรูใกล้เคียงแบบสุ่ม การ \u003ccolor=yellow\u003eโจมตี\u003c/color\u003e แต่ละครั้งต่อศัตรูที่มีเครื่องหมายจะได้รับความเร็วในการเคลื่อนที่ {1} เป็นเวลา {2} วินาที และสร้างความเสียหายเพิ่มเติม {3} \nความเสียหายที่สร้างต่อ \u003ccolor=yellow\u003eเครื่องหมาย\u003c/color\u003e จะเพิ่มขึ้น {4} เมื่อโจมตีต่อเนื่องแต่ละครั้ง ในการโจมตีครั้งที่ {5} เครื่องหมายจะระเบิดสร้างความเสียหาย {6}",
@@ -2991,7 +2991,7 @@
         "name": "Astrid\u0027s Masterpiece - Priorité",
         "lore": "ข้าจะไม่มีวันยอมแพ้ เพื่อเจ้า...แอสทริด"
     },
-    "R_PillarOfFlame": {
+    "St_R_PillarOfFlame": {
         "shortDescription": "สร้างความเสียหายธาตุไฟแก่พื้นที่",
         "description": "อัญเชิญเสาเพลิง ณ ตำแหน่งเป้าหมาย สร้างความเสียหายธาตุเพลิงทันที \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e250%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eFire damage\u003c/color\u003e แก่ศัตรูทั้งหมดในพื้นที่ จากนั้นสร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e275%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eFire damage\u003c/color\u003e เป็นเวลา 2.4 วินาที",
         "rawDesc": "เสกเสาเพลิงขึ้นในตำแหน่งเป้าหมาย สร้างความเสียหายแก่ศัตรูทั้งหมดในพื้นที่ทันทีเป็นจำนวน {0} \u003ccolor=yellow\u003eความเสียหายจากไฟ\u003c/color\u003e จากนั้น สร้าง \u003ccolor=yellow\u003eความเสียหายจากไฟ\u003c/color\u003e จำนวน {1} ในช่วง {2} วินาที",
@@ -3033,7 +3033,7 @@
         "name": "Pillar of Flame",
         "lore": null
     },
-    "QR_InfernalTales": {
+    "St_QR_InfernalTales": {
         "shortDescription": "ความเสียหายจากไฟในพื้นที่",
         "description": "สร้างวงแหวนเพลิงรอบตัวคุณเป็นเวลา 3 วินาที ศัตรูที่สัมผัสวงแหวนเพลิงจะได้รับ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e350%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายจากไฟ\u003c/color\u003e ต่อวินาที",
         "rawDesc": "สร้างวงแหวนเพลิงรอบตัวคุณเป็นเวลา {0} วินาที ศัตรูที่สัมผัสวงแหวนเพลิงจะได้รับ \u003ccolor=yellow\u003eความเสียหายจากไฟ\u003c/color\u003e {1} ต่อวินาที",
@@ -3056,7 +3056,7 @@
         "name": "Tales of Hellfire",
         "lore": "กาลครั้งหนึ่ง มีเด็กหญิงคนหนึ่งได้อ่านเรื่องราวของมังกรผู้ยิ่งใหญ่ \n\n\"ฉันอยากจะแข็งแกร่งเหมือนมังกรบ้างจัง!\" \n\nขณะที่เธอคิดเช่นนั้น \nหนังสือเก่าเล่มนั้นก็พลิกหน้าไปมาอย่างร่าเริง \n\nไม่นานนัก เปลวไฟที่ร้อนระอุราวกับลมหายใจของมังกรก็ลุกโชนขึ้นจากร่างของเด็กหญิง \nและทุกคนรอบตัวเธอก็ยิ้มแย้มสดใสกว่าดวงดาวใดๆ ขณะที่พวกเขาเต้นรำไปพร้อมกับเธอ"
     },
-    "R_ChainReaction": {
+    "St_R_ChainReaction": {
         "shortDescription": "สร้างความเสียหายในพื้นที่, รักษาพันธมิตร",
         "description": "Inscribe a \u003ccolor=yellow\u003eDismantle Sigil\u003c/color\u003e at the target location that lasts for 6 seconds. Enemies inside the sigil take \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e150%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003edamage\u003c/color\u003e per second, and allies inside heal for \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e44%\u003c/color\u003e\u003csprite=5\u003e Health per second for each enemy inside. When hitting a \u003ccolor=yellow\u003eboss\u003c/color\u003e, \u003ccolor=yellow\u003edamage\u003c/color\u003e and \u003ccolor=yellow\u003ehealing\u003c/color\u003e are increased by 200%.\nร่าย \u003ccolor=yellow\u003eDismantle Sigil\u003c/color\u003e ณ ตำแหน่งเป้าหมาย เป็นเวลา 6 วินาที ศัตรูที่อยู่ในวงจะได้รับ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e150%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e ต่อวินาที และพันธมิตรที่อยู่ในวงจะฟื้นฟู \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e44%\u003c/color\u003e\u003csprite=5\u003e พลังชีวิต ต่อวินาทีตามจำนวนศัตรูที่อยู่ในวง เมื่อโจมตี \u003ccolor=yellow\u003eบอส\u003c/color\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e และ \u003ccolor=yellow\u003eการฟื้นฟู\u003c/color\u003e จะเพิ่มขึ้น 200%",
         "rawDesc": "จารึก \u003ccolor=yellow\u003eรอยอักขระแห่งการทำลาย\u003c/color\u003e ณ ตำแหน่งเป้าหมาย เป็นเวลา {0} วินาที ศัตรูที่อยู่ในรอยอักขระจะได้รับ \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {1} ต่อวินาที และพันธมิตรที่อยู่ด้านในจะฟื้นฟูพลังชีวิต {2} ต่อวินาทีตามจำนวนศัตรูที่อยู่ในรอยอักขระ เมื่อโจมตี \u003ccolor=yellow\u003eบอส\u003c/color\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e และ \u003ccolor=yellow\u003eการฟื้นฟู\u003c/color\u003e จะเพิ่มขึ้น {3}",
@@ -3099,7 +3099,7 @@
         "name": "Chain Reaction",
         "lore": "นี่เป็นหลักฐานที่สมบูรณ์แบบสำหรับทฤษฎีของข้า\nการสลายตัวและการรวมตัวกระตุ้นซึ่งกันและกัน ก่อให้เกิดปฏิกิริยาลูกโซ่ตามกฎที่ข้าได้กำหนดไว้\nมีหนทางนับไม่ถ้วนที่จะใช้พลังนี้ ขึ้นอยู่กับว่าจะถูกหล่อหลอมอย่างไร\n\nข้าต้องดำเนินการวิจัยต่อไป"
     },
-    "C_SparklingWaterGun": {
+    "St_C_SparklingWaterGun": {
         "shortDescription": "ทำให้ศัตรูมึนงงและสร้างความเสียหาย หรือรักษาพันธมิตร",
         "description": "ยิงปืนฉีดน้ำแสนสดใส ฟื้นฟู \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e70%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eพลังชีวิต\u003c/color\u003e ให้กับพันธมิตรที่โดนและล้าง \u003ccolor=yellow\u003eสถานะไฟ\u003c/color\u003e สร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e 1 ให้กับศัตรูที่โดนและทำให้พวกเขา \u003ccolor=yellow\u003eสตั๊น\u003c/color\u003e เป็นเวลา 1.5 วินาที \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e จะลดลงต่อเมื่อ \u003ccolor=yellow\u003eอยู่ในการต่อสู้\u003c/color\u003e เท่านั้น\n\nหากเป้าหมายคือ \u003ccolor=yellow\u003eซัมมอน\u003c/color\u003e ของพันธมิตร การรักษาจะเพิ่มขึ้น 40%",
         "rawDesc": "ยิงปืนฉีดน้ำแสนสดใส ฟื้นฟู \u003ccolor=yellow\u003eพลังชีวิต\u003c/color\u003e แก่พันธมิตรที่โดนเป็นจำนวน {0} และลบ \u003ccolor=yellow\u003eกองสแต็กไฟ\u003c/color\u003e ออก สร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {1} แก่ศัตรูที่โดน และ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e เป็นเวลา {2} วินาที \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e จะลดลงต่อเมื่ออยู่ \u003ccolor=yellow\u003eในการต่อสู้\u003c/color\u003e เท่านั้น\n\nหากเป้าหมายเป็น \u003ccolor=yellow\u003eซัมมอน\u003c/color\u003e ที่เป็นพันธมิตร จะเพิ่มการฟื้นฟู {3}",
@@ -3160,7 +3160,7 @@
         "name": "Sparkling Water Gun",
         "lore": "เคล็ดลับข้างถนน ฉบับที่ 5:\n\nส่วนผสม: ต้นตำแยที่พบตามข้างทาง และสมุนไพรมีพิษชนิดหนึ่งซึ่งมีใบปลายแดง (ไม่รู้ชื่อ)\nวิธีปรุง: บดในครกหินแล้วผสมกับน้ำ\nวิธีใช้: เหมาะอย่างยิ่งสำหรับการทิ้งรอยเปื้อนบนเสื้อคลุมหรูหราของพวกขุนนางจอมโอหัง หากมันสัมผัสผิวของใครเข้า พวกเขาจะต้องรับมือกับอาการคันยิบ ๆ ไปหลายวัน ถือเป็นโบนัสเล็ก ๆ น้อย ๆ ก็แล้วกัน\nบทวิเคราะห์: ไม่มีอะไรดีไปกว่าการสร้างความระคายเคืองให้กับพวกเขาอีกแล้ว\n\nสำหรับพวกหนูสกปรกอย่างเรา นี่เป็นวิธีเดียวที่จะดึงหนวดแมวได้ ชีวิตมีค่าเหนือสิ่งอื่นใด"
     },
-    "R_GreatFrostSword": {
+    "St_R_GreatFrostSword": {
         "shortDescription": "สร้างความเสียหายธาตุน้ำแข็งระยะใกล้, ผลักกระเด็น",
         "description": "Summon and swing a great frost sword, dealing \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e250%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eCold damage\u003c/color\u003e to enemies in front and knocking them back. If it hits a single target, \u003ccolor=yellow\u003edamage\u003c/color\u003e is increased by 350%.\nอัญเชิญและเหวี่ยงดาบน้ำแข็งอันยิ่งใหญ่ สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e250%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายน้ำแข็ง\u003c/color\u003e แก่ศัตรูที่อยู่ด้านหน้าและผลักกระเด็นออกไป หากโจมตีโดนเป้าหมายเดียว \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e จะเพิ่มขึ้น 350%",
         "rawDesc": "อัญเชิญและเหวี่ยงดาบน้ำแข็งอันยิ่งใหญ่ สร้าง\u003ccolor=yellow\u003eความเสียหายน้ำแข็ง\u003c/color\u003e {0} แก่ศัตรูที่อยู่ด้านหน้าและผลักให้กระเด็นออกไป หากโจมตีโดนเป้าหมายเดียว \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003eจะเพิ่มขึ้น {1}",
@@ -3195,7 +3195,7 @@
         "name": "Great Frost Sword",
         "lore": null
     },
-    "C_IceBlock": {
+    "St_C_IceBlock": {
         "shortDescription": "สร้างความเสียหายธาตุน้ำแข็งระยะใกล้, สร้างบาเรียให้พันธมิตร, และฟื้นฟูพลังชีวิต",
         "description": "สร้างโล่น้ำแข็งล้อมรอบพันธมิตร มอบ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e130%\u003c/color\u003e\u003csprite=5\u003e เกราะกำบัง ที่คงอยู่ 3 วินาที เมื่อเกราะกำบังถูกทำลาย จะสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e160%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายน้ำแข็ง\u003c/color\u003e แก่ศัตรูใกล้เคียง และ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e60%\u003c/color\u003e\u003csprite=5\u003e พลังชีวิต แก่พันธมิตรตามจำนวนศัตรูที่โดนโจมตี",
         "rawDesc": "สร้างโล่น้ำแข็งล้อมรอบพันธมิตร มอบบาเรีย {0} ที่คงอยู่เป็นเวลา {1} วินาที เมื่อบาเรียถูกทำลาย จะสร้าง\u003ccolor=yellow\u003eความเสียหายเย็น\u003c/color\u003e {2} ให้แก่ศัตรูที่อยู่ใกล้เคียง และ\u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e {3} พลังชีวิตให้แก่พันธมิตรตามจำนวนศัตรูที่ถูกโจมตี",
@@ -3256,7 +3256,7 @@
         "name": "Ice Shield",
         "lore": null
     },
-    "E_MysticDagger": {
+    "St_E_MysticDagger": {
         "shortDescription": "ลดคูลดาวน์ของทุกความทรงจำ",
         "description": "Throws a \u003ccolor=yellow\u003eMystic Dagger\u003c/color\u003e that deals \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e350%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003edamage\u003c/color\u003e to the first target hit and triggers \u003ccolor=yellow\u003eattack effects\u003c/color\u003e. When the \u003ccolor=yellow\u003eDagger\u003c/color\u003e hits an enemy, reduces the \u003ccolor=yellow\u003ecooldown\u003c/color\u003e of all Memories by 1\u003csprite=5\u003e seconds.",
         "rawDesc": "ปาดัน \u003ccolor=yellow\u003eมีดสั้นลึกลับ\u003c/color\u003e ที่สร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {0} แก่เป้าหมายแรกที่ถูกปะทะและเปิดใช้ \u003ccolor=yellow\u003eเอฟเฟกต์การโจมตี\u003c/color\u003e เมื่อ \u003ccolor=yellow\u003eมีดสั้น\u003c/color\u003e โดนศัตรู จะลด \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e ความทรงจำทั้งหมดลง {1} วินาที",
@@ -3285,7 +3285,7 @@
         "name": "Mystic Dagger",
         "lore": null
     },
-    "D_DisintegratingClaw": {
+    "St_D_DisintegratingClaw": {
         "shortDescription": "ดูดเลือด",
         "description": "การโจมตีจะ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e16%\u003c/color\u003e\u003csprite=5\u003e ของพลังชีวิตของคุณต่อการโดนศัตรูแต่ละครั้ง และสร้างความเสียหาย \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e68%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eเพิ่มเติม\u003c/color\u003e เมื่อต่อสู้กับ \u003ccolor=yellow\u003eบอส\u003c/color\u003e ความเสียหาย \u003ccolor=yellow\u003eเพิ่มเติม\u003c/color\u003e และการ \u003ccolor=yellow\u003eฟื้นฟูพลังชีวิต\u003c/color\u003e จะเพิ่มขึ้น 100%",
         "rawDesc": "การโจมตีจะ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003eพลังชีวิต {0} ต่อศัตรูที่ถูกโจมตี และสร้าง \u003ccolor=yellow\u003eความเสียหายเพิ่มเติม\u003c/color\u003e {1} ต่อเป้าหมาย การโจมตี\u003ccolor=yellow\u003eบอส\u003c/color\u003e จะได้รับ \u003ccolor=yellow\u003eความเสียหายเพิ่มเติม\u003c/color\u003e และ \u003ccolor=yellow\u003eการฟื้นฟู\u003c/color\u003eเพิ่มขึ้น {2}",
@@ -3333,7 +3333,7 @@
         "name": "Dismantling Claw",
         "lore": "เกิดข้อผิดพลาด โปรดลองอีกครั้ง"
     },
-    "Q_CruelSun": {
+    "St_Q_CruelSun": {
         "shortDescription": "สร้างความเสียหายธาตุไฟแบบกลุ่ม, สตัน",
         "description": "\u003ccolor=yellow\u003eกดปุ่มร่ายค้างไว้\u003c/color\u003eเพื่อรวบรวมพลังสุริยะในค้อนของคุณ เมื่อชาร์จเต็มแล้ว ฟาดพื้นเพื่อสร้างความเสียหาย\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e150%\u003c/color\u003e\u003csprite=5\u003e-\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e450%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003eแก่ศัตรู และ\u003ccolor=yellow\u003eสตัน\u003c/color\u003eพวกเขาเป็นเวลา 0.5-1.5 วินาที\n\nขณะร่าย คุณไม่สามารถเคลื่อนที่ได้ แต่จะได้รับสถานะ\u003ccolor=yellow\u003eหยุดไม่ได้\u003c/color\u003eและได้รับ \u003ccolor=yellow\u003eเกราะ\u003c/color\u003e 60\u003csprite=5\u003e",
         "rawDesc": "\u003ccolor=yellow\u003eกดค้างที่ปุ่มใช้สกิล\u003c/color\u003e เพื่อรวบรวมพลังของดวงอาทิตย์ไว้ในค้อนของคุณ เมื่อชาร์จเต็มแล้ว ฟาดลงพื้นเพื่อสร้าง \u003ccolor=yellow\u003eความเสียหายจากไฟ\u003c/color\u003e {0}-{1} แก่ศัตรูและ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e พวกเขาเป็นเวลา {2}-{3} วินาที\n\nขณะร่าย คุณไม่สามารถเคลื่อนที่ได้ แต่จะกลายเป็น \u003ccolor=yellow\u003eต้านทานสถานะควบคุม\u003c/color\u003e และได้รับ \u003ccolor=yellow\u003eเกราะ\u003c/color\u003e {4}",
@@ -3407,7 +3407,7 @@
         "name": "Cruel Sun",
         "lore": "จงก้มกราบต่อคำพิพากษาของดวงตะวัน หากเจ้าไม่ยอมคุกเข่าแล้วไซร้ ค้อนของข้าก็จะบังคับให้เจ้าคุกเข่าเอง"
     },
-    "E_ClutchesOfMalice": {
+    "St_E_ClutchesOfMalice": {
         "shortDescription": "พื้นที่ผล, ดึง",
         "description": "อัญเชิญหนวดโลหิต ณ ตำแหน่งเป้าหมาย ดึงศัตรูได้สูงสุด 4\u003csprite=5\u003e ตัว หนวดจะยึดติดกับศัตรู สร้าง\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e80%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e และสร้าง\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e200%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e เพิ่มเติมแก่ศัตรูที่ถูกดึง \nเมื่อความทรงจำนี้เสริมพลัง \u003ccolor=yellow\u003eจำนวนศัตรู\u003c/color\u003eที่ถูกดึง และ \u003ccolor=yellow\u003eพื้นที่ผลกระทบ\u003c/color\u003e จะเพิ่มขึ้น",
         "rawDesc": "อัญเชิญหนวดโลหิตไปยังตำแหน่งเป้าหมาย ดึงศัตรูได้สูงสุด {0} ตัว หนวดจะยึดติดกับศัตรู สร้าง\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {1} และความเสียหายเพิ่มเติม {2} แก่ศัตรูที่ถูกดึง \nเมื่อความทรงจำนี้เสริมพลัง \u003ccolor=yellow\u003eจำนวนศัตรู\u003c/color\u003eที่ถูกดึงและ\u003ccolor=yellow\u003eพื้นที่ผลกระทบ\u003c/color\u003eจะเพิ่มขึ้น",
@@ -3455,7 +3455,7 @@
         "name": "Clutches of Malice",
         "lore": "กี่วันแล้วนะที่ข้าหลงทางอยู่ในโลกแห่งฝันบิดเบี้ยวนี้?\nเมื่อสัมผัสแห่งกาลเวลาของข้าจางหายไป บางสิ่งก็เริ่มก่อตัวขึ้นเบื้องหน้า\nพ้นจากม่านหมอกนั้น \"ข้า\" ยืนอยู่ตรงนั้น\n\nในตอนแรกข้าเพียงแค่รู้สึกอยากรู้อยากเห็น แต่ในทันทีที่สบตากับมัน ข้าก็ตระหนักว่าสิ่งที่บิดเกลียวอยู่ในความลึกนั้นไม่ใช่จิตวิญญาณของข้า หากแต่เป็นบางสิ่งที่แปลกประหลาดและชื้นแฉะ มันคือความกลัวนั่นเอง\nขณะที่มันค่อยๆ ยื่นมือมาหาข้า ด้านหลังของมันก็ฉีกขาดออก และหนวดสีแดงฉานราวกับโลหิตก็ทะลักออกมา ที่ปลายหนวดเหล่านั้นไม่ได้มีเพียงแค่ชิ้นเนื้อ แต่ยังมีลูกตาทั้งเป็นห้อยอยู่ จ้องมองข้าอย่างตั้งใจราวกับเมล็ดพันธุ์ที่ถูกปลูกไว้เพื่อแผ่ขยายฝันร้ายนี้ไปทั่วโลก\nในตอนนั้นเองข้าจึงเข้าใจ นั่นไม่ใช่เงาสะท้อนของข้าในกระจก หากแต่เป็นกลุ่มก้อนแห่งฝันร้ายที่หิวกระหาย ซึ่งใช้ข้าเป็นแหล่งพักพิงและมุ่งหวังที่จะกลืนกินโลกนี้\n\n\n- ร่องรอยความทรงจำที่สลักไว้ในเสี้ยวชิ้นส่วนของใครบางคน"
     },
-    "E_UmbralEdge": {
+    "St_E_UmbralEdge": {
         "shortDescription": "มืด, เพิ่มพลังโจมตี",
         "description": "เป็นเวลา 7 วินาที, มอบพลังแห่งความมืดแก่อาวุธของคุณ, เพิ่ม \u003ccolor=yellow\u003eโอกาสติดคริติคอล\u003c/color\u003e 20%\u003csprite=5\u003e และสร้าง \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e52%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายมืด\u003c/color\u003eเพิ่มเติม เมื่อทำการ\u003ccolor=yellow\u003eโจมตี\u003c/color\u003e. \u003ccolor=yellow\u003eนักเดินทางระยะประชิด\u003c/color\u003e สร้างความเสียหายเพิ่มเติมเพิ่มขึ้น 25%.",
         "rawDesc": "เป็นเวลา {0} วินาที อาวุธของคุณจะได้รับพลังแห่งความมืด เพิ่ม \u003ccolor=yellow\u003eโอกาสคริติคอล\u003c/color\u003e ขึ้น {1} และสร้าง \u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e เพิ่มเติม {2} ในการ\u003ccolor=yellow\u003eโจมตี\u003c/color\u003e \u003ccolor=yellow\u003eนักเดินทางระยะประชิด\u003c/color\u003eสร้างความเสียหายเพิ่มเติมเพิ่มขึ้น {3}",
@@ -3516,7 +3516,7 @@
         "name": "Umbral Edge",
         "lore": "หลังจากได้ยินข่าวลือเกี่ยวกับแชงกรี-ลา ข้าก็กลับมายังโรงงานของเจ้าหุ่นเชิด\nร่างไร้วิญญาณยังคงทอดทิ้ง กลิ่นอับที่คุ้นเคยยังคงอบอวลอยู่ในซากปรักหักพัง ความทรงจำของข้าบอกว่าที่แห่งนี้คือจุดเริ่มต้นของโศกนาฏกรรมที่พรากทุกสิ่งไปจากข้า ทว่าร่างกายและจิตใจของข้ากลับไม่แสดงปฏิกิริยาใด ๆ ดังที่ข้าคาดไว้\nข้าไม่ได้มาที่นี่ด้วยความอ่อนไหว แต่ข้ามีจุดประสงค์อื่น ท่ามกลางซากปรักหักพัง ข้าพบร่องรอยของความทรงจำ ซึ่งดูเหมือนว่าเจ้าหุ่นเชิดพยายามปกปิดไว้\nมันคือความทรงจำของนักดาบที่ข้าไม่รู้จัก ผู้ถือดาบต่างชาติ ไม่ใช่ดาบจากแดนบูรพา เขาไม่ได้เพียงแค่ฟันฟาด แต่เขากักเก็บห้วงเหวไว้ในคมดาบ และเหวี่ยงความว่างเปล่าออกมา\nความรู้สึกแปลกประหลาดราวกับญาติสนิทถาโถมเข้ามา ข้าเข้าใจดาบเล่มนั้น มันคือความว่างเปล่าชนิดหนึ่ง ที่มีเพียงผู้ที่มีจิตวิญญาณกลวงโบ๋เท่านั้นจึงจะครอบครองได้"
     },
-    "R_Smite": {
+    "St_R_Smite": {
         "shortDescription": "สร้างความเสียหายธาตุแสงรุนแรงแก่เป้าหมาย",
         "description": "หลังจากล่าช้าเล็กน้อย, โจมตีพื้นที่ด้วยสายฟ้า, สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e400%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายเบา\u003c/color\u003e แก่ศัตรูและทำให้พวกเขา \u003ccolor=yellow\u003eติดสตัน\u003c/color\u003e เป็นเวลา 1 วินาที มีโอกาส 50% ที่จะทำให้ศัตรู \u003ccolor=yellow\u003eติดไฟ\u003c/color\u003e",
         "rawDesc": "หลังจากล่าช้าเล็กน้อย จะโจมตีพื้นที่ด้วยสายฟ้า สร้างความเสียหาย\u003ccolor=yellow\u003eแสง\u003c/color\u003e {0} ให้กับศัตรู และ\u003ccolor=yellow\u003eสตัน\u003c/color\u003eศัตรูเป็นเวลา {1} วินาที มีโอกาส {2} ที่จะทำให้ศัตรู\u003ccolor=yellow\u003eติดไฟ\u003c/color\u003e",
@@ -3564,7 +3564,7 @@
         "name": "Lightning Strike",
         "lore": "ดูเหมือนว่าสมาคมนี้เต็มไปด้วยผู้เฒ่าที่ยึดติดกับวิถีเดิม ๆ ความคิดของพวกเขาเริ่มเปราะบางและหยุดนิ่ง พวกเขาจะมัวแต่แก้ไขกฎเกณฑ์เล็กน้อยและชื่นชมกับสิ่งที่เรียกว่าความสำเร็จไปอีกนานเท่าไหร่กัน\n\nการสังเกตเห็นต้นไม้ที่ถูกฟ้าผ่าเมื่อคืนได้จุดประกายความคิด แม้แต่พลังธรรมชาติอันยิ่งใหญ่เช่นนี้ก็ต้องอยู่ภายใต้กฎเกณฑ์บางอย่างมิใช่หรือ\n\nหากฉันสามารถค้นพบกฎเหล่านี้ได้ ฉันก็อาจจะสามารถควบคุมพลังนั้นได้ เพียงแค่คิดก็รู้สึกตื่นเต้นแล้ว ฉันต้องเริ่มการวิจัยทันที"
     },
-    "M_Charge": {
+    "St_M_Charge": {
         "shortDescription": "โจมตีอย่างรุนแรงสร้างความเสียหายมหาศาล",
         "description": "Gain a \u003ccolor=yellow\u003eBarrier\u003c/color\u003e equal to 10% of \u003ccolor=yellow\u003eMaximum Health\u003c/color\u003e for 1.5 seconds and \u003ccolor=yellow\u003edash\u003c/color\u003e forward. If you collide with an enemy, the \u003ccolor=yellow\u003edash\u003c/color\u003e ends early, dealing 15% of your \u003ccolor=yellow\u003eMaximum Health\u003c/color\u003e as \u003ccolor=yellow\u003edamage\u003c/color\u003e to enemies and knocking them back.\nได้รับ \u003ccolor=yellow\u003eบาเรีย\u003c/color\u003e เท่ากับ 10% ของ \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e เป็นเวลา 1.5 วินาที และ \u003ccolor=yellow\u003eพุ่ง\u003c/color\u003e ไปข้างหน้า หากชนกับศัตรู การ \u003ccolor=yellow\u003eพุ่ง\u003c/color\u003e จะสิ้นสุดก่อนกำหนด สร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e เท่ากับ 15% ของ \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e แก่ศัตรู และทำให้พวกเขากระเด็นไปด้านหลัง",
         "rawDesc": "ได้รับ \u003ccolor=yellow\u003eเกราะ\u003c/color\u003e ป้องกันเท่ากับ {0} ของ \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e เป็นเวลา {1} วินาที และ \u003ccolor=yellow\u003eพุ่งตัว\u003c/color\u003e ไปด้านหน้า ถ้าชนกับศัตรู การ \u003ccolor=yellow\u003eพุ่งตัว\u003c/color\u003e จะสิ้นสุดก่อนกำหนด สร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e ให้ศัตรูและผลักพวกมันกลับไปเท่ากับ {2} ของ \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e ของคุณ",
@@ -3612,7 +3612,7 @@
         "name": "Heavy Strike",
         "lore": null
     },
-    "R_DancingBlades": {
+    "St_R_DancingBlades": {
         "shortDescription": "สร้างความเสียหายต่อเนื่องในพื้นที่",
         "description": "เรียก \u003ccolor=yellow\u003eBlade Storm\u003c/color\u003e ที่อยู่ได้ 4 วินาทีในพื้นที่เป้าหมาย \u003ccolor=yellow\u003eBlade Storm\u003c/color\u003e จะฟันอย่างรวดเร็ว สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e85%\u003c/color\u003e\u003csprite=5\u003e หรือ \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e85%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eดาเมจ\u003c/color\u003e (ที่สูงกว่า) ให้แก่ศัตรูทุก 0.5 วินาที และติดตามศัตรูที่อยู่ใกล้ที่สุด",
         "rawDesc": "อัญเชิญ \u003ccolor=yellow\u003eBlade Storm\u003c/color\u003e ให้คงอยู่เป็นเวลา {0} วินาทีในพื้นที่เป้าหมาย \u003ccolor=yellow\u003eBlade Storm\u003c/color\u003e จะฟันอย่างรวดเร็ว สร้างความ\u003ccolor=yellow\u003eเสียหาย\u003c/color\u003e {1} หรือ {2} (แล้วแต่ว่าค่าใดจะสูงกว่า) แก่ศัตรูทุก {3} วินาที และติดตามศัตรูที่อยู่ใกล้ที่สุด",
@@ -3667,7 +3667,7 @@
         "name": "Blade Storm",
         "lore": null
     },
-    "D_CircleOfLife": {
+    "St_D_CircleOfLife": {
         "shortDescription": "วิถีแห่งชีวิต",
         "description": "เมื่อ \u003ccolor=yellow\u003eโจมตีปกติ\u003c/color\u003e สัตว์\u003ccolor=yellow\u003eอัญเชิญ\u003c/color\u003eทั้งหมดของนาเชียจะ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e 3%\u003csprite=5\u003e ของ \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e และ \u003ccolor=yellow\u003eระยะเวลาอัญเชิญ\u003c/color\u003e จะเพิ่มขึ้น 0.3\u003csprite=5\u003e วินาที นอกจากนี้ โบนัส \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e, \u003ccolor=yellow\u003eความเร็วเคลื่อนที่\u003c/color\u003e และ \u003ccolor=yellow\u003eเกราะ\u003c/color\u003e ที่นาเชียได้รับ 50%\u003csprite=5\u003e จะถูก \u003ccolor=yellow\u003eแบ่งปัน\u003c/color\u003e กับ \u003ccolor=yellow\u003eสัตว์อัญเชิญ\u003c/color\u003eของเธอด้วย",
         "rawDesc": "เมื่อ \u003ccolor=yellow\u003eโจมตีปกติ\u003c/color\u003e \u003ccolor=yellow\u003eซัมมอน\u003c/color\u003e ทั้งหมดของนาเชียจะ \u003ccolor=yellow\u003eฟื้นฟูพลังชีวิต\u003c/color\u003e เป็นจำนวน {0} ของ \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e และ \u003ccolor=yellow\u003eระยะเวลาซัมมอน\u003c/color\u003e ของพวกมันจะเพิ่มขึ้น {1} วินาที นอกจากนี้ โบนัส \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e, \u003ccolor=yellow\u003eความเร็วเคลื่อนที่\u003c/color\u003e และ \u003ccolor=yellow\u003eเกราะ\u003c/color\u003e ที่นาเชียได้รับจำนวน {2} จะถูก \u003ccolor=yellow\u003eแบ่งปัน\u003c/color\u003e ให้กับ \u003ccolor=yellow\u003eซัมมอน\u003c/color\u003e ของเธอด้วย",
@@ -3715,7 +3715,7 @@
         "name": "Circle of Life",
         "lore": "กฎเพียงข้อเดียวที่นาเชียศรัทธาคือวัฏจักรแห่งชีวิต เธออุทิศตนเพื่อพิทักษ์ระเบียบแห่งธรรมชาติ ที่ซึ่งดอกไม้ผลิบาน ร่วงโรย และผลิบานอีกครั้ง ทุกอย่างเป็นไปตามลิขิต แต่ลิขิตที่เธอเชื่อถือกลับพังทลายลง เมื่อน้องสาวของเธอถูกความวิปลาสเข้าครอบงำ"
     },
-    "U_ShoutOfOblivion": {
+    "St_U_ShoutOfOblivion": {
         "shortDescription": "สร้างความเสียหายธาตุมืดแบบกลุ่มที่รุนแรงและทรงพลังสูงสุด",
         "description": "ในขณะร่าย จะกลายเป็น \u003ccolor=yellow\u003eอมตะ\u003c/color\u003e ชั่วครู่ จากนั้นปลดปล่อยเสียงร้องอันทรงพลังไปด้านหน้า สร้าง \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e1,300%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e แก่ศัตรูทั้งหมดและ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e พวกมันเป็นเวลา 3 วินาที\n\n\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e นี้จะเพิ่มขึ้น 25% สำหรับทุก \u003ccolor=yellow\u003eระดับภัยคุกคามจากการล่า\u003c/color\u003e ในปัจจุบัน",
         "rawDesc": "ขณะร่ายจะได้รับสถานะ \u003ccolor=yellow\u003eอมตะ\u003c/color\u003e ชั่วครู่ จากนั้นปลดปล่อยเสียงร้องอันทรงพลังไปด้านหน้า สร้าง\u003ccolor=yellow\u003eความเสียหายมืด\u003c/color\u003e {0} แก่ศัตรูทั้งหมดและ\u003ccolor=yellow\u003eสตัน\u003c/color\u003e เป็นเวลา {1} วินาที\n\n\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003eนี้จะเพิ่มขึ้น {2} ตามแต่ละ \u003ccolor=yellow\u003eระดับภัยคุกคามจากการล่า\u003c/color\u003e ปัจจุบัน",
@@ -3763,7 +3763,7 @@
         "name": "Shout of Oblivion",
         "lore": "The cell is empty. Please provide the game lore you wish to translate."
     },
-    "R_Chomp": {
+    "St_R_Chomp": {
         "shortDescription": "สร้างความเสียหายและฟื้นฟูพลังชีวิต",
         "description": "กัดศัตรูเป้าหมาย สร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e370%\u003c/color\u003e\u003csprite=5\u003e และฟื้นฟู \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e75%\u003c/color\u003e\u003csprite=5\u003e พลังชีวิต",
         "rawDesc": "กัดศัตรูเป้าหมาย สร้างความเสียหาย {0} และฟื้นฟูพลังชีวิต {1}",
@@ -3798,7 +3798,7 @@
         "name": "Chomp",
         "lore": "กลิ่นโลหิตของเลือด เนื้อที่ฉีกขาด การพุ่งพล่านของพลังชีวิต และสิ่งที่หลงเหลืออยู่...\n\nเพียงแค่นิ้วเดียว"
     },
-    "U_WorldCracker": {
+    "St_U_WorldCracker": {
         "shortDescription": "สร้างความเสียหายแสงทรงพลังแบบต่อเนื่อง",
         "description": "ปล่อยลำแสงทรงพลังที่สร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e575%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e ต่อวินาทีแก่ศัตรูทั้งหมดที่สัมผัสโดน คุณไม่สามารถเคลื่อนที่ขณะร่าย แต่สามารถรักษาสภาพไว้ได้ไม่จำกัดจนกว่าจะยกเลิก",
         "rawDesc": "ปล่อยลำแสงทรงพลังที่สร้างความเสียหาย \u003ccolor=yellow\u003eแสง\u003c/color\u003e {0} ต่อวินาทีแก่ศัตรูทั้งหมดที่ลำแสงสัมผัส คุณจะไม่สามารถเคลื่อนไหวได้ขณะร่าย แต่สามารถรักษาสภาพนี้ได้เรื่อยๆ จนกว่าจะยกเลิก",
@@ -3814,7 +3814,7 @@
         "name": "World Cracker",
         "lore": "ร่องรอยความทรงจำของบุคคลผู้เคยเป็นหนึ่งในสิ่งมีชีวิตที่ทรงพลังที่สุดในโลกแห่งความฝัน เป็นเพียงเสี้ยวอำนาจของผู้ที่เคยเป็นราชาและเทพแห่งวิญญาณทั้งมวล\n\nด้วยการถือครองอำนาจแห่งรัศมีศักดิ์สิทธิ์ เขาสามารถแปรเปลี่ยนโลกทั้งใบให้กลายเป็นเถ้าถ่านได้ด้วยการโจมตีเพียงครั้งเดียว เขาเคยท้าทายปรมาจารย์แห่งโลก แต่ก็พ่ายแพ้ และหลังจากนั้น ที่อยู่ของเขาก็กลายเป็นปริศนา เล่าลือกันว่าเขาถูกจองจำในมิติอื่น สูญเสียพลังส่วนใหญ่ และเหลือไว้เพียงฐานะกษัตริย์ธรรมดา\n\nกระนั้น เสียงกระซิบก็เล่าเรื่องราวที่แตกต่างออกไป\nพวกเขาพูดถึงสัญลักษณ์แห่งการรับใช้ของเขาที่หายไปแล้ว"
     },
-    "R_OrbOfLight": {
+    "St_R_OrbOfLight": {
         "shortDescription": "สร้างความเสียหายธาตุแสง ฟื้นฟูพลังชีวิตให้พันธมิตร",
         "description": "ปล่อย \u003ccolor=yellow\u003eลูกแก้วแห่งแสง\u003c/color\u003e ไปด้านหน้า สร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e200%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e แก่ศัตรู หาก \u003ccolor=yellow\u003eลูกแก้วแห่งแสง\u003c/color\u003e โดนศัตรู, \u003ccolor=yellow\u003eเปลวเพลิงแห่งชีวิต\u003c/color\u003e จะกลับมา ฟื้นฟูพันธมิตรที่สัมผัสได้ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e25%\u003c/color\u003e\u003csprite=5\u003e พลังชีวิตต่อศัตรูที่โดนโจมตีหนึ่งตัว หากโดน \u003ccolor=yellow\u003eบอส\u003c/color\u003e, \u003ccolor=yellow\u003eการรักษา\u003c/color\u003e จะเพิ่มขึ้น \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e75%\u003c/color\u003e\u003csprite=5\u003e",
         "rawDesc": "ปล่อย \u003ccolor=yellow\u003eลูกแก้วแสง\u003c/color\u003e ไปข้างหน้า สร้าง \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e {0} แก่ศัตรู หาก \u003ccolor=yellow\u003eลูกแก้วแสง\u003c/color\u003e โดนศัตรู \u003ccolor=yellow\u003eเปลวเพลิงแห่งชีวิต\u003c/color\u003e จะย้อนกลับมา ฟื้นฟูพันธมิตรที่สัมผัสเป็นค่าพลังชีวิต {1} ต่อศัตรูแต่ละตัวที่โดน หากโดน \u003ccolor=yellow\u003eบอส\u003c/color\u003e \u003ccolor=yellow\u003eการรักษา\u003c/color\u003e จะเพิ่มขึ้น {2}",
@@ -3856,7 +3856,7 @@
         "name": "Orb of Light",
         "lore": null
     },
-    "R_UnbreakableDetermination": {
+    "St_R_UnbreakableDetermination": {
         "shortDescription": "อัลติเมท, เพิ่มพลังโจมตี, ฟื้นฟูพลังชีวิต",
         "description": "รีเซ็ตคูลดาวน์ของ \u003ccolor=yellow\u003eSwift Steps\u003c/color\u003e และ \u003ccolor=yellow\u003eAstrid\u0027s Masterpiece\u003c/color\u003e, สร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e400%\u003c/color\u003e\u003csprite=5\u003e แก่ศัตรูในบริเวณใกล้เคียง และเข้าสู่สถานะ \u003ccolor=yellow\u003eปลุกพลัง (awakened state)\u003c/color\u003e เป็นเวลา 12 วินาที\n\nขณะที่ \u003ccolor=yellow\u003eปลุกพลัง (awakened)\u003c/color\u003e จะได้รับ \u003ccolor=yellow\u003eความเร็วโจมตี (Attack Speed)\u003c/color\u003e 25%\u003csprite=5\u003e และการ \u003ccolor=yellow\u003eโจมตี (attack)\u003c/color\u003e แต่ละครั้งจะกระตุ้นการระเบิดสายฟ้า สร้าง \u003ccolor=yellow\u003eความเสียหาย (damage)\u003c/color\u003e \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e90%\u003c/color\u003e\u003csprite=5\u003e แก่เป้าหมายและศัตรูในบริเวณใกล้เคียง เมื่อ \u003ccolor=yellow\u003eAstrid\u0027s Masterpiece\u003c/color\u003e ทำงานระหว่างที่อยู่ในสถานะ \u003ccolor=yellow\u003eปลุกพลัง (awakened state)\u003c/color\u003e จะฟื้นฟูพลังชีวิตเท่ากับ 4% ของพลังชีวิตที่ขาดหายไป",
         "rawDesc": "รีเซ็ตคูลดาวน์ของ \u003ccolor=yellow\u003eก้าวที่รวดเร็ว\u003c/color\u003e และ \u003ccolor=yellow\u003eมาสเตอร์พีซของแอสทิด\u003c/color\u003e สร้างความเสียหาย {0} แก่ศัตรูที่อยู่ใกล้เคียง และเข้าสู่ \u003ccolor=yellow\u003eสถานะตื่นตัว\u003c/color\u003e เป็นเวลา {1} วินาที\n\nขณะ \u003ccolor=yellow\u003eตื่นตัว\u003c/color\u003e ได้รับ \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e {2} และทุก \u003ccolor=yellow\u003eการโจมตี\u003c/color\u003e จะกระตุ้นการระเบิดสายฟ้า สร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {3} ให้เป้าหมายและศัตรูที่อยู่ใกล้เคียง เมื่อ \u003ccolor=yellow\u003eมาสเตอร์พีซของแอสทิด\u003c/color\u003e ทำงานใน \u003ccolor=yellow\u003eสถานะตื่นตัว\u003c/color\u003e จะฟื้นฟูพลังชีวิตเท่ากับ {4} ของพลังชีวิตที่หายไป",
@@ -3930,7 +3930,7 @@
         "name": "Unbreakable Determination",
         "lore": "นี่คือชีวิตใช่หรือไม่? หากเป็นเช่นนั้น จงใช้ชีวิตอีกครั้ง"
     },
-    "R_Parry": {
+    "St_R_Parry": {
         "shortDescription": "สะท้อนความเสียหายจากด้านหน้า",
         "description": "ปัดป้องความเสียหายแรกที่เข้ามาจากด้านหน้าภายใน 0.6 วินาที สร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e แก่ศัตรูสูงสุด 5\u003csprite=5\u003e ตัว ศัตรูที่โดนโจมตีจะได้รับ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e360%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e และถูก \u003ccolor=yellow\u003eสตัน\u003c/color\u003e พร้อมกับรีเซ็ตสถานะ \u003ccolor=yellow\u003eAstrid\u0027s Masterpiece\u003c/color\u003e การปัดป้องสำเร็จจะทำให้คุณ \u003ccolor=yellow\u003eอมตะ\u003c/color\u003e จากความเสียหายทั้งหมดชั่วขณะและลด \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e ของ \u003ccolor=yellow\u003eParry\u003c/color\u003e ลง 50%",
         "rawDesc": "ปัดป้องความเสียหายที่เข้ามาครั้งแรกจากด้านหน้าภายใน {0} วินาที สร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e แก่ศัตรูสูงสุด {1} ตัว ศัตรูที่ถูกโจมตีจะได้รับ \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {2} ถูก \u003ccolor=yellow\u003eสตัน\u003c/color\u003e และรีเซ็ตเอฟเฟกต์ \u003ccolor=yellow\u003eAstrid\u0027s Masterpiece\u003c/color\u003e การปัดป้องสำเร็จจะทำให้คุณ \u003ccolor=yellow\u003eภูมิคุ้มกัน\u003c/color\u003e ต่อความเสียหายทั้งหมดชั่วขณะ และลด \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e ของ \u003ccolor=yellow\u003eParry\u003c/color\u003e ลง {3}",
@@ -3991,14 +3991,14 @@
         "name": "Parry",
         "lore": "การโจมตีและการป้องกันเป็นดุจเหรียญเดียวกันที่มีสองด้าน"
     },
-    "M_FeatheryDash": {
+    "St_M_FeatheryDash": {
         "rawDesc": "เคลื่อนที่อย่างรวดเร็วเพื่อหลบการโจมตีของศัตรู",
         "lore": null,
         "description": "เคลื่อนที่อย่างรวดเร็วเพื่อหลบหลีกการโจมตีของศัตรู",
         "name": "Feathery Dash",
         "shortDescription": "พุ่งตัวเบาราวขนนก"
     },
-    "E_Permafrost": {
+    "St_E_Permafrost": {
         "shortDescription": "สร้างความเสียหายเย็นแบบ AoE, สตัน, ปกป้องพันธมิตร",
         "description": "รวบรวมและปลดปล่อยความเย็นสุดขั้วในพื้นที่ขนาดใหญ่ พันธมิตรในพื้นที่จะได้รับ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e300%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eเกราะกำบัง\u003c/color\u003e และ 100 \u003ccolor=yellow\u003eเกราะ\u003c/color\u003e เป็นเวลา 10 วินาที ศัตรูจะถูกแช่แข็ง สร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e500%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายเย็น\u003c/color\u003e และติดสถานะ \u003ccolor=yellow\u003eมึนงง\u003c/color\u003e เป็นเวลา 15 วินาที \n\nหากศัตรูได้รับผลกระทบจาก \u003ccolor=yellow\u003eความเย็น\u003c/color\u003e อยู่แล้ว ความเสียหายนี้จะเพิ่มขึ้น 100%",
         "rawDesc": "รวบรวมและปล่อยความเย็นจัดในพื้นที่ขนาดใหญ่ พันธมิตรที่อยู่ในพื้นที่จะได้รับ {0} \u003ccolor=yellow\u003eโล่\u003c/color\u003e และ {1} \u003ccolor=yellow\u003eเกราะ\u003c/color\u003e เป็นเวลา {2} วินาที ศัตรูจะถูกแช่แข็ง ได้รับ {3} \u003ccolor=yellow\u003eความเสียหายน้ำแข็ง\u003c/color\u003e และ \u003ccolor=yellow\u003eมึนงง\u003c/color\u003e เป็นเวลา {4} วินาที \n\nหากศัตรูได้รับผลกระทบจาก \u003ccolor=yellow\u003eน้ำแข็ง\u003c/color\u003e อยู่แล้ว ความเสียหายนี้จะเพิ่มขึ้นอีก {5}",
@@ -4079,7 +4079,7 @@
         "name": "Permafrost",
         "lore": null
     },
-    "E_ChainLightning": {
+    "St_E_ChainLightning": {
         "shortDescription": "ความเสียหายสายฟ้าผ่าต่อเนื่อง",
         "description": "ยิงสายฟ้าเด้งที่สร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e400%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e แก่เป้าหมายแรกและเด้งได้สูงสุด 5 ครั้ง สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e185%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e",
         "rawDesc": "ปล่อยสายฟ้าเด้งที่สร้างความเสียหาย \u003ccolor=yellow\u003eแสง\u003c/color\u003e {0} แก่เป้าหมายแรกและเด้งได้สูงสุด {1} ครั้ง โดยสร้างความเสียหาย \u003ccolor=yellow\u003eแสง\u003c/color\u003e {2}",
@@ -4127,7 +4127,7 @@
         "name": "Chain Lightning",
         "lore": "-- บันทึกการทดลอง\n-- วันที่ 273 นับตั้งแต่เริ่มต้นการทดลอง\n-- เขียนโดย ออรีนา\n\n\nความสำเร็จเพียงบางส่วน\nข้าสามารถควบคุมพลังแห่งสายฟ้าได้ในระดับหนึ่ง แต่พลังนั้นยังคงไม่เสถียรโดยเนื้อแท้ การปลดปล่อยกระแสไฟฟ้ายังคงกระโดดไปยังเป้าหมายที่ไม่ตั้งใจอย่างคาดเดาไม่ได้\n\nอย่างไรก็ตาม ข้าได้ค้นพบบางสิ่งที่สำคัญยิ่งกว่านั้น ข้าได้เปิดเผยความเข้าใจในพลังพื้นฐานของความฝัน แต่พื้นที่ในบันทึกนี้กำลังจะหมดแล้ว ในตอนนี้ ข้าจะเรียกสิ่งนี้ว่า \"พลังแห่งการแยกส่วน\" และจะดำเนินการวิจัยต่อไป"
     },
-    "M_DreamyWaltz": {
+    "St_M_DreamyWaltz": {
         "shortDescription": "ระบำแห่งฝัน",
         "description": "หลบหลีกการโจมตีของศัตรูอย่างรวดเร็ว\nหลังจากการหลบหลีก ปล่อยคลื่นแห่งความฝันที่มอบ \u003ccolor=yellow\u003eบาเรีย\u003c/color\u003e แก่พันธมิตรทั้งหมดในบริเวณใกล้เคียง ยกเว้นตัวคุณเอง เทียบเท่ากับ 8% ของ \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e ของพวกเขา และเพิ่ม \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e ของพวกเขา 15% เป็นเวลา 3 วินาที ผลกระทบจะเพิ่มขึ้น 100% สำหรับซัมมอน",
         "rawDesc": "เคลื่อนที่อย่างรวดเร็วเพื่อหลบหลีกการโจมตีของศัตรู\nหลังจากการหลบหลีก จะปล่อยคลื่นแห่งความฝันที่มอบ \u003ccolor=yellow\u003eบาเรีย\u003c/color\u003e เท่ากับ {0} ของ \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e ให้แก่พันธมิตรที่อยู่ใกล้เคียงทั้งหมด ยกเว้นตนเอง และเพิ่ม \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e ของพวกเขา {1} เป็นเวลา {2} วินาที ผลกระทบสำหรับซัมมอนจะเพิ่มขึ้น 100%",
@@ -4175,7 +4175,7 @@
         "name": "Dreamy Waltz",
         "lore": null
     },
-    "R_LightningDance": {
+    "St_R_LightningDance": {
         "shortDescription": "พุ่งด้วยสายฟ้า, ความเสียหายเบา",
         "description": "แปลงร่างในช่วงเวลาสั้นๆ เป็นสายฟ้า\u003ccolor=yellow\u003eอมตะ\u003c/color\u003eที่จะกระเด้งระหว่างเป้าหมายกับศัตรูที่อยู่ใกล้เคียง สร้าง\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e120%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e สามารถกระเด้งได้สูงสุด 4 ครั้ง\n\n\u003ccolor=yellow\u003eการโจมตี\u003c/color\u003eจะลด\u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003eของ Memory นี้ลง 5%",
         "rawDesc": "แปลงร่างในช่วงเวลาสั้นๆ กลายเป็น \u003ccolor=yellow\u003eสายฟ้า\u003c/color\u003e แห่ง \u003ccolor=yellow\u003eความคงกระพัน\u003c/color\u003e ที่กระดอนไประหว่างเป้าหมายและศัตรูที่อยู่ใกล้เคียง สร้าง \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e {0} ครั้ง สามารถกระดอนได้สูงสุด {1} ครั้ง\n\nการ \u003ccolor=yellow\u003eโจมตี\u003c/color\u003e จะลด \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e ของความทรงจำนี้ลง {2}",
@@ -4223,7 +4223,7 @@
         "name": "Lightning Dance",
         "lore": null
     },
-    "E_MassCleanse": {
+    "St_E_MassCleanse": {
         "shortDescription": "ล้างดีบัฟ, ฟื้นฟู",
         "description": "ชำระล้างตำแหน่งเป้าหมาย สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e300%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e แก่ศัตรู และมอบ \u003ccolor=yellow\u003eต้านทานหยุด\u003c/color\u003e ให้พันธมิตรเป็นเวลา 1.5 วินาที พร้อม \u003ccolor=yellow\u003eล้าง\u003c/color\u003e \u003ccolor=yellow\u003eสถานะผิดปกติ\u003c/color\u003e ส่วนใหญ่ พันธมิตรจะได้รับ \u003ccolor=yellow\u003eการรักษา\u003c/color\u003e \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e80%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eพลังชีวิต\u003c/color\u003e สำหรับทุก \u003ccolor=yellow\u003eเอฟเฟกต์ธาตุ\u003c/color\u003e ที่ถูกล้างออกจากพวกเขา",
         "rawDesc": "ชำระล้างพื้นที่เป้าหมาย สร้างความเสียหายธาตุ\u003ccolor=yellow\u003eแสง\u003c/color\u003eแก่ศัตรู {0} และมอบ\u003ccolor=yellow\u003eสถานะไม่อาจหยุดยั้ง\u003c/color\u003eแก่พันธมิตรเป็นเวลา {1} วินาที ขณะเดียวกันก็\u003ccolor=yellow\u003eล้าง\u003c/color\u003e\u003ccolor=yellow\u003eดีบัฟ\u003c/color\u003eส่วนใหญ่ออกไป พันธมิตรจะได้รับ\u003ccolor=yellow\u003eการรักษา\u003c/color\u003e {2} \u003ccolor=yellow\u003eพลังชีวิต\u003c/color\u003e สำหรับ\u003ccolor=yellow\u003eเอฟเฟกต์ธาตุ\u003c/color\u003eแต่ละชนิดที่ถูกล้างออกจากพวกเขา",
@@ -4271,7 +4271,7 @@
         "name": "Mass Cleanse",
         "lore": "ความบ้าคลั่งจากฝันร้ายกำลังแพร่กระจาย \nความสมดุลของผืนป่าถูกทำลายลงอย่างรุนแรงแล้ว\nกิ่งก้านที่ป่วยไข้ต้องถูกตัดทิ้ง ก่อนที่ผืนป่าทั้งมวลจะเน่าเปื่อยและล่มสลาย\nสิ่งที่ข้ากำลังจะทำนั้น หาใช่สิ่งอื่นใด นอกจากการชำระล้างอันเยือกเย็นและเด็ดเดี่ยว เพื่อธำรงไว้ซึ่งระเบียบแห่งพงไพร ซึ่งสำคัญเหนือสิ่งอื่นใด\n\nความเมตตาอันน้อยนิดที่ข้าหลงเหลืออยู่ อย่างน้อยก็ในตอนนี้ จะต้องถูกพับเก็บไว้\nนี่คือบทบาทและหน้าที่ของข้า ในฐานะผู้พิทักษ์แห่งพงไพร\n\n...\n\nโอ้ น้องรักของข้า ข้าอธิษฐานขอให้ต่อหน้าเจ้าเช่นกัน\nข้าสามารถทำหน้าที่รับผิดชอบของข้าให้สำเร็จลุล่วงได้..."
     },
-    "Q_SylvanCall": {
+    "St_Q_SylvanCall": {
         "shortDescription": "อัญเชิญหมาล่าเนื้อใบไม้",
         "description": "\u003ccolor=yellow\u003eอัญเชิญ\u003c/color\u003e \u003ccolor=yellow\u003eลีฟฮาวนด์\u003c/color\u003e ที่จะติดตามนาเคียไปยังตำแหน่งเป้าหมาย สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e130%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e แก่ศัตรู และ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e พวกมันเป็นเวลา 0.4 วินาที\n\n\u003ccolor=yellow\u003eลีฟฮาวนด์\u003c/color\u003e มีพลังชีวิต 128 และเกราะ 40 อยู่ในสนามรบได้นานสูงสุด 25 วินาที และจู่โจมศัตรูเพื่อสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e60%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e คุณสามารถอัญเชิญลีฟฮาวนด์ได้สูงสุด 5 ตัวพร้อมกัน",
         "rawDesc": "\u003ccolor=yellow\u003eอัญเชิญ\u003c/color\u003e \u003ccolor=yellow\u003eลีฟฮาวด์\u003c/color\u003e ให้ตามนาเคียไปยังตำแหน่งเป้าหมาย สร้างความ\u003ccolor=yellow\u003eเสียหาย\u003c/color\u003e {0} ให้กับศัตรูและ\u003ccolor=yellow\u003eสตัน\u003c/color\u003eเป็นเวลา {1} วินาที\n\n\u003ccolor=yellow\u003eลีฟฮาวด์\u003c/color\u003eมีพลังชีวิต {2} และเกราะ {3} คงอยู่ในสนามรบสูงสุด {4} วินาที และจู่โจมศัตรูสร้าง\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {5} คุณสามารถ\u003ccolor=yellow\u003eอัญเชิญ\u003c/color\u003eลีฟฮาวด์ได้สูงสุด {6} ตัวพร้อมกัน",
@@ -4365,7 +4365,7 @@
         "name": "Sylvan Call",
         "lore": "ดวงวิญญาณที่บริสุทธิ์ที่สุดในพงไพรแห่งอีเธอเรียลถือกำเนิดขึ้นจากใบไม้ที่ร่วงหล่นและน้ำค้างยามเช้า\nเมื่อ \"นาเคีย\" ผู้พิทักษ์ไพรพฤกษาร้องเรียก ขานรับคำเชิญนั้น \"เหล่านายพราน\" รูปลักษณ์ประหลาดจึงปรากฏกายขึ้นอย่างเต็มใจ"
     },
-    "Q_Fleche": {
+    "St_Q_Fleche": {
         "shortDescription": "พุ่งไปที่เป้าหมาย แล้วโจมตี",
         "description": "พุ่งเข้าใส่เป้าหมาย สร้าง \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e140%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e พร้อมทำการ \u003ccolor=yellow\u003eโจมตีปกติ\u003c/color\u003e ทันที และเพิ่ม \u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003e ของ \u003ccolor=yellow\u003eหมอก\u003c/color\u003e ชั่วคราว หาก \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e นี้สังหารเป้าหมาย จะฟื้นฟู 15\u003csprite=5\u003e พลังชีวิต และลด \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e 15%\n\n\u003ccolor=yellow\u003eจำนวนครั้ง\u003c/color\u003e ถูกฟื้นฟูเต็มจำนวนในทันที",
         "rawDesc": "พุ่งเข้าใส่เป้าหมาย สร้าง\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {0} ทำ\u003ccolor=yellow\u003eการโจมตีพื้นฐาน\u003c/color\u003eทันที และเพิ่ม\u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003eของ\u003ccolor=yellow\u003eหมอก\u003c/color\u003eชั่วคราว หาก\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003eนี้สังหารเป้าหมาย จะฟื้นฟูพลังชีวิต {1} และลด\u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e {2}\n\n\u003ccolor=yellow\u003eชาร์จ\u003c/color\u003eทั้งหมดจะถูกฟื้นฟูพร้อมกัน",
@@ -4413,7 +4413,7 @@
         "name": "Flèche",
         "lore": "เร็วกว่าแสง"
     },
-    "L_ButchersStrike": {
+    "St_L_ButchersStrike": {
         "shortDescription": "สร้างความเสียหายไปข้างหน้า รวบรวมเนื้อเพื่อรักษาและแข็งแกร่งขึ้น",
         "description": "เหวี่ยงใบมีดไปด้านหน้า สร้างความเสียหาย \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e200%\u003c/color\u003e\u003csprite=5\u003e แก่ศัตรู และ \u003ccolor=yellow\u003eลด\u003c/color\u003e \u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003e ของศัตรูลง 30% เป็นเวลา 2 วินาที\n\nหากศัตรูที่โดนใบมีดตายภายใน 3 วินาที ศัตรูจะดรอป \u003ccolor=yellow\u003eเนื้อ\u003c/color\u003e การเก็บ \u003ccolor=yellow\u003eเนื้อ\u003c/color\u003e \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e25%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eพลังชีวิต\u003c/color\u003e และเพิ่ม \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e ของ Butcher\u0027s Strike ขึ้น 1% อย่างถาวร",
         "rawDesc": "เหวี่ยงใบมีดไปข้างหน้า สร้างความเสียหาย {0} แก่ศัตรูและ \u003ccolor=yellow\u003eลด\u003c/color\u003e \u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003e ของพวกเขาลง {1} เป็นเวลา {2} วินาที\n\nหากศัตรูที่ถูกใบมีดโจมตีตายภายใน {3} วินาที พวกเขาจะดรอป \u003ccolor=yellow\u003eเนื้อ\u003c/color\u003e การเก็บ \u003ccolor=yellow\u003eเนื้อ\u003c/color\u003e จะ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e \u003ccolor=yellow\u003eพลังชีวิต\u003c/color\u003e {4} และเพิ่ม \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e ของ Butcher\u0027s Strike อย่างถาวร {5}",
@@ -4500,7 +4500,7 @@
         "name": "Butcher\u0027s Strike",
         "lore": null
     },
-    "D_BeautifulThreat": {
+    "St_D_BeautifulThreat": {
         "shortDescription": "โจมตีปกติระยะไกล สร้างความเสียหายแก่ศัตรู และรักษาพันธมิตร",
         "description": "การโจมตีพื้นฐานของคุณกลายเป็นระยะไกล การใช้สกิลความทรงจำใดๆ หรือการใช้แดช จะได้รับ 2 สแต็กของ \u003ccolor=yellow\u003eGolden Feather\u003c/color\u003e สูงสุดไม่เกิน 6 สแต็ก ขณะที่คุณมีสแต็ก \u003ccolor=yellow\u003eGolden Feather\u003c/color\u003e ความเร็วในการโจมตีของคุณจะเพิ่มขึ้น 20%\n\nเมื่อคุณโจมตีศัตรูที่มีสแต็กขนนก สแต็กจะถูกใช้ไป 1 สแต็กเพื่อสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e90%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e และ \u003ccolor=yellow\u003eฟื้นฟูพลังชีวิต\u003c/color\u003e ให้ Aurena เป็นจำนวน \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e14%\u003c/color\u003e\u003csprite=5\u003e เมื่อคุณฟื้นฟูพลังชีวิตให้กับพันธมิตรที่มีสแต็กขนนก สแต็กจะถูกใช้ไป 1 สแต็กเพื่อ \u003ccolor=yellow\u003eฟื้นฟูพลังชีวิต\u003c/color\u003e เป้าหมายเพิ่มเติมอีก \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e22%\u003c/color\u003e\u003csprite=5\u003e",
         "rawDesc": "\u003ccolor=yellow\u003eการโจมตีพื้นฐาน\u003c/color\u003eของคุณจะกลายเป็นการโจมตีระยะไกล การใช้ \u003ccolor=yellow\u003eMemory\u003c/color\u003e ใด ๆ หรือใช้ \u003ccolor=yellow\u003eDodge\u003c/color\u003e จะมอบ \u003ccolor=yellow\u003eGolden Feather\u003c/color\u003e {0} สแต็ก สูงสุด {1} สแต็ก ขณะที่มี \u003ccolor=yellow\u003eGolden Feather\u003c/color\u003e สแต็กอยู่ \u003ccolor=yellow\u003eความเร็วในการโจมตี\u003c/color\u003eของคุณจะเพิ่มขึ้น {2}\n\nเมื่อคุณโจมตีศัตรูที่มีสแต็กขนนก สแต็กจะถูกใช้ไป 1 สแต็ก เพื่อสร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {3} และ \u003ccolor=yellow\u003eรักษา\u003c/color\u003e Aurena {4} เมื่อคุณรักษาพันธมิตรที่มีสแต็กขนนก สแต็กจะถูกใช้ไป 1 สแต็ก เพื่อ\u003ccolor=yellow\u003eรักษา\u003c/color\u003eเป้าหมายเพิ่มขึ้น {5}",
@@ -4587,7 +4587,7 @@
         "name": "Beautiful Threat",
         "lore": "อนุภาคสีทองซึ่งเป็นผลพลอยได้จากพลังงานแยกส่วน ได้ตกผลึกกลายเป็นรูปทรงคล้ายขนนก ก่อให้เกิดผลข้างเคียงที่งดงามและสามารถทำนายได้โดยสิ้นเชิง ขนแต่ละเส้นไม่ว่าจะใช้ในการแยกส่วนหรือการรวมเข้าด้วยกัน ก็จะทำหน้าที่เป็นสื่อกลางที่สมบูรณ์แบบสำหรับพลังอำนาจ"
     },
-    "R_ShadowWalk": {
+    "St_R_ShadowWalk": {
         "shortDescription": "พุ่งเข้าโจมตีศัตรูที่อยู่ใกล้เคียง, ความมืด",
         "description": "พุ่งไปข้างหน้าอย่างรวดเร็วและยิงดาร์คชาร์ด 3 ชิ้นใส่ศัตรูที่อยู่ใกล้เคียง ชาร์ดแต่ละชิ้นสร้างความเสียหาย \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e65%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายมืด\u003c/color\u003e และกระตุ้น \u003ccolor=yellow\u003eผลของการโจมตี\u003c/color\u003e 50%",
         "rawDesc": "พุ่งไปข้างหน้าอย่างรวดเร็วและยิงสะเก็ดมืด {0} อันใส่ศัตรูที่อยู่ใกล้เคียง สะเก็ดแต่ละอันสร้าง \u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e {1} และทำให้เกิด \u003ccolor=yellow\u003eผลกระทบการโจมตี\u003c/color\u003e {2}",
@@ -4635,7 +4635,7 @@
         "name": "Shadow Walk",
         "lore": null
     },
-    "L_Blizzard": {
+    "St_L_Blizzard": {
         "shortDescription": "ความเสียหายความเย็นแบบพื้นที่, เกราะป้องกัน",
         "description": "เสกพายุหิมะในพื้นที่เป้าหมาย 4\u003csprite=5\u003e ครั้ง ทุก 0.7 วินาที สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e180%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายน้ำแข็ง\u003c/color\u003e แก่ศัตรู และมอบ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e60%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eบาเรีย\u003c/color\u003e ให้แก่พันธมิตร ซึ่งจะค่อยๆ หายไปใน 3.5 วินาที\nสามารถคงไว้ได้พร้อมกันสูงสุด 10 อัน",
         "rawDesc": "อัญเชิญพายุหิมะในพื้นที่เป้าหมาย {0} ครั้ง ทุก {1} วินาที สร้าง\u003ccolor=yellow\u003eความเสียหายน้ำแข็ง\u003c/color\u003e {2} แก่ศัตรู และมอบ\u003ccolor=yellow\u003eบาเรีย\u003c/color\u003e {3} ให้แก่พันธมิตร ซึ่งจะค่อยๆ หายไปใน {4} วินาที\nสามารถรักษาสภาพไว้ได้สูงสุด {5} ในเวลาเดียวกัน",
@@ -4722,7 +4722,7 @@
         "name": "Blizzard",
         "lore": "ลมหายใจของข้า... ถูกพรากไป\nเสียงกรีดร้องแข็งค้างอยู่ในอากาศ และความหนาวเย็นที่เจาะลึกถึงกระดูกได้ฉกฉวยความรู้สึกทั้งหมดไปจากข้า\n\nเสียงหอนของหมาป่าตัวนั้นไม่ใช่เสียงของผู้ชนะ มันคือเสียงคร่ำครวญของผู้ที่สูญสิ้นทุกสิ่งทุกอย่าง เสียงกรีดร้องอันสิ้นหวังของอาณาจักรที่แตกสลาย\nและเราก็ได้ตายลงภายใต้ความสิ้นหวังอันบีบคั้นนั้น ไม่ต่างอะไรจากธุลีดิน ที่สำลักความรู้สึกไร้หนทางช่วยตนเอง\nพายุหิมะลูกนี้ไม่ใช่แค่ความหนาวเย็นธรรมดา\nมันแบกรับความสิ้นหวังของเขาที่ผสมผสานกับคำสาปของข้า ความโศกเศร้าของเขากำลังหมุนวนกับความเดือดดาลของข้า\n\nนี่คือนรกที่มีชีวิต\n\n\n- ร่องรอยความทรงจำของทหารรับจ้างผู้ถูกฝังอยู่ใต้ภูเขาหิมะ ในช่วงเวลาเพียงครู่เดียวก่อนความตาย"
     },
-    "L_CoinExplosion": {
+    "St_L_CoinExplosion": {
         "shortDescription": "ความเสียหายเบา, เชื่อในโชค",
         "description": "Throws a \u003ccolor=yellow\u003eCoin\u003c/color\u003e at the cost of 1% of your current \u003ccolor=yellow\u003eGold\u003c/color\u003e. The \u003ccolor=yellow\u003eCoin\u003c/color\u003e \u003ccolor=yellow\u003eexplodes\u003c/color\u003e upon hitting the first enemy, dealing \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e150%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eLight damage\u003c/color\u003e to enemies and \u003ccolor=yellow\u003estunning\u003c/color\u003e them for 1 seconds.\n\nAfter the explosion, there\u0027s a 50% chance for the \u003ccolor=yellow\u003eexplosion damage\u003c/color\u003e to permanently double, but also a 50% chance to lose all accumulated increases.\nโยน \u003ccolor=yellow\u003eเหรียญ\u003c/color\u003e โดยใช้ \u003ccolor=yellow\u003eGold\u003c/color\u003e ปัจจุบัน 1% เป็นค่าใช้จ่าย \u003ccolor=yellow\u003eเหรียญ\u003c/color\u003e จะ\u003ccolor=yellow\u003eระเบิด\u003c/color\u003e เมื่อโจมตีศัตรูตัวแรก สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e150%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายธาตุแสง\u003c/color\u003e แก่ศัตรูและ\u003ccolor=yellow\u003eสตัน\u003c/color\u003e พวกมันเป็นเวลา 1 วินาที\n\nหลังการระเบิด มีโอกาส 50% ที่ \u003ccolor=yellow\u003eความเสียหายจากการระเบิด\u003c/color\u003e จะเพิ่มเป็นสองเท่าอย่างถาวร แต่ก็มีโอกาส 50% ที่จะสูญเสียการเพิ่มขึ้นที่สะสมทั้งหมดด้วย",
         "rawDesc": "โยน \u003ccolor=yellow\u003eเหรียญ\u003c/color\u003e โดยแลกกับ \u003ccolor=yellow\u003eทอง\u003c/color\u003e ที่มีอยู่ของคุณ {0} เหรียญ \u003ccolor=yellow\u003eระเบิด\u003c/color\u003e เมื่อโดนศัตรูตัวแรก สร้างความเสียหายแสง {1} แก่ศัตรูและ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e พวกเขาเป็นเวลา {2} วินาที\n\nหลังจากการระเบิด มีโอกาส 50% ที่ \u003ccolor=yellow\u003eความเสียหายจากการระเบิด\u003c/color\u003e จะเพิ่มขึ้นเป็นสองเท่าอย่างถาวร และยังมีโอกาส 50% ที่จะสูญเสียการเพิ่มขึ้นที่สะสมไว้ทั้งหมด",
@@ -4770,7 +4770,7 @@
         "name": "Coin Explosion",
         "lore": null
     },
-    "D_ExoticMatter": {
+    "St_D_ExoticMatter": {
         "shortDescription": "สสารประหลาด",
         "description": "ได้รับ \u003ccolor=yellow\u003eปฏิสสารต่างถิ่น\u003c/color\u003e 1 สแต็ค เมื่อร่าย \u003ccolor=yellow\u003eความทรงจำ\u003c/color\u003e หรือใช้ \u003ccolor=yellow\u003eสั่นไหว\u003c/color\u003e การ\u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003eครั้งต่อไปของคุณจะบริโภคสแต็คทั้งหมดเพื่อสร้างระเบิด สร้างความเสียหาย\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e125%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eแสงสว่าง\u003c/color\u003e ต่อสแต็คแก่ศัตรู สามารถเก็บได้สูงสุด 4 สแต็ค",
         "rawDesc": "ได้รับ \u003ccolor=yellow\u003eExotic Matter\u003c/color\u003e 1 สแต็กเมื่อร่าย \u003ccolor=yellow\u003eMemory\u003c/color\u003e หรือใช้ \u003ccolor=yellow\u003eFlicker\u003c/color\u003e การ\u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003eครั้งถัดไปของคุณจะใช้สแต็กทั้งหมดเพื่อสร้างระเบิด, สร้างความเสียหาย\u003ccolor=yellow\u003eแสง\u003c/color\u003e {0} หน่วยต่อสแต็กแก่ศัตรู สามารถเก็บได้สูงสุด {1} สแต็ก",
@@ -4805,7 +4805,7 @@
         "name": "Exotic Matter",
         "lore": "สามัญสำนึกเป็นเพียงหน้าต่างแคบๆ เท่านั้น ใช่ไหมเล่า\nหากเจ้ามิได้เห็นเรื่องนี้ด้วยตาตนเอง เจ้าอาจจะปัดมันทิ้งไปว่า เป็นเพียงเรื่องเล่าอันงดงาม ดั่งดวงดาวในยามค่ำคืนกระมัง"
     },
-    "R_StaticDischarge": {
+    "St_R_StaticDischarge": {
         "shortDescription": "สร้างความเสียหายธาตุแสงแบบ AoE ในระยะใกล้",
         "description": "\u003ccolor=yellow\u003eกดค้าง\u003c/color\u003e เพื่อชาร์จไฟฟ้าสถิต รับ 40\u003csprite=5\u003e เกราะ เมื่อปล่อย จะระเบิดไฟฟ้าสถิต สร้าง\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e150%\u003c/color\u003e\u003csprite=5\u003e–\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e780%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e แก่ศัตรูตามระยะเวลาการชาร์จ ผลักกระเด็น และลด \u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003e ลง 60% เป็นเวลา 2 วินาที เกราะที่ได้รับจะหายไป 1 วินาทีหลังจากไฟฟ้าสถิตระเบิด\n\nการชาร์จเป็นเวลา 1 วินาที จะทำให้ความเสียหายและพื้นที่ผลกระทบสูงสุด",
         "rawDesc": "\u003ccolor=yellow\u003eกดค้าง\u003c/color\u003eเพื่อชาร์จไฟฟ้าสถิต รับเกราะ {0} เมื่อปล่อย จะเกิดการระเบิดของไฟฟ้าสถิต สร้าง\u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e {1}–{2} ให้กับศัตรูตามระยะเวลาการชาร์จ ผลักพวกเขากลับไป และลด\u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003eของพวกเขาลง {3} เป็นเวลา {4} วินาที เกราะที่ได้รับจะหายไปใน {5} วินาทีหลังจากไฟฟ้าสถิตระเบิด\n\nการชาร์จเป็นเวลา {6} วินาที จะทำให้ความเสียหายและพื้นที่ผลกระทบเพิ่มขึ้นสูงสุด",
@@ -4905,7 +4905,7 @@
         "name": "Static Discharge",
         "lore": null
     },
-    "D_PrismaticEyes": {
+    "St_D_PrismaticEyes": {
         "shortDescription": "ความเร็วโจมตีเพิ่มขึ้น, การโจมตีปกติ",
         "description": "เพิ่ม \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e 20%\u003csprite=5\u003e แม้จะไม่สามารถ \u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003e ได้เอง แต่ \u003ccolor=yellow\u003eตำรา\u003c/color\u003e จะทำการ \u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003e ใส่ศัตรูที่ใกล้ที่สุดของ Bismuth โดยอัตโนมัติ สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e70%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายเพิ่มเติม\u003c/color\u003e",
         "rawDesc": "เพิ่ม \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e {0} ในขณะที่ไม่สามารถ \u003ccolor=yellow\u003eโจมตีปกติ\u003c/color\u003e ด้วยตนเองได้ แต่ \u003ccolor=yellow\u003eหนังสือ\u003c/color\u003e จะทำการ \u003ccolor=yellow\u003eโจมตีปกติ\u003c/color\u003e โดยอัตโนมัติใส่ศัตรูที่อยู่ใกล้ Bismuth ที่สุด สร้าง \u003ccolor=yellow\u003eความเสียหายเพิ่มเติม\u003c/color\u003e {1}",
@@ -4940,7 +4940,7 @@
         "name": "Prismatic Vision",
         "lore": "เมื่อเด็กสาวลืมตา หนังสือเก่าเล่มนั้นก็เริ่มอ่านโลก\n\nเธอนั่งนิ่งๆ จ้องมองโลกที่อยู่พ้นจากหน้ากระดาษ\nหนังสือจารึกเรื่องราวบรรทัดต่อไป และเมื่อแต่ละประโยคดำเนินต่อจากประโยคก่อนหน้า\nโลกก็เคลื่อนไหวตามที่หนังสือปรารถนาและตามที่เด็กสาวปรารถนา\n\nเด็กสาวเปี่ยมล้นด้วยความสุขที่ในที่สุดก็ได้เห็นเรื่องราวของตนเองเผยออกมา"
     },
-    "E_FinalExplosion": {
+    "St_E_FinalExplosion": {
         "shortDescription": "ทำลายตัวเอง สร้างความเสียหายแสงมาก",
         "description": "ได้รับ 25%\u003csprite=5\u003e \u003ccolor=yellow\u003eความเร็วเคลื่อนที่\u003c/color\u003e เป็นเวลา 2 วินาที จากนั้นสละ 40% ของพลังชีวิตสูงสุดเพื่อสร้างการระเบิดอันทรงพลัง ศัตรูที่ถูกจับในการระเบิดจะได้รับ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e850%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e และถูก \u003ccolor=yellow\u003eสตัน\u003c/color\u003e เป็นเวลา 2.5 วินาที หากตายไปแล้วหรือถูกฆ่าด้วยการสละชีพ \u003ccolor=yellow\u003eความเสียหายระเบิด\u003c/color\u003e จะเพิ่มขึ้น 150%",
         "rawDesc": "ได้รับ {0} \u003ccolor=yellow\u003eความเร็วเคลื่อนที่\u003c/color\u003e เป็นเวลา {1} วินาที จากนั้นเสียสละ {2} ของพลังชีวิตสูงสุดของฉันเพื่อจุดชนวนระเบิดอันทรงพลัง ศัตรูที่โดนระเบิดจะได้รับ {3} \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e และ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e เป็นเวลา {4} วินาที หากตายไปแล้วหรือถูกฆ่าโดยการเสียสละ \u003ccolor=yellow\u003eความเสียหายระเบิด\u003c/color\u003e จะเพิ่มขึ้น {5}",
@@ -5021,7 +5021,7 @@
         "name": "Final Explosion",
         "lore": "วงล้อมของคณะอัศวินเปลวเพลิงศักดิ์สิทธิ์ได้กระชับเข้ามาโดยไร้ช่องโหว่แม้แต่น้อย\nเปลวเพลิงศักดิ์สิทธิ์ของพวกเขาได้ขับไล่ความมืดมิดออกจากตรอกซอกซอยที่ลึกที่สุด\nสมาชิกของนิกายลูซิดที่จนมุมอยู่ตรงทางตัน ในที่สุดก็หยุดลง\n\nแต่แทนที่จะเป็นความกลัว รอยยิ้มแปลกประหลาดที่เปี่ยมด้วยความปีติยินดีก็ปรากฏขึ้นบนใบหน้าของเขา\nเขาจ้องมองลงไปยังเหล่าอัศวินที่เข้ามาใกล้ราวกับว่าพวกเขาเป็นแมลงที่น่าสมเพช\n\n\"เจ้าคิดว่า... นี่คือจุดจบงั้นรึ? เจ้าเชื่ออย่างแท้จริงหรือว่าพวกเจ้าจะสามารถตัดสินข้าได้ด้วยเปลวเพลิงอันหยิ่งยโสของเทพเจ้าจอมปลอมนั่น?\"\n\nเขาหลับตาลงและรวบรวมประสาทสัมผัสทั้งหมด\nพ้นจากความวุ่นวายแห่งความเป็นจริง เขาก็ได้ยินมัน—เสียงกระซิบอันอ่อนโยนของโลกแห่งความฝัน\nกระแสธารที่เชี่ยวกรากที่เขาโหยหามานาน\n\nบัดนี้ ถึงเวลาที่จะละทิ้งทุกสิ่งและจากไป\nเขาเปิดตาขึ้นอีกครั้งเพื่อกล่าวคำอำลาครั้งสุดท้ายแก่ความเป็นจริง\n\n\"อำลา! เปลวเพลิงที่บอดสนิท... ร่างกายที่ไร้ค่านี้... และโลกที่แสนเลวทรามนี้!\"\n\nร่างกายของเขาเริ่มกะพริบอย่างรุนแรง เปลี่ยนเป็นสีสันที่ดูราวกับมาจากอีกโลกหนึ่ง\nคำอธิษฐาน—การถวายที่ร้อนแรงและสิ้นหวังที่สุดต่อเทพเจ้าของเขา\n\n\"ท่านลอร์ดไพรมัส! บ่าวผู้ต่ำต้อยนี้ขอถวาย... ทุกสิ่งที่เป็นข้า... แด่ท่าน ณ บัดนี้!\"\n\nเสียงร้องครั้งสุดท้ายของเขาได้ลดทอนการมีอยู่ของตนให้กลายเป็นเพียงธุลีดินกำมือเดียว\nกลายเป็นระเบิดครั้งสุดท้ายอันงดงามที่กลืนกินทุกสิ่ง\n\n\n— ร่องรอยความทรงจำจากศพในหมู่บ้านที่ถูกทำลาย"
     },
-    "R_BoneCrusher": {
+    "St_R_BoneCrusher": {
         "shortDescription": "พุ่ง, สตั๊น",
         "description": "เป็น \u003ccolor=yellow\u003eอมตะ\u003c/color\u003e และ \u003ccolor=yellow\u003eพุ่งตัว\u003c/color\u003e ไปด้านหน้าจนกว่าจะชนกำแพง สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e135%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e ต่อศัตรูที่คุณชนและลากพวกมันไปด้วย เมื่อชนกำแพง จะปล่อยคลื่นกระแทกที่สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e420%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e และ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e เป็นเวลา 1.5 วินาที\nได้รับ \u003ccolor=yellow\u003eบาเรีย\u003c/color\u003e เท่ากับ 20%\u003csprite=5\u003e ของ \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e ซึ่งจะหายไป 3 วินาทีหลังจากการพุ่งตัวสิ้นสุดลง",
         "rawDesc": "กลายเป็น \u003ccolor=yellow\u003eต้านทานไม่ได้\u003c/color\u003e และ \u003ccolor=yellow\u003eพุ่ง\u003c/color\u003e ไปข้างหน้าจนกว่าจะชนกำแพง สร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {0} ให้กับศัตรูที่โดนและลากพวกเขาไปด้วย เมื่อชนกำแพง จะปล่อยคลื่นช็อกเวฟที่สร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {1} และ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e เป็นเวลา {2} วินาที\nได้รับ \u003ccolor=yellow\u003eเกราะป้องกัน\u003c/color\u003e เท่ากับ {3} ของ \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e ซึ่งจะหายไป {4} วินาทีหลังจากสิ้นสุดการพุ่ง",
@@ -5095,7 +5095,7 @@
         "name": "Bone Crusher",
         "lore": null
     },
-    "Q_Discipline": {
+    "St_Q_Discipline": {
         "shortDescription": "ความเสียหายเบา, พุ่ง",
         "description": "พุ่งเข้าใส่เป้าหมายและทุบค้อนของคุณ สร้างความเสียหาย \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e125%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eเบา\u003c/color\u003e แก่ศัตรู และเปิดใช้งาน \u003ccolor=yellow\u003eเอฟเฟกต์การโจมตี\u003c/color\u003e 50% ทุกครั้งที่คุณ \u003ccolor=yellow\u003eโจมตี\u003c/color\u003e ศัตรู \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e จะ \u003ccolor=yellow\u003eลดลง\u003c/color\u003e 8%",
         "rawDesc": "พุ่งเข้าหาเป้าหมายและทุบค้อนของคุณลงไป สร้าง\u003ccolor=yellow\u003eความเสียหายเบา\u003c/color\u003e {0} แก่ศัตรู และกระตุ้น\u003ccolor=yellow\u003eผลของการโจมตี\u003c/color\u003e {1} ทุกครั้งที่คุณ\u003ccolor=yellow\u003eโจมตี\u003c/color\u003eศัตรู \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003eจะ\u003ccolor=yellow\u003eลดลง\u003c/color\u003e {2}",
@@ -5143,7 +5143,7 @@
         "name": "Discipline",
         "lore": "ไอ้พวกนอกรีต เจ้าจะหนีไปทำไมกัน?\nกระบองของข้าเพียงนำพาแกะที่หลงทางกลับสู่หนทางอันชอบธรรม ไม่มีผู้ใดหลุดพ้นจากคำสอนนี้ได้ หากราคาของการเรียนรู้คือกระดูกที่แหลกหัก นั่นก็คือราคาที่ต้องจ่าย"
     },
-    "Q_Laceration": {
+    "St_Q_Laceration": {
         "shortDescription": "ความเสียหาย สองรูปแบบ",
         "description": "การโจมตีปกติแต่ละครั้งจะสลับร่างของ Laceration ระหว่าง \u003ccolor=#f28a8a\u003eร่างสีแดง\u003c/color\u003e และ \u003ccolor=#8ab2f2\u003eร่างสีน้ำเงิน\u003c/color\u003e เมื่อใช้สกิลนี้ มันจะปล่อยเอฟเฟกต์ที่แตกต่างกันออกไปขึ้นอยู่กับร่างปัจจุบัน\n\n\u003ccolor=#f28a8a\u003eร่างสีแดง:\u003c/color\u003e พุ่งตัวในระยะสั้นๆ เฉือนศัตรูในพื้นที่แคบ สร้าง \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e155%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e และกระตุ้น \u003ccolor=yellow\u003eเอฟเฟกต์การโจมตี\u003c/color\u003e เมื่อคุณโจมตีศัตรูเป็นครั้งแรก จะลด \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e ลง 35% วินาที\n\n\u003ccolor=#8ab2f2\u003eร่างสีน้ำเงิน:\u003c/color\u003e กระโดดขึ้นไปในอากาศเพื่อให้ \u003ccolor=yellow\u003eไม่ได้รับความเสียหาย\u003c/color\u003e ชั่วครู่ จากนั้นเหวี่ยงใบมีดเพื่อสร้าง \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e200%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e และกระตุ้น \u003ccolor=yellow\u003eเอฟเฟกต์การโจมตี\u003c/color\u003e แก่ศัตรูที่อยู่ใกล้เคียงทั้งหมด",
         "rawDesc": "การโจมตีพื้นฐานแต่ละครั้งจะสลับรูปแบบของ Laceration ระหว่าง \u003ccolor=#f28a8a\u003eรูปแบบสีแดง\u003c/color\u003e และ \u003ccolor=#8ab2f2\u003eรูปแบบสีน้ำเงิน\u003c/color\u003e เมื่อใช้สกิลนี้ มันจะปลดปล่อยเอฟเฟกต์ที่แตกต่างกันไปตามรูปแบบปัจจุบัน\n\n\u003ccolor=#f28a8a\u003eรูปแบบสีแดง:\u003c/color\u003e แดชระยะสั้น ฟันศัตรูในพื้นที่แคบเพื่อสร้างความเสียหาย \u003ccolor=yellow\u003eความมืด\u003c/color\u003e {0} และกระตุ้น \u003ccolor=yellow\u003eเอฟเฟกต์การโจมตี\u003c/color\u003e เมื่อโจมตีศัตรูเป็นครั้งแรก ลด \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e {1} วินาที\n\n\u003ccolor=#8ab2f2\u003eรูปแบบสีน้ำเงิน:\u003c/color\u003e กระโดดขึ้นไปในอากาศเพื่อให้ \u003ccolor=yellow\u003eไม่สามารถถูกโจมตีได้\u003c/color\u003e ชั่วขณะ จากนั้นเหวี่ยงใบมีดเพื่อสร้างความเสียหาย \u003ccolor=yellow\u003eความมืด\u003c/color\u003e {2} และกระตุ้น \u003ccolor=yellow\u003eเอฟเฟกต์การโจมตี\u003c/color\u003e แก่ศัตรูทั้งหมดที่อยู่ใกล้เคียง",
@@ -5191,7 +5191,7 @@
         "name": "Laceration",
         "lore": "จะโจมตีหรือหลีกหนี ผลลัพธ์ก็มิได้ต่างกัน\nมีแต่เพียงรูปแบบการเคลื่อนไหวของเจ้าเท่านั้นที่จะแปรเปลี่ยนไป"
     },
-    "E_AntiGravity": {
+    "St_E_AntiGravity": {
         "shortDescription": "สตัน, ดาเมจวงกว้าง",
         "description": "พลิกผันแรงโน้มถ่วงในตำแหน่งเป้าหมาย ยกศัตรูทั้งหมดที่อยู่ในระยะขึ้นเป็นเวลา 1.6 วินาที จากนั้นทุบพวกมันลงกับพื้น สร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e400%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003edamage\u003c/color\u003e",
         "rawDesc": "ย้อนกลับแรงโน้มถ่วงในตำแหน่งเป้าหมาย ยกศัตรูทั้งหมดภายในระยะเป็นเวลา {0} วินาที จากนั้นทุบพวกมันลงกับพื้น สร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {1}",
@@ -5220,7 +5220,7 @@
         "name": "Anti-Gravity",
         "lore": "นายท่านของเรา ลอร์ดเอเรบอส เพียงปรารถนาที่จะทำให้นายหญิงนิกซ์พึงพอใจเท่านั้น\n\nเมื่อเขาย่ำเท้าลงเบาๆ ในป่าดวงดาว แนวทิวเขาที่มั่นคงก็ผุดขึ้นและลอยละลิ่วราวกับก้อนกรวด ถูกแขวนไว้ด้วยสายใย ด้วยการกวาดมือเพียงครั้งเดียว พื้นโลกก็จะแยกออกจากกันและผงาดขึ้นอีกครั้ง สร้างสรรค์ภูมิทัศน์ใหม่ๆ นายท่านของเราจะหัวเราะราวกับเด็กน้อยเมื่อได้เห็นภาพอันน่าตื่นตานี้ พลังที่สั่นสะเทือนสวรรค์นั้นเป็นเพียงข้อพิสูจน์แห่งรักอันเจิดจรัสที่ตั้งใจมอบให้แก่คนผู้เดียวเท่านั้น\n\nทว่า มีเพียงข้าเท่านั้นหรือที่เห็นเงาเยียบเย็นทอดผ่านใบหน้าของนายหญิงนิกซ์ในห้วงเวลานั้น?\n\nสิ่งที่ส่องประกายในดวงตาของนางมิใช่ความยินดี แต่เป็นความเกรงขามและ... ประกายแห่งความริษยาอันดุเดือดที่นางไม่อาจปกปิดได้\n\n\n- ร่องรอยความทรงจำของวิญญาณแห่งรัตติกาลไร้นาม"
     },
-    "C_BeamOfLight": {
+    "St_C_BeamOfLight": {
         "shortDescription": "สร้างความเสียหายธาตุแสงแก่ศัตรูและฟื้นฟูพลังชีวิตให้พันธมิตร",
         "description": "ปล่อยลำแสงใส่ศัตรูเป็นเวลา 1.7\u003csprite=5\u003e วินาที สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e507%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e ต่อวินาที และ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e พันธมิตรใกล้เคียงที่มีเปอร์เซ็นต์พลังชีวิตต่ำที่สุดด้วย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e73%\u003c/color\u003e\u003csprite=5\u003e ต่อวินาที",
         "rawDesc": "ปล่อยลำแสงใส่ศัตรูเป็นเวลา {0} วินาที สร้างความเสียหาย\u003ccolor=yellow\u003eแสง\u003c/color\u003e {1} ต่อวินาที และ\u003ccolor=yellow\u003eฟื้นฟูพลังชีวิต\u003c/color\u003eให้พันธมิตรที่อยู่ใกล้ที่สุดซึ่งมีเปอร์เซ็นต์พลังชีวิตต่ำสุด {2} ต่อวินาที",
@@ -5250,7 +5250,7 @@
         "name": "Beam of Light",
         "lore": "-- บันทึกการทดลอง, ปีที่ 3, วันที่ 20 ของเดือนที่ 1\n-- ผู้บันทึก: แครี่เยอร์ เบย์โอเน็ต\n-- หัวข้องานวิจัย: ลำแสงแห่งแสง\n\n\nผู้รับการทดลอง: แม่ม่ายสาว มีแผลไหม้รุนแรงตั้งแต่ใบหน้าจนถึงไหล่ และมีบาดแผลติดเชื้อที่โหนกแก้ม\nผลลัพธ์: การติดเชื้อที่โหนกแก้มลดลงอย่างเห็นได้ชัด และรอยไหม้ดูจางลงเล็กน้อย\n\nผู้รับการทดลอง: เด็กชาย มีบาดแผลเปิดที่หลังจากการถูกเฆี่ยน\nผลลัพธ์: บาดแผลที่หลังหายดี เด็กชายอ้างว่า \"นิสัยการลักขโมย\" ของตน \"หายขาดแล้ว\" และเรียกร้องให้ปล่อยตัว\n\nผู้รับการทดลอง: เจฟฟ์ (ฆาตกรชื่อกระฉ่อน) มีบาดแผลถูกยิงที่ข้อเท้าทั้งสองข้างและข้อมือทั้งสองข้าง\nผลลัพธ์: เขาบ่นว่าปวดหัวอย่างรุนแรง จากนั้นก็มีเสียง \"ปุ\" เล็กๆ ก่อนที่เขาจะหมดสติไป\nหมายเหตุ: ยังคงหายใจอยู่แต่ไม่รู้สึกตัว\n\n\nป.ล. ฝ่าบาทกษัตริย์โรจิทได้พระราชทานนักโทษประหารเพิ่มอีก 10 คน งานวิจัยเกี่ยวกับลำแสงนี้ยังคงมีอีกมาก แต่มีสิ่งหนึ่งที่แน่นอนคือ: พลังแห่งความฝันนี้จะช่วยชีวิตผู้คนมากมาย"
     },
-    "L_SpectreBullet": {
+    "St_L_SpectreBullet": {
         "shortDescription": "ผลการโจมตี, ได้รับผงฝันเมื่อสังหารศัตรู",
         "description": "ยิงกระสุนวิญญาณใส่เป้าหมาย ศัตรู สร้าง\u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e300%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e และกระตุ้น \u003ccolor=yellow\u003eเอฟเฟกต์โจมตี\u003c/color\u003e หากความเสียหายนี้ \u003ccolor=yellow\u003eสังหาร\u003c/color\u003e ศัตรูได้ รับ 5\u003csprite=5\u003e \u003ccolor=yellow\u003eผงฝัน\u003c/color\u003e",
         "rawDesc": "ยิงกระสุนวิญญาณใส่เป้าหมาย สร้าง \u003ccolor=yellow\u003eแดเมจ\u003c/color\u003e {0} และกระตุ้น \u003ccolor=yellow\u003eผลกระทบการโจมตี\u003c/color\u003e หากแดเมจนี้ \u003ccolor=yellow\u003eสังหาร\u003c/color\u003e ศัตรู จะได้รับ \u003ccolor=yellow\u003eผงฝัน\u003c/color\u003e {1}",
@@ -5285,7 +5285,7 @@
         "name": "Spectral Bullet",
         "lore": null
     },
-    "U_HerWorld": {
+    "St_U_HerWorld": {
         "shortDescription": "การเปลี่ยนรูปหลุมดำ",
         "description": "เปลี่ยนเป็น \u003ccolor=yellow\u003eหลุมดำ\u003c/color\u003e เป็นเวลา 7 วินาที ศัตรูทั้งหมดจะถูกดึงเข้าหาหลุมดำ และศัตรูที่สัมผัสจะได้รับความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e500%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eแสง\u003c/color\u003e ต่อวินาที เมื่อสิ้นสุดระยะเวลา หลุมดำจะระเบิด สร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e1,200%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eแสง\u003c/color\u003e แก่ศัตรูใกล้เคียงทั้งหมด และทำให้พวกเขาติดสถานะ \u003ccolor=yellow\u003eมึนงง\u003c/color\u003e เป็นเวลา 2.5 วินาที\n\nในสถานะหลุมดำ ได้รับ \u003ccolor=yellow\u003eเกราะ\u003c/color\u003e 120\u003csprite=5\u003e และจะไม่ตาย",
         "rawDesc": "เปลี่ยนร่างเป็น \u003ccolor=yellow\u003eหลุมดำ\u003c/color\u003e เป็นเวลา {0} วินาที ศัตรูทั้งหมดจะถูกดึงเข้าหาหลุมดำ และศัตรูที่สัมผัสจะได้รับ \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e {1} ต่อวินาที เมื่อสิ้นสุดระยะเวลา หลุมดำจะระเบิด สร้าง \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e {2} ให้แก่ศัตรูที่อยู่ใกล้เคียงทั้งหมด และ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e พวกเขาเป็นเวลา {3} วินาที\n\nในสถานะหลุมดำ จะได้รับ \u003ccolor=yellow\u003eเกราะ\u003c/color\u003e {4} และได้รับภูมิคุ้มกันความตาย",
@@ -5353,7 +5353,7 @@
         "name": "Her World",
         "lore": "นิกซ์ ดวงดาวที่สว่างไสวที่สุดในรัตติกาลอันเป็นนิรันดร์\nเทพธิดาและแรงบันดาลใจแห่งจิตวิญญาณของข้า\n\nข้าจักฉีกกระชากหัวใจแห่งอำนาจของข้าและมอบมันให้แก่ท่าน\nโปรดสร้างอาณาจักรของท่านเอง อาณาจักรแห่งความมืดและความเงียบงัน\n\nการดำรงอยู่ของข้าขับเคลื่อนด้วยความปรารถนาเดียว:\nเพื่อให้ท่านยังคงเป็นศูนย์กลางแห่งจักรวาลของข้า...  - ร่องรอยความทรงจำในคำสัตย์ของเอเรบัสที่มีต่อนิกซ์"
     },
-    "E_Blink": {
+    "St_E_Blink": {
         "shortDescription": "วาร์ป, สร้างความเสียหายเพลิงไหม้เป็นวงกว้าง",
         "description": "\u003ccolor=yellow\u003eวาร์ป\u003c/color\u003eในระยะสั้นและสร้าง\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e244%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e แก่ศัตรูที่อยู่ใกล้เคียง \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003eลดลง 13% สำหรับศัตรูแต่ละตัวที่โดนโจมตี",
         "rawDesc": "\u003ccolor=yellow\u003eเทเลพอร์ต\u003c/color\u003e ไปยังระยะทางสั้นๆ และสร้าง \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e {0} แก่ศัตรูที่อยู่ใกล้เคียง \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e จะลดลง {1} ต่อศัตรูแต่ละตัวที่โดนโจมตี",
@@ -5388,7 +5388,7 @@
         "name": "Blink",
         "lore": "สมุดบันทึกการล่า\nปีที่ x แห่งรัชสมัยของโรจิต วันที่ xx เดือน x สภาพอากาศ: มีเมฆมาก\nสถานที่ล่า: ป่าฮิซิง\nผลผลิตของวันนี้: สตรอว์เบอร์รีป่าเล็กน้อย\nเมื่อใดก็ตามที่ฉันเห็นบางสิ่งกำลังลุกไหม้ มันดึงฉันกลับไปยังวันนั้น\nภรรยาของฉัน ถูกเปลวเพลิงกลืนกินอย่างกะทันหัน และหายไปจากสายตา\n\nมันเกิดขึ้นในชั่วพริบตา เธอสลายเป็นเถ้าถ่าน สูญหายไปในเปลวเพลิงสีน้ำเงินที่สว่างจ้าจนทำให้ดวงตาของฉันแสบไปหมด\n\nฉันตรวจสอบกระสุนทุกนัดและถุงดินปืนทุกใบ แต่ไม่มีอะไรหายไป ไฟนั่นไม่ปกติ ไม่มีควัน ไม่มีความร้อน มีเพียงการทำลายล้างที่รวดเร็ว\n\nวันนี้ ขณะที่ฉันเฝ้ามองนักธนูผ่านกล้องเล็ง ฉันได้ค้นพบบางสิ่ง\n\nไอ้พวก Lucid สารเลวนั่น ใช้เปลวไฟสีน้ำเงิน\n\n...\n\nฉันต้องการข้อมูลเพิ่มเติม\n\nเพื่อที่จะนำภรรยาของฉันกลับมา ฉันต้องระมัดระวัง ตอนนี้ถึงเวลาที่จะต้องกลืนความแค้นที่เดือดพล่านของฉันลงไป"
     },
-    "D_HeartOfThePack": {
+    "St_D_HeartOfThePack": {
         "shortDescription": "หัวใจแห่งฝูง",
         "description": "เมื่อใดก็ตามที่นาเชียรักษาตัวเองหรือพันธมิตร มอบ \u003ccolor=yellow\u003eบาเรีย\u003c/color\u003e หรือใช้ \u003ccolor=yellow\u003eบัฟ\u003c/color\u003e เธอจะมอบ \u003ccolor=yellow\u003eบอนด์\u003c/color\u003e ให้กับเป้าหมายด้วย การ \u003ccolor=yellow\u003eโจมตีปกติ\u003c/color\u003e ครั้งต่อไปจากเป้าหมายที่มี \u003ccolor=yellow\u003eบอนด์\u003c/color\u003e จะได้รับการเสริมพลัง สร้าง \u003ccolor=yellow\u003eระเบิด\u003c/color\u003e ที่สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e140%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e แก่ศัตรู",
         "rawDesc": "เมื่อใดก็ตามที่นาเชียรักษาตัวเองหรือพันธมิตร มอบ \u003ccolor=yellow\u003eบาเรีย\u003c/color\u003e หรือมอบ \u003ccolor=yellow\u003eบัฟ\u003c/color\u003e เธอจะมอบ \u003ccolor=yellow\u003eพันธะ\u003c/color\u003e ให้กับเป้าหมายด้วย การ \u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003e ครั้งต่อไปจากเป้าหมายที่มี \u003ccolor=yellow\u003eพันธะ\u003c/color\u003e จะถูกเสริมพลัง สร้าง \u003ccolor=yellow\u003eระเบิด\u003c/color\u003e ที่สร้าง \u003ccolor=yellow\u003eความเสียหายแสง\u003c/color\u003e {0} แก่ศัตรู",
@@ -5410,7 +5410,7 @@
         "name": "Heart of the Pack",
         "lore": "พวกเขาว่ากันว่าเมื่อนาเชียสัมผัสวิญญาณใด วิญญาณนั้นก็จะหายใจด้วยลมหายใจของนางชั่วขณะหนึ่ง ตราบใดที่ความอบอุ่นนั้นยังคงอยู่ วิญญาณก็จะเรืองรองด้วยแสงเดียวกันกับผู้พิทักษ์ป่า"
     },
-    "R_NaturesWhisper": {
+    "St_R_NaturesWhisper": {
         "shortDescription": "บัญชาการอัญเชิญ, เพิ่มความเร็วโจมตี",
         "description": "บัญชาการให้ซัมมอนทั้งหมดของนาเชียเคลื่อนที่ไปยังเป้าหมายหรือโจมตีศัตรูเป้าหมาย เพิ่ม \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e ของนาเชียและซัมมอนทั้งหมดของเธอ 18%\u003csprite=5\u003e เป็นเวลา 3 วินาที",
         "rawDesc": "สั่งให้สิ่งอัญเชิญทั้งหมดของนัคเชียเคลื่อนที่ไปยังตำแหน่งเป้าหมายหรือโจมตีศัตรูเป้าหมาย เพิ่ม \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e ของนัคเชียและสิ่งอัญเชิญทั้งหมดของเธอ {0} เป็นเวลา {1} วินาที",
@@ -5445,7 +5445,7 @@
         "name": "Nature\u0027s Whisper",
         "lore": "ไม่จำเป็นต้องใช้คำพูดใดๆ ระหว่างนาเคียกับภูตพรายของนาง เพียงแค่ถอนหายใจด้วยความเศร้าหรือมองอย่างมุ่งมั่น ป่าทั้งป่าก็พร้อมทำตามเจตจำนงของนาง\nจากนั้น เสียงกระซิบอันอ่อนโยนของนางก็จะนำพาเหล่าบุตรธิดาของนางตรงเข้าสู่ใจกลางศัตรูของนางอย่างแม่นยำ"
     },
-    "D_DoubleTap": {
+    "St_D_DoubleTap": {
         "shortDescription": "แตะสองครั้ง",
         "description": "เพิ่มความเสียหายจากการโจมตี 5\u003csprite=5\u003e และโอกาสติดคริติคอล 20%\u003csprite=5\u003e หลังจากใช้ \u003ccolor=yellow\u003eMemory\u003c/color\u003e หรือ \u003ccolor=yellow\u003eNimble Dodge\u003c/color\u003e การ\u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003eครั้งต่อไปของคุณจะยิงสองครั้ง",
         "rawDesc": "เพิ่มความเสียหายจากการโจมตี {0} และเพิ่มโอกาสติดคริติคอล {1} หลังจากใช้ \u003ccolor=yellow\u003eMemory\u003c/color\u003e หรือ \u003ccolor=yellow\u003eNimble Dodge\u003c/color\u003e การ \u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003e ครั้งต่อไปของคุณจะยิงสองครั้ง",
@@ -5480,7 +5480,7 @@
         "name": "Double Tap",
         "lore": "ลาเซร์ตาไม่เคยแพ้พนันเลยแม้แต่ครั้งเดียว\nเหรียญหนึ่งนัดเพื่อการพนัน และอีกหนึ่งนัดสำหรับเบียร์ในมือคู่ต่อสู้"
     },
-    "C_Starfall": {
+    "St_C_Starfall": {
         "shortDescription": "ความเสียหายเบา",
         "description": "เรียก 4\u003csprite=5\u003e ดาวตก ใส่ศัตรูแบบสุ่มที่อยู่ใกล้ แต่ละดาวตกสร้างความเสียหายธาตุแสง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e70%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eLight damage\u003c/color\u003e",
         "rawDesc": "เรียกดาวตก {0} ดวงลงมาใส่ศัตรูแบบสุ่มที่อยู่ใกล้เคียง ดาวตกแต่ละดวงสร้างความเสียหาย \u003ccolor=yellow\u003eแสงสว่าง\u003c/color\u003e {1} หน่วย",
@@ -5515,7 +5515,7 @@
         "name": "Starfall",
         "lore": null
     },
-    "QR_Innocence": {
+    "St_QR_Innocence": {
         "shortDescription": "สร้างความเสียหายเบาแบบวงกว้าง ลดความเร็วเคลื่อนที่",
         "description": "ยิงมิสไซล์วิญญาณ 3\u003csprite=5\u003e ลูกใส่ศัตรูใกล้เคียง มิสไซล์แต่ละลูกจะระเบิด สร้างความเสียหายธาตุแสง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e120%\u003c/color\u003e\u003csprite=5\u003e แก่ศัตรู และลดความเร็วในการเคลื่อนที่ \u003ccolor=yellow\u003eMovement Speed\u003c/color\u003e ลง 60% เป็นเวลา 1 วินาที",
         "rawDesc": "ยิงมิสไซล์วิญญาณ {0} ลูกใส่ศัตรูที่อยู่ใกล้เคียง มิสไซล์แต่ละลูกจะระเบิด สร้างความเสียหายเบา \u003ccolor=yellow\u003eLight Damage\u003c/color\u003e {1} ให้ศัตรูและลด \u003ccolor=yellow\u003eMovement Speed\u003c/color\u003e ลง {2} เป็นเวลา {3} วินาที",
@@ -5570,7 +5570,7 @@
         "name": "Pure Soul",
         "lore": "กาลครั้งหนึ่งนานมาแล้ว มีเด็กหญิงตัวเล็กมากคนหนึ่ง\nเมื่อใดก็ตามที่เธอเห็นคนไม่ดี หัวใจของเธอก็จะเจ็บปวด\n\nดังนั้น เธอจึงหยิบชิ้นส่วนที่เปล่งประกายจากหัวใจของเธอเอง แล้วโยนออกไปให้พวกวายร้าย\nเมื่อใดก็ตามที่แสงบริสุทธิ์นั้นสัมผัสใครก็ตาม แม้แต่หัวใจที่ชั่วร้ายที่สุดก็จะอ่อนโยนลง\n\nเหล่าคนร้ายจะตระหนักได้ถึงความผิดทั้งหมดที่พวกเขาได้ทำลงไปอย่างกะทันหัน และด้วยน้ำตาคลอเบ้า พวกเขาก็จะหลับใหลเข้าสู่การนิทราอันสงบสุข"
     },
-    "R_Frostbite": {
+    "St_R_Frostbite": {
         "shortDescription": "การโจมตีได้รับพลัง, เย็น",
         "description": "การ\u003ccolor=yellow\u003eโจมตี\u003c/color\u003e 2 ครั้งถัดไปของคุณจะเร็วขึ้นและเสริมพลัง การโจมตีครั้งแรกสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e50%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายเยือกแข็ง\u003c/color\u003e เพิ่มเติม และมอบ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e110%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eบาเรีย\u003c/color\u003e ให้คุณซึ่งคงอยู่ 2 วินาที การโจมตีครั้งที่สองสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e180%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายเยือกแข็ง\u003c/color\u003e เพิ่มเติม",
         "rawDesc": "การ\u003ccolor=yellow\u003eโจมตี\u003c/color\u003e 2 ครั้งถัดไปของคุณจะเร็วขึ้นและเสริมพลัง การโจมตีครั้งแรกจะสร้าง\u003ccolor=yellow\u003eความเสียหายน้ำแข็ง\u003c/color\u003eเพิ่มเติม {0} และมอบ\u003ccolor=yellow\u003eบาเรีย\u003c/color\u003eให้คุณ {1} ที่คงอยู่เป็นเวลา {2} วินาที การโจมตีครั้งที่สองจะสร้าง\u003ccolor=yellow\u003eความเสียหายน้ำแข็ง\u003c/color\u003eเพิ่มเติม {3}",
@@ -5631,7 +5631,7 @@
         "name": "Frostbite",
         "lore": null
     },
-    "E_DoomsdayMeteor": {
+    "St_E_DoomsdayMeteor": {
         "shortDescription": "อัญเชิญ Fireball ที่ทรงพลังและสามารถส่งผลกระทบต่อพันธมิตรได้ด้วย",
         "description": "ร่ายเป็นเวลา 3 วินาทีในขณะที่ยืนนิ่ง หากสำเร็จ \u003ccolor=yellow\u003eลูกไฟมหึมา\u003c/color\u003e จะพุ่งเข้าชนพื้นที่เป้าหมาย พร้อมกระจายลูกไฟเล็กๆ รอบๆ ตัวมัน ลูกไฟมหึมาสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e1,600%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e แก่เป้าหมายและ \u003ccolor=yellow\u003eสตัน\u003c/color\u003e พวกเขาเป็นเวลา 3 วินาที ในขณะที่ลูกไฟเล็กๆ สร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e150%\u003c/color\u003e \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e\n\u003ccolor=yellow\u003eส่งผลกระทบต่อทั้งพันธมิตรและศัตรู\u003c/color\u003e",
         "rawDesc": "ร่ายเป็นเวลา 3 วินาทีขณะยืนนิ่ง หากสำเร็จจะเกิด \u003ccolor=yellow\u003eลูกไฟขนาดใหญ่\u003c/color\u003e ตกลงบนพื้นที่เป้าหมาย พร้อมกระจายลูกไฟขนาดเล็กไปรอบๆ ลูกไฟขนาดใหญ่จะสร้าง \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e {0} แก่เป้าหมายและ \u003ccolor=yellow\u003eทำให้มึนงง\u003c/color\u003e เป็นเวลา {1} วินาที ในขณะที่ลูกไฟขนาดเล็กสร้าง \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e {2} \n\u003ccolor=yellow\u003eส่งผลกระทบต่อทั้งพันธมิตรและศัตรู\u003c/color\u003e",
@@ -5679,7 +5679,7 @@
         "name": "Doomsday Meteor",
         "lore": null
     },
-    "C_Hemorrhage": {
+    "St_C_Hemorrhage": {
         "shortDescription": "เสริมพลังโจมตีครั้งถัดไปให้สร้างความเสียหายต่อเนื่อง",
         "description": "การโจมตีครั้งต่อไปของคุณจะสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e460%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e เป็นเวลา 1.2\u003csprite=5\u003e วินาที และลด \u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003e ของเป้าหมายลง 70%",
         "rawDesc": "การโจมตีครั้งต่อไปของคุณจะสร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {0} หน่วย เป็นเวลา {1} วินาที และลด \u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003e ของเป้าหมายลง {2}",
@@ -5721,7 +5721,7 @@
         "name": "Hemorrhage",
         "lore": null
     },
-    "E_FlameJet": {
+    "St_E_FlameJet": {
         "shortDescription": "ความเสียหายไฟในพื้นที่อย่างต่อเนื่อง",
         "description": "ปลดปล่อยกระแสเปลวไฟเป็นเวลา 2.5 วินาที ศัตรูที่โดนเปลวไฟนี้จะได้รับ \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e336%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายจากไฟ\u003c/color\u003e ต่อวินาที",
         "rawDesc": "ปล่อยลำแสงเพลิงเป็นเวลา {0} วินาที ศัตรูที่โดนเปลวเพลิงนี้จะได้รับความเสียหาย \u003ccolor=yellow\u003eFire damage\u003c/color\u003e {1} ต่อวินาที",
@@ -5744,7 +5744,7 @@
         "name": "Flame Jet",
         "lore": "สมุดบันทึกการล่าสัตว์\nปีที่ 2 แห่งรัชสมัยของโรจิต วันที่ xx เดือน x สภาพอากาศ: แจ่มใส\nสถานที่ล่าสัตว์: บึงอิกนิ\nผลผลิตของวันนี้: ต้นตำแยเต็มกระเป๋า\n\nมีกฎที่ข้าต้องปฏิบัติตามเสมอเมื่อไปล่าสัตว์ในบึงอิกนิ\n\n1. จงระวังหากพบรอยกรงเล็บบนรากโกงกาง\n\n2. หากรอยเหล่านั้นไม่มีตะไคร่น้ำปกคลุมอยู่ จงหลีกเลี่ยงเส้นทางนั้น\n\n3. หากเห็นควันไฟอยู่ไกล ๆ หรือถ่านไฟที่ยังคุกรุ่นบนต้นไม้ที่ไหม้เกรียม จงกลับบ้านทันที\n\nข้ากำหนดกฎเหล่านี้ขึ้นหลังจากสิ่งที่ข้าได้เห็นผ่านกล้องส่องทางไกลเมื่อฤดูร้อนที่แล้ว มีคนโง่คนหนึ่งไปดึงเถาวัลย์คาลิมเบอร์รีที่ไหม้เกรียมครึ่งหนึ่ง และเผชิญหน้ากับบาราสัสที่น่ากลัว\n\nข้าไม่เคยเห็นเปลวไฟที่ใหญ่โตขนาดนั้นมาก่อนเลย แม้แต่ในการสาธิตอาวุธไฟของราชองครักษ์"
     },
-    "R_DangerousTheory": {
+    "St_R_DangerousTheory": {
         "shortDescription": "เสริมพลังการโจมตีครั้งต่อไป",
         "description": "พุ่งไปข้างหน้าและเสริมพลังให้กับการโจมตีปกติ\u003ccolor=yellow\u003ebasic attack\u003c/color\u003eครั้งถัดไปของคุณ การโจมตีปกติ\u003ccolor=yellow\u003ebasic attack\u003c/color\u003eนี้จะกลายเป็นการโจมตีคริติคอล\u003ccolor=yellow\u003ecritical strike\u003c/color\u003e สร้างความเสียหายเพิ่มเติม\u003ccolor=yellow\u003eadditional damage\u003c/color\u003e \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e125%\u003c/color\u003e\u003csprite=5\u003e และผลักศัตรูถอยหลัง\n\nหากพลังชีวิตปัจจุบัน\u003ccolor=yellow\u003ecurrent Health\u003c/color\u003eของคุณต่ำกว่า 60% ขณะร่าย Dangerous Theory\u003ccolor=yellow\u003eDangerous Theory\u003c/color\u003e ความเสียหายเพิ่มเติม\u003ccolor=yellow\u003eadditional damage\u003c/color\u003eจะเพิ่มขึ้น 100% คูลดาวน์\u003ccolor=yellow\u003ecooldown\u003c/color\u003eจะลดลง 25% และคุณจะฟื้นฟู\u003ccolor=yellow\u003erestore\u003c/color\u003eพลังชีวิต \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e67%\u003c/color\u003e\u003csprite=5\u003e ต่อศัตรูแต่ละตัวที่ถูกโจมตี เมื่อต่อสู้กับบอส\u003ccolor=yellow\u003ebosses\u003c/color\u003e ความเสียหายเพิ่มเติม\u003ccolor=yellow\u003eadditional damage\u003c/color\u003eและการรักษา\u003ccolor=yellow\u003ehealing\u003c/color\u003eจะเพิ่มขึ้น 100%",
         "rawDesc": "พุ่งไปข้างหน้าและเสริมพลังให้กับการ\u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003eครั้งถัดไปของคุณ การ\u003ccolor=yellow\u003eโจมตีพื้นฐาน\u003c/color\u003eนี้จะกลายเป็นการ\u003ccolor=yellow\u003eโจมตีคริติคอล\u003c/color\u003e สร้าง\u003ccolor=yellow\u003eความเสียหายเพิ่มเติม\u003c/color\u003e {0} และผลักเป้าหมายให้กระเด็นออกไป\n\nหาก\u003ccolor=yellow\u003eพลังชีวิตปัจจุบัน\u003c/color\u003eของคุณต่ำกว่า {1} เมื่อร่าย \u003ccolor=yellow\u003eDangerous Theory\u003c/color\u003e \u003ccolor=yellow\u003eความเสียหายเพิ่มเติม\u003c/color\u003eจะเพิ่มขึ้น {2} \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003eจะลดลง {3} และคุณจะ\u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003eพลังชีวิต {4} สำหรับศัตรูแต่ละตัวที่โดนโจมตี เมื่อโจมตี\u003ccolor=yellow\u003eบอส\u003c/color\u003e \u003ccolor=yellow\u003eความเสียหายเพิ่มเติม\u003c/color\u003eและ\u003ccolor=yellow\u003eการฟื้นฟู\u003c/color\u003eจะเพิ่มขึ้น {5}",
@@ -5831,7 +5831,7 @@
         "name": "Dangerous Theory",
         "lore": "พวกขี้ขลาดที่อาเคานุมเรียกทฤษฎีนี้ว่า \"อันตรายเกินรับได้\"\nพวกโง่เขลา\nพวกนั้นล้มเหลวที่จะเข้าใจความงดงามของทฤษฎีที่ว่า สสารเมื่อถูกนำไปอยู่ภายใต้เงื่อนไขสุดขั้ว จะสร้างผลลัพธ์ที่ระเบิดรุนแรงที่สุด ข้าแค่กำลังพิสูจน์สมมติฐานของข้าเท่านั้น"
     },
-    "Q_IncendiaryRounds": {
+    "St_Q_IncendiaryRounds": {
         "shortDescription": "โจมตีเสริมพลัง, ไฟ",
         "description": "การโจมตีปกติ 4 ครั้งถัดไปจะ\u003csprite=5\u003eเร็วขึ้น 60% และสร้างความเสียหาย\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e100%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eไฟ\u003c/color\u003eเพิ่มเติม พร้อมเพิ่ม\u003ccolor=yellow\u003eความเร็วในการเคลื่อนที่\u003c/color\u003eของ \u003ccolor=yellow\u003eLacerta\u003c/color\u003e ชั่วขณะ",
         "rawDesc": "การโจมตีปกติ {0} ครั้งถัดไปจะเร็วขึ้น {1} และสร้าง \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e เพิ่มเติม {2} ซึ่งจะเพิ่ม\u003ccolor=yellow\u003eความเร็วเคลื่อนที่\u003c/color\u003eของ \u003ccolor=yellow\u003eLacerta\u003c/color\u003e ชั่วขณะ",
@@ -5879,7 +5879,7 @@
         "name": "Incendiary Rounds",
         "lore": "Lacerta ได้แบ่งปันความอัศจรรย์แห่งไฟมากมายกับภรรยาของเขา ผู้ซึ่งหลงใหลในความงามของเปลวเพลิง แต่เขาไม่เคยปล่อยให้เธอจับต้องกระสุนเพลิง โดยยืนกรานว่ามันอันตรายเกินไปนัก"
     },
-    "Q_MoonlightPact": {
+    "St_Q_MoonlightPact": {
         "shortDescription": "อัญเชิญมนุษย์หมาป่า",
         "description": "\u003ccolor=yellow\u003eFenrir\u003c/color\u003e กระโจนไปยังตำแหน่งเป้าหมาย ฟาดฟันศัตรูสร้าง\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e200%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003eและทำให้มึนงง 0.5 วินาที \u003ccolor=yellow\u003eFenrir\u003c/color\u003eจะ\u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e 8%\u003csprite=5\u003e ของพลังชีวิตสูงสุดต่อศัตรูที่โจมตีโดนแต่ละตัว ทุกครั้งที่ \u003ccolor=yellow\u003eFenrir\u003c/color\u003e โจมตี \u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003e ของสกิลนี้จะลดลง 1 วินาที\n\n\u003ccolor=yellow\u003ePassive Effect:\u003c/color\u003e \u003ccolor=yellow\u003eอัญเชิญ\u003c/color\u003e \u003ccolor=yellow\u003eFenrir the Werewolf\u003c/color\u003e มาติดตาม Nachia \u003ccolor=yellow\u003eFenrir\u003c/color\u003e มีพลังชีวิต 321 และเกราะป้องกัน 40\u003csprite=5\u003e ใช้กรงเล็บโจมตีศัตรูสร้าง\u003csprite=1\u003e\u003ccolor=#16D7FF\u003e130%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e และกระตุ้น 50% \u003ccolor=yellow\u003eผลกระทบการโจมตี\u003c/color\u003e",
         "rawDesc": "\u003ccolor=yellow\u003eเฟนริร์\u003c/color\u003eกระโจนไปยังตำแหน่งเป้าหมาย กรีดศัตรู สร้าง\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {0} และทำให้ติดสตัน {1} วินาที \u003ccolor=yellow\u003eเฟนริร์\u003c/color\u003e\u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003eพลังชีวิตสูงสุด {2} ทุกครั้งที่โจมตีศัตรูแต่ละตัว และ\u003ccolor=yellow\u003eคูลดาวน์\u003c/color\u003eของสกิลนี้จะลดลง {3} วินาที\n\n\u003ccolor=yellow\u003eผลติดตัว:\u003c/color\u003e \u003ccolor=yellow\u003eอัญเชิญ\u003c/color\u003e\u003ccolor=yellow\u003eเฟนริร์ มนุษย์หมาป่า\u003c/color\u003e ให้ตามนาเคีย เฟนริร์มีพลังชีวิต {4} และเกราะ {5} สร้าง\u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {6} ด้วยกรงเล็บ และทำให้เกิด\u003ccolor=yellow\u003eผลโจมตี\u003c/color\u003e {7}",
@@ -5986,7 +5986,7 @@
         "name": "Moonlight Pact",
         "lore": "พันธสัญญาแห่งแสงจันทร์ครั้งหนึ่งเคยเป็นเกมที่เปี่ยมด้วยความสุขเพื่อสงบความวุ่นวายซุกซนของพี่น้องผู้รักสนุก \nแสงจันทร์ยังคงตอบรับการเรียกของนาง แต่ทว่าแสงนั้นมิได้เปี่ยมด้วยน้ำหนักเช่นเดิมอีกแล้ว"
     },
-    "E_VileStrike": {
+    "St_E_VileStrike": {
         "shortDescription": "สร้างความเสียหายธาตุมืดในพื้นที่, โจมตี และพุ่ง",
         "description": "หายตัวไปชั่วขณะ จากนั้นปรากฏตัวขึ้นใหม่ในตำแหน่งเป้าหมาย ฟันศัตรูสร้างความเสียหายความมืด \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e200%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eDark damage\u003c/color\u003e และ \u003ccolor=yellow\u003eStunning\u003c/color\u003e เป็นเวลา 1 วินาที รวมถึงเกิด \u003ccolor=yellow\u003eattack effects\u003c/color\u003e ด้วย ดาเมจจะเพิ่มขึ้น 50% เมื่อโจมตีศัตรูที่มีพลังชีวิตต่ำกว่า 50%",
         "rawDesc": "หายตัวไปชั่วขณะ จากนั้นปรากฏตัวขึ้นใหม่ที่ตำแหน่งเป้าหมาย ฟันใส่ศัตรูสร้างความเสียหายความเสียหาย\u003ccolor=yellow\u003eความมืด\u003c/color\u003e {0} และ\u003ccolor=yellow\u003eสตัน\u003c/color\u003eเป็นเวลา {1} วินาที พร้อมเปิดใช้\u003ccolor=yellow\u003eเอฟเฟกต์การโจมตี\u003c/color\u003e ความเสียหายเพิ่มขึ้น {2} แก่ศัตรูที่มีพลังชีวิตต่ำกว่า {3}",
@@ -6047,7 +6047,7 @@
         "name": "Vile Strike",
         "lore": null
     },
-    "C_DarkSpear": {
+    "St_C_DarkSpear": {
         "shortDescription": "ความเสียหายความมืดระยะประชิด",
         "description": "แทงทะลุศัตรูที่อยู่ด้านหน้า สร้างความเสียหาย \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e210%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความมืด\u003c/color\u003e ทำให้เกิด \u003ccolor=yellow\u003eผลของการโจมตี\u003c/color\u003e และดึงพวกมันมายังจุดศูนย์กลาง",
         "rawDesc": "ทะลวงศัตรูที่อยู่ด้านหน้า สร้าง\u003ccolor=yellow\u003eความเสียหายความมืด\u003c/color\u003e {0} และกระตุ้น\u003ccolor=yellow\u003eผลการโจมตี\u003c/color\u003e พร้อมดึงศัตรูเข้าสู่ศูนย์กลาง",
@@ -6069,7 +6069,7 @@
         "name": "Dark Spear",
         "lore": null
     },
-    "D_AstridsMasterpieceEnGarde": {
+    "St_D_AstridsMasterpieceEnGarde": {
         "shortDescription": "ผลงานชิ้นเอกของแอสทริด - พร้อมรับมือ!",
         "description": "การ\u003ccolor=yellow\u003eโจมตี\u003c/color\u003e 3 ครั้งแรก ต่อศัตรูแต่ละตัวจะสร้างความเสียหายเพิ่มขึ้น \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e40%\u003c/color\u003e\u003csprite=5\u003e และมอบ \u003ccolor=yellow\u003eบาเรีย\u003c/color\u003e ให้แก่ Mist เป็นจำนวน \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e47%\u003c/color\u003e\u003csprite=5\u003e ซึ่งจะค่อยๆ จางหายไปใน 1.5 วินาที เอฟเฟกต์นี้สามารถเริ่มทำงานอีกครั้งกับศัตรูแต่ละตัวได้หลังจากผ่านไป 6\u003csprite=5\u003e วินาที",
         "rawDesc": "การ\u003ccolor=yellow\u003eโจมตี\u003c/color\u003e 3 ครั้งแรกต่อศัตรูแต่ละตัวจะสร้างความเสียหายเพิ่มเติม {0} หน่วย และมอบ\u003ccolor=yellow\u003eบาเรีย\u003c/color\u003e {1} หน่วยแก่ Mist ซึ่งจะลดลงในช่วง {2} วินาที เอฟเฟกต์นี้สามารถเริ่มใหม่กับศัตรูแต่ละตัวได้อีกครั้งหลังจาก {3} วินาที",
@@ -6124,7 +6124,7 @@
         "name": "Astrid\u0027s Masterpiece - En Garde",
         "lore": "แอสทริด น้องสาวสุดที่รักของข้า ข้าจะตามหาเจ้า ไม่ว่าจะต้องแลกด้วยอะไรก็ตาม..."
     },
-    "C_DarkBolt": {
+    "St_C_DarkBolt": {
         "shortDescription": "ยิงลูกศรที่สร้างความเสียหายความมืด",
         "description": "ยิงลูกศรแห่งความมืด สร้างความเสียหาย \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e175%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความมืด\u003c/color\u003e แก่ศัตรู และทำให้เกิด \u003ccolor=yellow\u003eผลกระทบจากการโจมตี\u003c/color\u003e ทะลุทะลวงศัตรูได้สูงสุด 2 ตัว",
         "rawDesc": "ยิงลูกศรแห่งความมืดที่สร้างความเสียหาย \u003ccolor=yellow\u003eความมืด\u003c/color\u003e {0} แก่ศัตรู และทำให้เกิด \u003ccolor=yellow\u003eเอฟเฟกต์โจมตี\u003c/color\u003e ทะลุทะลวงศัตรูได้สูงสุด {1} ตัว",
@@ -6159,7 +6159,7 @@
         "name": "Dark Bolt",
         "lore": null
     },
-    "E_CrimsonLance": {
+    "St_E_CrimsonLance": {
         "shortDescription": "สร้างความเสียหายได้, ล่าบอสระดับฮีโรอิก",
         "description": "ซัดหอกยักษ์ที่สร้างความเสียหาย \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e450%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความมืด\u003c/color\u003e แก่ศัตรูที่ถูกโจมตี\n\nสร้างความเสียหายเพิ่มเติมแก่ \u003ccolor=yellow\u003eบอสผู้กล้า\u003c/color\u003e เท่ากับ 15% ของ \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e ของพวกเขา, ปักหอกไว้และ \u003ccolor=yellow\u003eทำลาย\u003c/color\u003e ความทรงจำนี้. \u003ccolor=yellow\u003eเอาชนะ\u003c/color\u003e บอสผู้กล้าในขณะที่มีหอกปักอยู่ จะมอบ \u003ccolor=yellow\u003eความทรงจำพิเศษ\u003c/color\u003e หรือ \u003ccolor=yellow\u003eแก่นแท้\u003c/color\u003e ของบอสให้แก่คุณ",
         "rawDesc": "ขว้างหอกขนาดใหญ่ที่สร้างความเสียหายความมืด {0} ให้กับศัตรูที่โดน\n\nสร้างความเสียหายเพิ่มเติมแก่ \u003ccolor=yellow\u003eบอสผู้กล้า\u003c/color\u003e เท่ากับ {1} ของ \u003ccolor=yellow\u003eพลังชีวิตสูงสุด\u003c/color\u003e ของพวกมัน โดยปักหอกไว้และ \u003ccolor=yellow\u003eทำลาย\u003c/color\u003e ความทรงจำนี้ การ \u003ccolor=yellow\u003eเอาชนะ\u003c/color\u003e บอสผู้กล้าในขณะที่หอกปักอยู่ในตัวจะทำให้คุณได้รับ \u003ccolor=yellow\u003eความทรงจำเฉพาะ\u003c/color\u003e หรือ \u003ccolor=yellow\u003eแก่นแท้\u003c/color\u003e ของพวกเขา",
@@ -6194,7 +6194,7 @@
         "name": "Crimson Lance",
         "lore": null
     },
-    "C_MassProtection": {
+    "St_C_MassProtection": {
         "shortDescription": "มอบเกราะป้องกันพื้นที่",
         "description": "มอบ \u003ccolor=yellow\u003eเกราะป้องกัน\u003c/color\u003e \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e250%\u003c/color\u003e\u003csprite=5\u003e ให้พันธมิตรใกล้เคียงซึ่งจะสลายไปใน 1.5 วินาที",
         "rawDesc": "มอบ \u003ccolor=yellow\u003eบาเรีย\u003c/color\u003e {0} ให้แก่พันธมิตรที่อยู่ใกล้เคียง ซึ่งจะสลายไปใน {1} วินาที",
@@ -6229,7 +6229,7 @@
         "name": "Mass Protection",
         "lore": "ทุกครั้งที่สภาแสงจันทร์เปิดประชุม เราจะกางกำแพงม่านอันยิ่งใหญ่นี้ออกไป มันคือการกระทำอันศักดิ์สิทธิ์ที่แสดงถึงการดำรงอยู่ของสมาคมเพื่อแสวงหาสัจธรรมเท่านั้น ภายใต้ความเชื่อที่ลึกซึ้งและแน่วแน่ว่าเราต้องไม่เข้าไปยุ่งเกี่ยวกับกิจการใดๆ ของโลกภายนอก\n\nทว่าในช่วงหลังนี้ ข้ากลับรู้สึกถึงความไม่ลงรอยกันอันแปลกประหลาด และความตระหนักอันเย็นชาภายในความเงียบงันที่สมบูรณ์แบบนี้ ความสงบสุขที่ไร้ที่ตินี้ลบล้างเสียงครวญครางของชีวิตนับไม่ถ้วนที่กำลังจะดับสลายภายนอกได้อย่างหมดจด และ \"ความเป็นกลาง\" ของเราก็เป็นเพียงอภิสิทธิ์อันสูงส่งที่แลกมาด้วยการนิ่งเงียบต่อความทุกข์ทรมานของพวกเขา\n\nด้วยเหตุผลบางประการ ข้าหวนนึกถึงใบหน้าของเด็กคนนั้น ออรีนา ข้าตระหนักว่าตรรกะที่เราใช้เพื่อสกัดกั้นการสอบถามที่ \"อันตราย\" ของนางมีความคล้ายคลึงอย่างน่าประหลาดกับตรรกะที่เราใช้กับกำแพงม่านนี้ในตอนนี้ ซึ่งปิดกั้นความโกลาหลที่ \"อันตราย\" ของโลกไว้ภายนอก\n\nแท้จริงแล้วเรากำลัง \"ปกป้อง\" สัจธรรมอยู่ใช่หรือไม่? หรือเราเพียงแค่ \"ปกป้อง\" ตัวเองจากทุกสิ่งที่ยอมแพ้ที่จะทำความเข้าใจไปแล้ว?\n\nข้าสงสัยว่าการปกป้องอันศักดิ์สิทธิ์นี้ท้ายที่สุดแล้วรับใช้ความขลาดเขลาที่ลึกที่สุดของเรา หาใช่ความเป็นกลางอันสูงส่งของเราไม่ ข้ายังคงหาคำตอบไม่ได้เลย"
     },
-    "U_Hysteria": {
+    "St_U_Hysteria": {
         "shortDescription": "ความเสียหายระยะประชิดอย่างต่อเนื่องจากพลังด้านมืด",
         "description": "ปลดปล่อยความโกรธเกรี้ยวเป็นเวลา 6 วินาที ซึ่งในช่วงเวลานี้จะไม่สามารถ \u003ccolor=yellow\u003eใช้\u003c/color\u003e Memory อื่นได้ ในช่วงเวลานี้ จะทำการกรีดด้วยกรงเล็บอย่างต่อเนื่อง สร้าง \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e100%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายธาตุมืด\u003c/color\u003e แก่ศัตรู และ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003e พลังชีวิตของคุณเป็นจำนวน \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e13%\u003c/color\u003e\u003csprite=5\u003e หากพลังชีวิตของคุณต่ำกว่า 40% การฟื้นฟูจะเพิ่มขึ้น 150% กระตุ้น \u003ccolor=yellow\u003eเอฟเฟกต์การโจมตี\u003c/color\u003e กับเป้าหมายแรกที่โดน โจมตีเร็วขึ้นเมื่อมี \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e สูงขึ้น",
         "rawDesc": "เข้าสู่ความเดือดดาลเป็นเวลา {0} วินาที ซึ่งในระหว่างนั้นจะไม่สามารถ \u003ccolor=yellow\u003eร่าย\u003c/color\u003e Memory อื่นได้ ในช่วงเวลานี้ จะปลดปล่อยการตะปบต่อเนื่องที่สร้าง \u003ccolor=yellow\u003eความเสียหายมืด\u003c/color\u003e {1} แก่ศัตรู และ \u003ccolor=yellow\u003eฟื้นฟู\u003c/color\u003eพลังชีวิต {2} หากพลังชีวิตต่ำกว่า {3} การรักษาจะเพิ่มขึ้น {4} ทำให้เกิด \u003ccolor=yellow\u003eผลกระทบการโจมตี\u003c/color\u003e กับเป้าหมายแรกที่ถูกโจมตี จะตะปบได้เร็วขึ้นเมื่อมี \u003ccolor=yellow\u003eความเร็วการโจมตี\u003c/color\u003eสูงขึ้น",
@@ -6303,7 +6303,7 @@
         "name": "Hysteria",
         "lore": "การแปดเปื้อนของฝันร้ายไม่ใช่เรื่องที่เกิดขึ้นอย่างฉับพลัน แต่มันแทรกซึมเข้าไปอย่างช้า ๆ เหมือนยาพิษ ผ่านบาดแผลลึกที่เขาได้รับในขณะปกป้องป่า\n\nอย่างแรกคือเขาของเขาที่บิดเบี้ยวกลายเป็นรูปลักษณ์ของปีศาจ แม้ว่าครั้งหนึ่งมันเคยเป็นสัญลักษณ์ของผู้พิทักษ์ป่าก็ตาม ต่อมาคือเล็บ จากมือที่เคยทะนุถนอมชีวิต กลับกลายเป็นกรงเล็บสีดำที่พร้อมจะฉีกกระชากทุกสิ่งให้ขาดวิ่น ความอบอุ่นและความขี้เล่นที่ซุกซนในดวงตาของเขาหายไป ถูกแทนที่ด้วยแสงสีแดงฉานของสัตว์ร้ายที่อดอยาก มันราวกับว่าจุดประสงค์เดิมของเขากำลังถูกปฏิเสธและเยาะเย้ยไปพร้อมกัน\n\nเมื่อสติสัมปชัญญะของเขาเริ่มเลือนหาย และความเจ็บปวดล้วน ๆ กับความโกรธแค้นเข้าครอบงำร่างกาย เขาได้เปล่งลมหายใจครั้งสุดท้ายที่แตกสลายออกมา\n\n\"นาเชีย... ฉันขอโทษ...\"\n\nแต่คำพูดเหล่านั้นไม่มีผู้ใดได้ยิน มันเลือนหายไปในขณะที่ประกายสุดท้ายของสิ่งมีชีวิตที่ถูกเรียกว่า \"เบลโฟเมต\" ดับลง\n\nนี่คือทั้งเสียงร้องครั้งสุดท้ายของเขา และเป็นเสียงหอนครั้งแรกของฝันร้ายที่เข้ายึดครองร่างกายของเขา"
     },
-    "E_WinterDive": {
+    "St_E_WinterDive": {
         "shortDescription": "สร้างความเสียหายธาตุน้ำแข็งแบบวงกว้าง พุ่งตัว",
         "description": "กระโดดขึ้นไปบนอากาศสูง ห่อหุ้มด้วยพลังแห่งเหมันต์ และพุ่งเข้าใส่ตำแหน่งเป้าหมาย สร้างความเสียหายธาตุน้ำแข็ง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e340%\u003c/color\u003e\u003csprite=5\u003e แก่ศัตรูทั้งหมด และทำให้ติดสถานะสตันเป็นเวลา 1.5 วินาที",
         "rawDesc": "กระโดดสูงขึ้นไปในอากาศ ถูกห่อหุ้มด้วยพลังของเหมันต์ แล้วโจนทะยานลงมายังตำแหน่งเป้าหมาย สร้างความเสียหายธาตุน้ำแข็ง \u003ccolor=yellow\u003eCold damage\u003c/color\u003e {0} แก่ศัตรูทั้งหมด และทำให้ติดสถานะ \u003ccolor=yellow\u003eมึนงง\u003c/color\u003e เป็นเวลา {1} วินาที",
@@ -6338,7 +6338,7 @@
         "name": "Winter Dive",
         "lore": null
     },
-    "R_BaptismOfSun": {
+    "St_R_BaptismOfSun": {
         "shortDescription": "ยั่วยุ, ไฟ, โจมตี",
         "description": "\u003ccolor=yellow\u003eVesper\u003c/color\u003e ปล่อยพลังจากแสงอาทิตย์, สร้างระเบิดสร้าง \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e200%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e แก่ศัตรูใกล้เคียงและบังคับให้พวกเขามุ่งโจมตี \u003ccolor=yellow\u003eVesper\u003c/color\u003e ได้รับ \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e 15%\u003csprite=5\u003e เป็นเวลา 6 วินาที ในช่วงเวลานี้ \u003ccolor=yellow\u003eการโจมตี\u003c/color\u003e สร้าง \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e เพิ่มเติม \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e40%\u003c/color\u003e\u003csprite=5\u003e",
         "rawDesc": "\u003ccolor=yellow\u003eเวสเปอร์\u003c/color\u003e รวบรวมพลังสุริยะ ปลดปล่อยการระเบิดที่สร้าง \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e {0} แก่ศัตรูที่อยู่ใกล้เคียงและบังคับให้พวกเขาโจมตีเวสเปอร์ ได้รับ \u003ccolor=yellow\u003eความเร็วโจมตี\u003c/color\u003e {1} เป็นเวลา {2} วินาที ในช่วงเวลานี้ \u003ccolor=yellow\u003eการโจมตี\u003c/color\u003e จะสร้าง \u003ccolor=yellow\u003eความเสียหายไฟ\u003c/color\u003e เพิ่มเติม {3}",
@@ -6399,7 +6399,7 @@
         "name": "Baptism of the Sun",
         "lore": "จงมองดูเถิด! แสงสว่างซึ่งเผาผลาญมลทินของโลกให้มลายสิ้น!\nในเบ้าหลอมศักดิ์สิทธิ์นี้ จะหลงเหลือเพียงพระประสงค์แห่งท่านลอร์ดเอล\u0027ไฟโรส บริสุทธิ์ดุจทองคำ\n\nเราทุกคนจะได้รับการบัพติศมา! จงร่ำร้องและสรรเสริญ!"
     },
-    "E_JusticeGuillotine": {
+    "St_E_JusticeGuillotine": {
         "shortDescription": "การโจมตีอันทรงพลัง ความเสียหายจะเพิ่มขึ้นตามค่าพลังชีวิตที่หายไป",
         "description": "ฟาดดาบใหญ่ยักษ์ลงบนตำแหน่งของศัตรูเป้าหมาย สร้าง \u003csprite=2\u003e\u003ccolor=#FF8A2D\u003e800%\u003c/color\u003e\u003csprite=5\u003e \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e แก่ศัตรูทั้งหมดที่อยู่ใกล้เคียง ความเสียหายนี้จะเพิ่มขึ้นสูงสุด 2 เท่า ตาม \u003ccolor=yellow\u003eพลังชีวิตที่หายไป\u003c/color\u003e ของคุณ และเพิ่มขึ้นสูงสุด 2 เท่า ตาม \u003ccolor=yellow\u003eพลังชีวิตที่หายไป\u003c/color\u003e ของเป้าหมาย รวมเป็นการเพิ่มขึ้นสูงสุด 4 เท่า การเพิ่มความเสียหายจะสูงสุดเมื่อพลังชีวิตอยู่ที่ 30% หรือต่ำกว่า",
         "rawDesc": "ฟาดดาบใหญ่ยักษ์ลงบนตำแหน่งของศัตรูเป้าหมาย สร้าง \u003ccolor=yellow\u003eความเสียหาย\u003c/color\u003e {0} ให้กับศัตรูใกล้เคียงทั้งหมด ความเสียหายนี้จะเพิ่มขึ้นสูงสุด {1} เท่าตาม \u003ccolor=yellow\u003eพลังชีวิตที่หายไป\u003c/color\u003e ของคุณ และสูงสุด {2} เท่าตาม \u003ccolor=yellow\u003eพลังชีวิตที่หายไป\u003c/color\u003e ของเป้าหมาย รวมแล้วเพิ่มขึ้นสูงสุด {3} เท่า การเพิ่มความเสียหายจะสูงสุดเมื่อพลังชีวิตอยู่ที่หรือต่ำกว่า {4}",
@@ -6467,7 +6467,7 @@
         "name": "Justice Guillotine",
         "lore": null
     },
-    "L_Multishot": {
+    "St_L_Multishot": {
         "shortDescription": "เพิ่มความเร็วโจมตีและเสริมพลังการโจมตี",
         "description": "เป็นเวลา 6 วินาที เพิ่ม Attack Speed 15%\u003csprite=5\u003e และ Movement Speed 10% ในช่วงเวลานี้ แต่ละ \u003ccolor=yellow\u003eการโจมตี\u003c/color\u003e จะยิงธนู 3 ดอก ธนูแต่ละดอกสร้างความเสียหาย \u003csprite=1\u003e\u003ccolor=#16D7FF\u003e35%\u003c/color\u003e\u003csprite=5\u003e และธนูดอกแรกจะกระตุ้น \u003ccolor=yellow\u003eผลของการโจมตี\u003c/color\u003e",
         "rawDesc": "เป็นเวลา {0} วินาที เพิ่มความเร็วโจมตี {1} และความเร็วเคลื่อนที่ {2} ในช่วงเวลานี้ แต่ละ \u003ccolor=yellow\u003eการโจมตี\u003c/color\u003e จะยิง {3} ลูกศร ลูกศรแต่ละดอกสร้างความเสียหาย {4} และลูกศรดอกแรกจะกระตุ้น \u003ccolor=yellow\u003eผลของการโจมตี\u003c/color\u003e",
@@ -6541,7 +6541,7 @@
         "name": "Arrow Storm",
         "lore": null
     },
-    "M_NimbleDodge": {
+    "St_M_NimbleDodge": {
         "rawDesc": "เคลื่อนที่อย่างรวดเร็วเพื่อหลบการโจมตีของศัตรู",
         "lore": null,
         "description": "เคลื่อนที่อย่างว่องไวเพื่อหลบการโจมตีของศัตรู",

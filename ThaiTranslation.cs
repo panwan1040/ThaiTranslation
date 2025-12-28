@@ -31,7 +31,7 @@ namespace ThaiTranslation
         
         public static bool TranslationsLoaded = false;
         public static bool EnableThaiTranslation = true;
-        public static bool DebugMode = false; // Set to true to log UI keys for translation
+        public static bool DebugMode = true; // Set to true to log UI keys for translation
         
         private static HashSet<string> loggedKeys = new HashSet<string>();
         
@@ -429,12 +429,39 @@ namespace ThaiTranslation
         {
             try
             {
+                // Log all available methods in DewLocalization for debugging
+                Debug.Log("[ThaiTranslation] === Listing DewLocalization methods ===");
+                Type dewLocType = typeof(DewLocalization);
+                var methods = dewLocType.GetMethods(BindingFlags.Public | BindingFlags.Static | BindingFlags.Instance);
+                foreach (var method in methods)
+                {
+                    string paramList = string.Join(", ", method.GetParameters().Select(p => p.ParameterType.Name + " " + p.Name));
+                    if (method.Name.Contains("Skill") || method.Name.Contains("Memory") || method.Name.Contains("Gem") || method.Name.Contains("Description"))
+                    {
+                        Debug.Log("[ThaiTranslation] Method: " + method.Name + "(" + paramList + ") -> " + method.ReturnType.Name);
+                    }
+                }
+                Debug.Log("[ThaiTranslation] === End of DewLocalization methods ===");
+                
                 harmony.PatchAll(Assembly.GetExecutingAssembly());
                 Debug.Log("[ThaiTranslation] Harmony patches applied!");
+                
+                // Log patch results
+                var patchedMethods = Harmony.GetAllPatchedMethods();
+                Debug.Log("[ThaiTranslation] === Patched methods ===");
+                foreach (var patchedMethod in patchedMethods)
+                {
+                    var patchInfo = Harmony.GetPatchInfo(patchedMethod);
+                    if (patchInfo.Owners.Contains(harmony.Id))
+                    {
+                        Debug.Log("[ThaiTranslation] Patched: " + patchedMethod.DeclaringType.Name + "." + patchedMethod.Name);
+                    }
+                }
+                Debug.Log("[ThaiTranslation] === End of patched methods ===");
             }
             catch (Exception ex)
             {
-                Debug.LogError("[ThaiTranslation] ApplyPatches error: " + ex.Message);
+                Debug.LogError("[ThaiTranslation] ApplyPatches error: " + ex.Message + "\n" + ex.StackTrace);
             }
         }
         
@@ -666,47 +693,59 @@ namespace ThaiTranslation
             catch (Exception ex) { Debug.Log("[ThaiTranslation] GetSkillName error: " + ex.Message); }
         }
         
-        [HarmonyPatch(typeof(DewLocalization), "GetSkillShortDesc")]
+        [HarmonyPatch(typeof(DewLocalization), "GetSkillShortDesc", new Type[] { typeof(string), typeof(int) })]
         [HarmonyPostfix]
-        public static void GetSkillShortDesc_Postfix(string key, ref string __result)
+        public static void GetSkillShortDesc_Postfix(string key, int configIndex, ref string __result)
         {
             try 
             { 
+                Debug.Log("[ThaiTranslation] GetSkillShortDesc called! key: " + key);
                 string thai = ThaiTranslationMod.GetMemoryShortDescription(key);
                 if (string.IsNullOrEmpty(thai))
                 {
                     thai = ThaiTranslationMod.GetMemoryShortDescription("St_" + key);
                 }
-                if (!string.IsNullOrEmpty(thai)) __result = thai; 
+                if (!string.IsNullOrEmpty(thai))
+                {
+                    Debug.Log("[ThaiTranslation] GetSkillShortDesc FOUND: " + thai);
+                    __result = thai; 
+                }
             } 
-            catch { }
+            catch (Exception ex) { Debug.Log("[ThaiTranslation] GetSkillShortDesc error: " + ex.Message); }
         }
         
         [HarmonyPatch(typeof(DewLocalization), "GetSkillDescription", new Type[] { typeof(string), typeof(int) })]
         [HarmonyPostfix]
-        public static void GetSkillDescription_Postfix(string key, ref List<LocaleNode> __result)
+        public static void GetSkillDescription_Postfix(string key, int configIndex, ref List<LocaleNode> __result)
         {
             try 
             { 
-                ThaiTranslationMod.LogKey("SkillDesc", key, null);
-                string thai = ThaiTranslationMod.GetMemoryDescription(key);
+                Debug.Log("[ThaiTranslation] GetSkillDescription called! key: " + key);
                 
-                // If not found, try with St_ prefix
-                if (string.IsNullOrEmpty(thai))
+                // Get Thai rawDesc (with placeholders like {0}, {1})
+                string thaiRawDesc = ThaiTranslationMod.GetTranslation(ThaiTranslationMod.ThaiMemories, key, "rawDesc");
+                if (string.IsNullOrEmpty(thaiRawDesc))
                 {
-                    thai = ThaiTranslationMod.GetMemoryDescription("St_" + key);
+                    thaiRawDesc = ThaiTranslationMod.GetTranslation(ThaiTranslationMod.ThaiMemories, "St_" + key, "rawDesc");
                 }
                 
-                if (!string.IsNullOrEmpty(thai)) 
+                if (!string.IsNullOrEmpty(thaiRawDesc) && __result != null)
                 {
-                    if (__result != null)
+                    Debug.Log("[ThaiTranslation] GetSkillDescription replacing text nodes with Thai rawDesc");
+                    // Replace the text content in nodes, preserving structure (important for Alt key parsing)
+                    foreach (var node in __result)
                     {
-                        __result.Clear();
-                        LocaleNode node = new LocaleNode();
-                        node.type = LocaleNodeType.Text;
-                        node.textData = thai;
-                        __result.Add(node);
+                        if (node.type == LocaleNodeType.Text && !string.IsNullOrEmpty(node.textData))
+                        {
+                            // Replace English text with Thai
+                            node.textData = thaiRawDesc;
+                            thaiRawDesc = ""; // Only replace first text node
+                        }
                     }
+                }
+                else
+                {
+                    Debug.Log("[ThaiTranslation] GetSkillDescription - No Thai rawDesc found for: " + key);
                 }
             } 
             catch (Exception ex) { Debug.Log("[ThaiTranslation] GetSkillDescription error: " + ex.Message); }
@@ -718,6 +757,7 @@ namespace ThaiTranslation
         {
             try 
             { 
+                Debug.Log("[ThaiTranslation] GetSkillMemory (Lore) called! key: " + key);
                 string thai = ThaiTranslationMod.GetMemoryLore(key);
                 if (string.IsNullOrEmpty(thai))
                 {
@@ -725,10 +765,15 @@ namespace ThaiTranslation
                 }
                 if (!string.IsNullOrEmpty(thai)) 
                 {
+                    Debug.Log("[ThaiTranslation] GetSkillMemory FOUND lore for: " + key);
                     __result = thai;
                 }
+                else
+                {
+                    Debug.Log("[ThaiTranslation] GetSkillMemory lore NOT FOUND for: " + key);
+                }
             } 
-            catch { }
+            catch (Exception ex) { Debug.Log("[ThaiTranslation] GetSkillMemory error: " + ex.Message); }
         }
         
         [HarmonyPatch(typeof(DewLocalization), "GetGemName", new Type[] { typeof(string) })]
