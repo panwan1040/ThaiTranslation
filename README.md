@@ -1,105 +1,123 @@
-# Thai Translation Mod for Shape of Dreams
-# ม็อดแปลภาษาไทยสำหรับเกม Shape of Dreams
+# 🎮 Shape of Dreams - Thai Translation Mod
 
-![Status](https://img.shields.io/badge/Status-Translation%20Ready-green)
-![Font](https://img.shields.io/badge/Font-Waiting%20Developer%20Support-yellow)
+## 📖 วิธีการแปลภาษา (สำหรับผู้ช่วยแปล)
 
-## 📝 Description / คำอธิบาย
+### ไฟล์ CSV สำหรับแปล
 
-This mod translates Shape of Dreams into Thai language. 
+ไฟล์ทั้งหมดอยู่ใน folder `translations/`:
 
-ม็อดนี้แปลเกม Shape of Dreams เป็นภาษาไทย
+| ไฟล์ | คำอธิบาย | จำนวน items |
+|------|----------|-------------|
+| `memories_full.csv` | ความทรงจำ/สกิล | ~128 รายการ |
+| `essences_full.csv` | อัญมณี/แก่นสาร | ~100+ รายการ |
+| `stars_full.csv` | ดาว (Star Tree) | ~100+ รายการ |
+| `travelers_full.csv` | ตัวละคร | 9 รายการ |
+| `achievements_full.csv` | ความสำเร็จ | ~60+ รายการ |
 
-### ✅ What's Translated / สิ่งที่แปลแล้ว
+### คอลัมน์ที่ต้องแปล
 
-| Category | Status |
-|----------|--------|
-| Travelers (ตัวละคร) | ✅ Complete |
-| Memories/Skills (ความทรงจำ) | ✅ Complete |
-| Stars (ดวงดาว) | ✅ Complete |
-| Essences/Gems (หินแก่น) | ✅ Complete |
-| Achievements (ความสำเร็จ) | ✅ Complete |
-| UI Elements | ✅ Partial |
+ทุกไฟล์มีโครงสร้างเหมือนกัน:
+- `*_EN` = ข้อความภาษาอังกฤษ (**อย่าแก้ไข**)
+- `*_TH` = ช่องว่างสำหรับใส่คำแปลภาษาไทย (**แปลตรงนี้**)
 
-## ⚠️ Current Status / สถานะปัจจุบัน
-
-**The translation works, but Thai characters cannot be displayed.**
-
-การแปลทำงานได้แล้ว แต่ตัวอักษรไทยยังแสดงผลไม่ได้
-
-### Why? / ทำไม?
-
-The game's TextMeshPro fonts do not include Thai glyphs (Unicode U+0E00-0E7F). 
-This is a technical limitation that requires the game developer to add Thai font support.
-
-Font ของเกมไม่มี glyphs สำหรับภาษาไทย ต้องรอให้ผู้พัฒนาเกมเพิ่ม Thai font support
-
-## 🙏 How You Can Help / คุณช่วยได้อย่างไร
-
-Please request Thai font support from the developers:
-
-1. **Steam Discussion**: https://steamcommunity.com/app/2809270/discussions/
-2. **Discord**: Join LizardSmoothie's Discord and request Thai font support
-
-กรุณาช่วย request ให้ผู้พัฒนาเพิ่ม Thai font:
-- ไปที่ Steam Discussion หรือ Discord
-- บอกว่ามี Thai translation mod พร้อมแล้ว แค่รอ font support
-
-## 📦 Installation / การติดตั้ง
-
-1. Download and extract the mod
-2. Place the `ThaiTranslation` folder in:
-   ```
-   [Steam]\steamapps\common\Shape of Dreams\Mods\
-   ```
-3. Enable the mod in-game from the Mods menu
-4. Wait for Thai font support from developer
-
-## 📁 File Structure / โครงสร้างไฟล์
-
+ตัวอย่าง:
 ```
-ThaiTranslation/
-├── about/
-│   ├── metadata.json      # Mod metadata
-│   └── description.txt    # Description
-├── RawData/
-│   └── th-TH/
-│       ├── travelers.json # Character translations
-│       ├── memories.json  # Skill translations
-│       ├── essences.json  # Gem translations
-│       ├── stars.json     # Star translations
-│       ├── achievements.json # Achievement translations
-│       └── ui.json        # UI translations
-├── Fonts/
-│   └── Prompt/            # Thai font (Prompt) - OFL License
-├── ThaiTranslation.dll    # Compiled mod
-└── README.md              # This file
+Key          | Name_EN    | Name_TH     | Desc_EN                  | Desc_TH
+St_C_BackStep| Backstep   | ถอยฉากระเบิด | Leap backward and drop...| กระโดดถอยหลังแล้วทิ้ง...
 ```
 
-## 🔤 Included Font / Font ที่รวมมาด้วย
+### ⚠️ สิ่งสำคัญเมื่อแปล
 
-The mod includes **Prompt** font (Thai + Latin) under SIL Open Font License.
-- Website: https://fonts.google.com/specimen/Prompt
-- License: SIL Open Font License 1.1
+1. **Rich Text Tags** - เก็บ tags ไว้ให้ครบ:
+   - `<color=yellow>damage</color>` → `<color=yellow>ความเสียหาย</color>`
+   - `<color=#16D7FF>180%</color>` → เก็บ tag ไว้รอบตัวเลข
 
-## 📜 License / ลิขสิทธิ์
+2. **Placeholders {0}, {1}** - ใน `RawDesc_TH`:
+   - เก็บ `{0}`, `{1}`, `{2}` ไว้ที่ตำแหน่งที่ถูกต้อง
+   - ระบบจะแทนค่าตัวเลขให้อัตโนมัติ
 
-- **Mod Code**: MIT License
-- **Translations**: Creative Commons Attribution 4.0
-- **Prompt Font**: SIL Open Font License 1.1
-
-## 👥 Credits / เครดิต
-
-- **Translation**: Thai Modding Community
-- **Font**: Cadson Demak (Prompt font)
-- **Game**: LizardSmoothie (Shape of Dreams)
-
-## 📞 Contact / ติดต่อ
-
-If you want to help improve translations or have any questions:
-- Create an issue on this repository
-- Contact via Steam Discussion
+3. **Newlines** - ใช้ `\n` สำหรับขึ้นบรรทัดใหม่
 
 ---
 
-**หมายเหตุ**: เมื่อผู้พัฒนาเกมเพิ่ม Thai font support แล้ว ม็อดนี้จะทำงานได้ทันที!
+## 🛠️ วิธีใช้งาน Scripts
+
+### 1. Extract ข้อมูลจากเกมเป็น CSV ใหม่
+```powershell
+.\master_extract_all.ps1
+```
+รันเมื่อ: เกมอัพเดทและมี content ใหม่
+
+### 2. Merge คำแปลเดิมเข้ากับ CSV ใหม่
+```powershell
+.\merge_existing_translations.ps1
+```
+รันเมื่อ: หลัง extract และต้องการรวมคำแปลที่มีอยู่
+
+### 3. Import CSV เป็น JSON สำหรับ Mod
+```powershell
+.\master_import_csv.ps1
+```
+รันเมื่อ: แปลเสร็จและต้องการใช้งานใน Mod
+
+### 4. Build Mod DLL
+```powershell
+dotnet build ThaiTranslation.csproj -c Release
+Copy-Item "bin\Release\netstandard2.1\ThaiTranslation.dll" -Destination "." -Force
+```
+
+---
+
+## 📂 โครงสร้างไฟล์
+
+```
+ThaiTranslation/
+├── ThaiTranslation.cs      # โค้หลักของ Mod
+├── ThaiTranslation.dll     # Mod ที่ compile แล้ว
+├── thaifont                # ฟอนต์ไทย
+├── translations/           # CSV สำหรับแปล
+│   ├── memories_full.csv
+│   ├── essences_full.csv
+│   ├── stars_full.csv
+│   ├── travelers_full.csv
+│   └── achievements_full.csv
+├── RawData/th-TH/          # JSON ที่ Mod ใช้
+│   ├── memories.json
+│   ├── essences.json
+│   ├── stars.json
+│   ├── travelers.json
+│   └── achievements.json
+└── master_*.ps1            # Scripts ต่างๆ
+```
+
+---
+
+## 🎯 Workflow สำหรับผู้แปล
+
+1. **เปิด CSV** ด้วย Excel, Google Sheets, หรือ LibreOffice
+2. **กรอกคำแปล** ในคอลัมน์ `*_TH`
+3. **บันทึก** เป็น UTF-8 CSV
+4. **รัน** `master_import_csv.ps1`
+5. **ทดสอบ** ในเกม
+
+---
+
+## 📝 ฟีเจอร์ใหม่ใน Version 2.0
+
+- ✅ รองรับ `rawDesc` + dynamic values
+- ✅ แปล Stars (Star Tree)
+- ✅ แปล Travelers (ตัวละคร)
+- ✅ เก็บ Rich Text Tags ให้ครบ
+- ✅ CSV format ที่ครบถ้วน
+
+---
+
+## 🙏 Credits
+
+- Original Game: Shape of Dreams
+- Thai Translation: [Your Name]
+- Tools: Harmony, Unity TextMeshPro
+
+---
+
+*Last Updated: 2025-12-28*

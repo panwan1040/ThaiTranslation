@@ -1,0 +1,84 @@
+﻿Key,Name_EN,Name_TH,Desc_EN,Desc_TH,MaxCount,Unlocks
+ACH_BALANCE_FOREVER_LOST,Balance Forever Lost,,Fight against the Guardian Twins simultaneously and emerge victorious.,,1,St_E_SliceThroat
+ACH_BLACKCAT_DEJAVU,Déjà vu,,Pet the cat.,,1,St_L_MentalCorruption
+ACH_BURNING_LOVE,Burning Love,,Acquire Pyrana's Love.,,1,St_L_PyranasFireball
+ACH_CHAOTIC_GOOD,Chaotic Good,,Use Legendary Chaos a total of 5 times.,,5,Gem_L_ChaosApple
+ACH_DESPERATE_HERO,Desperate Hero,,Defeat 30 enemies in a row while your Health is below 40%.,,1,Gem_E_Direness
+ACH_ELECTRIC_TYPE,Electric Type,,"Deal 1,500 or more damage in a single hit.",,1,St_E_ChainLightning
+ACH_ELEMENTALS_101,Introduction to Elements,,Defeat enemies affected by all 4 elements 70 times.,,70,Gem_E_Inversion
+ACH_EMPTY_CANVAS,Empty Canvas,,Enter the Pure White Dream 2 times in total.,,2,Gem_L_PureWhite
+ACH_ETERNAL_REST,Eternal Rest,,Deliver a total of 50 finishing blows to Soul Swordsmen using basic attacks.,,50,St_R_DancingBlades
+ACH_EVERYONE_LETS_NOT_PANIC,Keep Calm and Carry On,,Defeat Heroic Bosses 8 times while your Health is below 25%.,,8,Gem_R_Panic
+ACH_FIGHTING_COLD_WITH_COLD,Fight Fire with Fire,,Defeat the Snowy Mountain King while having 4 Cold damage Memories.,,1,St_L_Blizzard
+ACH_FLEXIBLE_DIET,Flexible Diet,,"During a single adventure, let your Health fall below 40% and then bring it back up to at least 75% 10 times.",,1,Gem_E_Flexibility
+ACH_FOUR_OF_A_KIND,Four of a Kind,,Enter the Pure White Dream while having 4 Memories of the same type.,,1,St_L_CoinExplosion
+ACH_GOD_PROTECTS_ME,God Protects Me,,"In a single adventure, visit locations occupied by Hunters 4 times while having a Hunt Threat Level of 5.",,1,Gem_L_DivineFaith
+ACH_HEAVIER_THAN_ATLAS,Heavier than Atlas,,"Reach 3,000 Maximum Health.",,1,Gem_E_Might
+ACH_IN_CARNAGE_I_BLOOM,In Carnage I Bloom,,Empower Memories that deal Dark damage 20 times in a single adventure.,,1,Gem_E_Crimson
+ACH_JUST_STAY_STILL,Now Now Stay Still,,"Have 4 Active Memories at once that can Stun, Root, or Knockback.",,1,LucidDream_HarmlessWhispers
+ACH_KYAAAAAA,AAAAAAAHH!!,,Survive a single hit that deals 70% or more of your Maximum Health while you have no Barrier.,,1,Gem_R_Blood
+ACH_LOYAL_CUSTOMER,Loyal Customer,,Activate the Shrine of Guidance 15 times in a single adventure.,,1,Gem_R_Rejuvenation
+ACH_MASTER_OF_MYSTIC_ARTS,Master of Mystic Arts,,Have 4 Active Memories at once with a cooldown of 3 seconds or less.,,1,St_E_MysticDagger
+ACH_ME_LOVE_GLOWY_STUFF,Twinkle Twinkle,,Enter the Pure White Dream while having 4 Active Light Attribute Memories.,,1,St_R_OrbOfLight
+ACH_MIDAS_HIMSELF,Midas Incarnate,,"Possess 6,000 Gold.",,1,Gem_L_HeartOfGold
+ACH_MINE_AND_CRAFT,Mine and Craft,,Destroy 3 Pitch-Black Ore.,,3,Gem_E_Obsidian
+ACH_NOVICE_TREASURE_HUNTER,Novice Treasure Hunter,,Open a treasure chest for the first time.,,1,Gem_R_Adventure
+ACH_OMEGA_POINT,Omega Point,,Enter the Pure White Dream while having cast only one type of Memory during a single adventure.,,1,Gem_E_Omega
+ACH_PEW_PEW_PEW,Pew Pew Pew!,,Apply buffs to allies other than yourself a total of 200 times.,,200,St_C_SparklingWaterGun
+ACH_PRAISE_THE_SUN,Praise the Sun!,,"Apply a total of 3,000 Fire stacks to enemies.",,3000,Gem_L_SolarEye
+ACH_PYROMANIA,Pyromaniac,,Defeat 250 burning enemies.,,250,St_E_FlameJet
+ACH_REAP_WHAT_YOU_SOW,Reap What You Sow,,Activate the Shrine of Dismantling 12 times.,,12,Gem_E_Overload
+ACH_RUN_ME_LIKE_A_RACE_HORSE,Whatever It Takes,,Defeat an enemy while they have 30 or more Fire stacks.,,1,St_R_FlamingWhip
+ACH_SHIELD_BATTERY,Barrier Battery,,"Mitigate a total of 20,000 damage from enemies using Barriers.",,20000,Gem_R_Snow
+ACH_SHOOT_FOR_THE_MOON,Shoot for the Moon,,Land 80 finishing blows on enemies from an extreme distance.,,80,Gem_R_Accuracy
+ACH_SNAKE_IN_THE_GRASS,Snake in the Grass,,Take the Merchant's unattended backpack 12 times.,,12,St_E_ClutchesOfMalice
+ACH_SUPPORT_MAIN,Support Specialist,,Have 4 healing Active Memories at once.,,1,Gem_E_Blossom
+ACH_SUSPICIOUSLY_WEALTHY_TRAVELER,Suspiciously Wealthy Traveler,,"Spend a total of 2,000 Gold.",,2000,Gem_R_Wealth
+ACH_TASTE_OF_THEIR_OWN_MEDICINE,Taste of Their Own Medicine,,Defeat the Demon of the Forest by clawing it.,,1,Gem_C_Vengeance
+ACH_TEKKAI,Iron Body,,Gain a Barrier equal to or greater than 300% of your Maximum Health.,,1,Gem_E_Protection
+ACH_THEYRE_JUST_BIG_CATS,They're Just Big Cats,,Land a finishing blow on Thunder Tigers with lightning 25 times.,,25,Gem_E_Fangs
+ACH_THE_EIGHTH_TROPHY,The Eighth Trophy,,Acquire Unique Memories or Essences from Heroic Bosses 8 times.,,8,St_E_CrimsonLance
+ACH_THOUSAND_THUNDERS,A Thousand Thunders,,"Land a total of 1,000 critical strikes.",,1000,Gem_R_Shock
+ACH_THROUGH_TIME_AND_SPACE,Transcendent Speed,,Reach 6 Attack Speed per second.,,1,Gem_R_Wound
+ACH_TRUE_SUPPORT,True Support,,Fully heal an allied Traveler below 30% Health within 1 seconds.,,1,St_E_MassCleanse
+ACH_ULTRA_RAPID_FIRE,Ultra Rapid Fire,,Cast 12 Memories within 8 seconds.,,1,Gem_E_Insight
+ACH_WHOS_THE_PREY_NOW,Who's the Prey Now,,Defeat 70 Hunters.,,70,Gem_E_Predation
+ACH_DECEIVING_LOOKS,Deceiving Looks,,Defeat 10 Heroic Bosses as Aurena.,,10,St_D_BeautifulThreat
+ACH_HORNS_FEATHERS_AND_GOLD,"Horns, Feathers, and Gold",,"Heal yourself or allies for a total of 25,000 Health.",,25000,Hero_Aurena
+ACH_IMMORTALITY_ACHIEVED,Immortality Achieved,,Cast Golden Explosion 9 times within 5 seconds as Aurena.,,1,St_Q_Reduction
+ACH_OVERFLOWING_HEALS,Overflowing Healing,,"As Aurena, fully restore your Health in one use of Dangerous Theory when your Health is below 40%.",,1,St_R_ChainReaction
+ACH_DOUBLE_VISION,Double Vision,,"Deal a total of 250,000 Dark damage to enemies as Bismuth.",,250000,St_QR_DistortedMind
+ACH_LIKE_A_BREEZE,A Piece of Cake,,Defeat a Heroic Boss without taking any damage as Bismuth.,,1,St_QR_InfernalTales
+ACH_LOOK_RAINBOW,Look! A Rainbow!,,Enter the Pure White Dream as Bismuth.,,1,St_QR_ValiantHeart
+ACH_ONCE_UPON_A_TIME,Once Upon a Time,,Keep any Traveler's Movement Speed above 900 for 3 seconds.,,1,Hero_Bismuth
+ACH_REACTIVATED,Reactivated,,Breathe life into the wooden doll.,,1,Hero_Husk
+ACH_BFR_9000,BFR 9000,,Reach 120 Attack Damage with Lacerta.,,1,St_D_DoubleTap
+ACH_JUST_LIKE_THE_OLD_DAYS,Just Like the Old Days,,Defeat the Heroic Boss 5 times as Lacerta.,,5,St_Q_IncendiaryRounds
+ACH_UNTOUCHABLE,Untouchable,,Defeat the Heroic Boss with 85% or more Health remaining as Lacerta.,,1,St_R_PrecisionShot
+ACH_GO_WITH_THE_FLOW,Go with the Flow,,Defeat 60 enemies in a row without taking damage as Mist.,,1,St_R_Parry
+ACH_KING_OF_THE_ELEMENTALS,Elemental Lord,,Defeat any elemental 75 times as Mist.,,75,St_Q_Fleche
+ACH_VINE_IN_CREVICES,Thorny Vines Between the Rocks,,Defeat Belphomet within 2 minutes of starting an adventure as Mist.,,1,St_D_AstridsMasterpiecePriorite
+ACH_FULL_MOON,Full Moon,,Enter the Pure White Dream 2 times as Nachia.,,2,St_Q_MoonlightPact
+ACH_SIBLING_FIGHT,Family Feud,,"As Nachia, defeat the Demon of the Forest within 6 seconds after dealing the first damage.",,1,St_R_SerpentineBlessing
+ACH_THE_CYCLE_OF_REBIRTH,Reincarnation,,"As Nachia, defeat a Guardian of Impermanence without taking any damage.",,1,St_D_CircleOfLife
+ACH_THE_TRUE_FOREST_SOVEREIGN,The True Ruler of the Forest,,Defeat the Demon of the Forest 12 times.,,12,Hero_Nachia
+ACH_HOTTER_FIRE_WINS,Hotter Fire Wins,,Defeat the Burning Giant as Vesper while holding 3 or more Fire Memories.,,1,St_R_BaptismOfSun
+ACH_MASTER_OF_HAMMER,Master of the Hammer,,Perform 9 basic attacks within 5 seconds using Vesper.,,1,St_D_MercyOfEl
+ACH_PEAK_PERFORMANCE,Peak Performance,,Have 3 Dash or Teleport Memories at once as Vesper.,,1,St_Q_Discipline
+ACH_RAGE_WITHOUT_BOUNDS,Boundless Rage,,Reach the Starry Dream.,,1,Hero_Vesper
+ACH_NIGHT_OF_COUNTING_THE_STARS,Night of Counting the Stars,,Reach 140 Ability Power with Yubar.,,1,St_Q_SuperNova
+ACH_ODE_TO_THE_STARS,Ode to the Stars,,Reach 55 Attack Damage with Yubar.,,1,St_D_ConvergencePoint
+ACH_PEACE_AMID_THE_STORM,Peace Amid the Storm,,"Deal a total of 400,000 Light damage to enemies as Yubar.",,400000,St_R_Tranquility
+ACH_PURE_IMAGINATION,Pure Imagination,,Acquire a total of 450 Dream Dust.,,450,Hero_Yubar
+ACH_BARE_SKIN_SUPREMACY,Naked and Unafraid,,Enter the Pure White Dream 2 time(s) without receiving or granting any shields.,,2,LucidDream_FishScales
+ACH_EMBRACE_MORTALITY,Embrace Mortality,,Get cursed 6 times in a single adventure.,,1,LucidDream_EmbraceMortality
+ACH_EMPRESS_OF_PAIN,Empress of Pain,,Get cursed a total of 3 times in World 5 or beyond.,,1,LucidDream_MarshOfDestiny
+ACH_FEELS_LIKE_HOME,Feels Like Home,,Visit 12 rooms occupied by Hunters in a single adventure.,,1,LucidDream_WILD
+ACH_HUNTERS_WHAT_HUNTERS,Hunters? What Hunters?,,Enter the Pure White Dream 3 times without slaying any Hunters.,,3,LucidDream_BonVoyage
+ACH_MASTER_OF_EVASION,Master of Evasion,,Complete the Forest of Turbulence without taking any damage from enemies.,,1,LucidDream_MadLife
+ACH_M_M_M_MONSTER_KILL,M-M-M-MONSTER KILL!,,Land a finishing blow on 16 or more enemies with a single Memory cast.,,1,LucidDream_Overpopulation
+ACH_NO_NEED_FOR_YOUR_HELP,I've Got This!,,Enter the Pure White Dream 2 times without using the Shrine of Guidance.,,2,LucidDream_SparklingDreamFlask
+ACH_PRAYER_FOR_THE_DREAMERS,Prayer for the Dreamers,,Enter a new location 12 times while your health is at or below 40% in a single run.,,1,LucidDream_FalseLifeline
+ACH_VIVID_DREAM,Vivid Dream,,Enter the Pure White Dream on Nightmare difficulty.,,1,LucidDream_GrievousWounds
+ACH_WHY_YOU_BULLY_ME,Why You Bully Me?,,Scare or defeat the Merchant 20 times.,,20,LucidDream_TheDarkestUrge
+ACH_WRIST_FRIENDLY_BUILD,Wrist-Friendly Build,,Enter Pure White Dream with 4 active Memories that have a cooldown of 6 seconds or longer.,,1,LucidDream_PrudentJellyfish

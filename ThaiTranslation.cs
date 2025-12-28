@@ -491,9 +491,23 @@ namespace ThaiTranslation
         }
         public static string GetStarName(string key) { return GetTranslation(ThaiStars, key, "name"); }
         public static string GetStarDescription(string key) { return WrapText(GetTranslation(ThaiStars, key, "description")); }
+        public static string GetStarRawDesc(string key) { return GetTranslation(ThaiStars, key, "rawDesc"); }
         public static string GetStarLore(string key) { return WrapText(GetTranslation(ThaiStars, key, "lore")); }
         public static string GetAchievementName(string key) { return GetTranslation(ThaiAchievements, key, "name"); }
         public static string GetAchievementDescription(string key) { return WrapText(GetTranslation(ThaiAchievements, key, "description")); }
+        
+        // Traveler translations
+        public static string GetTravelerName(string key) { return GetTranslation(ThaiTravelers, key, "name"); }
+        public static string GetTravelerSubtitle(string key) { return GetTranslation(ThaiTravelers, key, "subtitle"); }
+        public static string GetTravelerDescription(string key) { return WrapText(GetTranslation(ThaiTravelers, key, "description")); }
+        
+        // RawDesc with placeholders for dynamic values
+        public static string GetMemoryRawDesc(string key) { return GetTranslation(ThaiMemories, key, "rawDesc"); }
+        public static string GetEssenceRawDesc(string key) 
+        { 
+            string fullKey = key.StartsWith("Gem_") ? key : "Gem_" + key;
+            return GetTranslation(ThaiEssences, fullKey, "rawDesc"); 
+        }
         
         // Wrap text to MAX_LINE_LENGTH characters per line to prevent text stretching
         private const int MAX_LINE_LENGTH = 55;
@@ -632,14 +646,40 @@ namespace ThaiTranslation
         [HarmonyPostfix]
         public static void GetSkillName_Postfix(string key, ref string __result)
         {
-            try { string thai = ThaiTranslationMod.GetMemoryName(key); if (!string.IsNullOrEmpty(thai)) __result = thai; } catch { }
+            try 
+            { 
+                // Try original key first
+                string thai = ThaiTranslationMod.GetMemoryName(key);
+                
+                // If not found, try with St_ prefix (some memories use this prefix in data files)
+                if (string.IsNullOrEmpty(thai))
+                {
+                    thai = ThaiTranslationMod.GetMemoryName("St_" + key);
+                }
+                
+                if (!string.IsNullOrEmpty(thai)) 
+                {
+                    Debug.Log("[ThaiTranslation] GetSkillName: " + key + " -> " + thai);
+                    __result = thai; 
+                }
+            } 
+            catch (Exception ex) { Debug.Log("[ThaiTranslation] GetSkillName error: " + ex.Message); }
         }
         
         [HarmonyPatch(typeof(DewLocalization), "GetSkillShortDesc")]
         [HarmonyPostfix]
         public static void GetSkillShortDesc_Postfix(string key, ref string __result)
         {
-            try { string thai = ThaiTranslationMod.GetMemoryShortDescription(key); if (!string.IsNullOrEmpty(thai)) __result = thai; } catch { }
+            try 
+            { 
+                string thai = ThaiTranslationMod.GetMemoryShortDescription(key);
+                if (string.IsNullOrEmpty(thai))
+                {
+                    thai = ThaiTranslationMod.GetMemoryShortDescription("St_" + key);
+                }
+                if (!string.IsNullOrEmpty(thai)) __result = thai; 
+            } 
+            catch { }
         }
         
         [HarmonyPatch(typeof(DewLocalization), "GetSkillDescription", new Type[] { typeof(string), typeof(int) })]
@@ -649,19 +689,16 @@ namespace ThaiTranslation
             try 
             { 
                 ThaiTranslationMod.LogKey("SkillDesc", key, null);
-                string thai = ThaiTranslationMod.GetMemoryDescription(key); 
+                string thai = ThaiTranslationMod.GetMemoryDescription(key);
+                
+                // If not found, try with St_ prefix
+                if (string.IsNullOrEmpty(thai))
+                {
+                    thai = ThaiTranslationMod.GetMemoryDescription("St_" + key);
+                }
+                
                 if (!string.IsNullOrEmpty(thai)) 
                 {
-                    // Debug: Check if tags are present
-                    if (thai.Contains("<color"))
-                    {
-                        Debug.Log("[ThaiTranslation] KEY: " + key + " HAS COLOR TAGS: " + thai);
-                    }
-                    else
-                    {
-                         Debug.Log("[ThaiTranslation] KEY: " + key + " NO COLOR TAGS FOUND. Raw: " + thai);
-                    }
-
                     if (__result != null)
                     {
                         __result.Clear();
@@ -681,7 +718,11 @@ namespace ThaiTranslation
         {
             try 
             { 
-                string thai = ThaiTranslationMod.GetMemoryLore(key); 
+                string thai = ThaiTranslationMod.GetMemoryLore(key);
+                if (string.IsNullOrEmpty(thai))
+                {
+                    thai = ThaiTranslationMod.GetMemoryLore("St_" + key);
+                }
                 if (!string.IsNullOrEmpty(thai)) 
                 {
                     __result = thai;
@@ -751,6 +792,9 @@ namespace ThaiTranslation
             try { string thai = ThaiTranslationMod.GetAchievementName(key); if (!string.IsNullOrEmpty(thai)) __result = thai; } catch { }
         }
         
+        // Note: GetStarDescription may not exist or have different signature
+        // Stars use GetSkillDescription instead
+        
         [HarmonyPatch(typeof(DewLocalization), "GetAchievementDescription")]
         [HarmonyPostfix]
         public static void GetAchievementDescription_Postfix(string key, ref string __result)
@@ -775,5 +819,8 @@ namespace ThaiTranslation
         {
             try { string thai = ThaiTranslationMod.GetUIValue(key); if (!string.IsNullOrEmpty(thai)) { value = thai; __result = true; } } catch { }
         }
+        
+        // Note: Hero/Traveler methods like GetHeroName, GetHeroSubtitle, GetHeroDescription
+        // may not exist in DewLocalization. Will need to investigate the actual game API.
     }
 }
