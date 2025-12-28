@@ -1,334 +1,334 @@
 ﻿{
-    "ACH_SUPPORT_MAIN": {
-        "name": "Support Specialist",
-        "description": "Have 4 healing Active Memories at once."
-    },
-    "ACH_BALANCE_FOREVER_LOST": {
-        "name": "Balance Forever Lost",
-        "description": "Fight against the Guardian Twins simultaneously and emerge victorious."
-    },
-    "ACH_ONCE_UPON_A_TIME": {
-        "name": "Once Upon a Time",
-        "description": "Keep any Traveler\u0027s Movement Speed above 900 for 3 seconds."
-    },
-    "ACH_REACTIVATED": {
-        "name": "Reactivated",
-        "description": "Breathe life into the wooden doll."
-    },
-    "ACH_BARE_SKIN_SUPREMACY": {
-        "name": "Naked and Unafraid",
-        "description": "Enter the Pure White Dream 2 time(s) without receiving or granting any shields."
-    },
-    "ACH_NOVICE_TREASURE_HUNTER": {
-        "name": "Novice Treasure Hunter",
-        "description": "Open a treasure chest for the first time."
-    },
-    "ACH_MASTER_OF_HAMMER": {
-        "name": "Master of the Hammer",
-        "description": "Perform 9 basic attacks within 5 seconds using Vesper."
-    },
-    "ACH_LIKE_A_BREEZE": {
-        "name": "A Piece of Cake",
-        "description": "Defeat a Heroic Boss without taking any damage as Bismuth."
-    },
-    "ACH_HORNS_FEATHERS_AND_GOLD": {
-        "name": "Horns, Feathers, and Gold",
-        "description": "Heal yourself or allies for a total of 25,000 Health."
-    },
-    "ACH_JUST_LIKE_THE_OLD_DAYS": {
-        "name": "Just Like the Old Days",
-        "description": "Defeat the Heroic Boss 5 times as Lacerta."
-    },
-    "ACH_PEAK_PERFORMANCE": {
-        "name": "Peak Performance",
-        "description": "Have 3 Dash or Teleport Memories at once as Vesper."
-    },
-    "ACH_PURE_IMAGINATION": {
-        "name": "Pure Imagination",
-        "description": "Acquire a total of 450 Dream Dust."
-    },
-    "ACH_SHIELD_BATTERY": {
-        "name": "Barrier Battery",
-        "description": "Mitigate a total of 20,000 damage from enemies using Barriers."
-    },
-    "ACH_WRIST_FRIENDLY_BUILD": {
-        "name": "Wrist-Friendly Build",
-        "description": "Enter Pure White Dream with 4 active Memories that have a cooldown of 6 seconds or longer."
-    },
-    "ACH_MIDAS_HIMSELF": {
-        "name": "Midas Incarnate",
-        "description": "Possess 6,000 Gold."
-    },
-    "ACH_ODE_TO_THE_STARS": {
-        "name": "Ode to the Stars",
-        "description": "Reach 55 Attack Damage with Yubar."
-    },
-    "ACH_BURNING_LOVE": {
-        "name": "Burning Love",
-        "description": "Acquire Pyrana\u0027s Love."
-    },
-    "ACH_PRAISE_THE_SUN": {
-        "name": "Praise the Sun!",
-        "description": "Apply a total of 3,000 Fire stacks to enemies."
-    },
-    "ACH_NIGHT_OF_COUNTING_THE_STARS": {
-        "name": "Night of Counting the Stars",
-        "description": "Reach 140 Ability Power with Yubar."
-    },
-    "ACH_FLEXIBLE_DIET": {
-        "name": "Flexible Diet",
-        "description": "During a single adventure, let your Health fall below 40% and then bring it back up to at least 75% 10 times."
-    },
-    "ACH_PEACE_AMID_THE_STORM": {
-        "name": "Peace Amid the Storm",
-        "description": "Deal a total of 400,000 Light damage to enemies as Yubar."
-    },
-    "ACH_ULTRA_RAPID_FIRE": {
-        "name": "Ultra Rapid Fire",
-        "description": "Cast 12 Memories within 8 seconds."
-    },
-    "ACH_TRUE_SUPPORT": {
-        "name": "True Support",
-        "description": "Fully heal an allied Traveler below 30% Health within 1 seconds."
-    },
-    "ACH_OVERFLOWING_HEALS": {
-        "name": "Overflowing Healing",
-        "description": "As Aurena, fully restore your Health in one use of Dangerous Theory when your Health is below 40%."
-    },
-    "ACH_KING_OF_THE_ELEMENTALS": {
-        "name": "Elemental Lord",
-        "description": "Defeat any elemental 75 times as Mist."
-    },
-    "ACH_ELEMENTALS_101": {
-        "name": "Introduction to Elements",
-        "description": "Defeat enemies affected by all 4 elements 70 times."
-    },
-    "ACH_EMPTY_CANVAS": {
-        "name": "Empty Canvas",
-        "description": "Enter the Pure White Dream 2 times in total."
-    },
-    "ACH_CHAOTIC_GOOD": {
-        "name": "Chaotic Good",
-        "description": "Use Legendary Chaos a total of 5 times."
-    },
-    "ACH_REAP_WHAT_YOU_SOW": {
-        "name": "Reap What You Sow",
-        "description": "Activate the Shrine of Dismantling 12 times."
-    },
-    "ACH_MASTER_OF_EVASION": {
-        "name": "Master of Evasion",
-        "description": "Complete the Forest of Turbulence without taking any damage from enemies."
-    },
-    "ACH_DESPERATE_HERO": {
-        "name": "Desperate Hero",
-        "description": "Defeat 30 enemies in a row while your Health is below 40%."
-    },
-    "ACH_IN_CARNAGE_I_BLOOM": {
-        "name": "In Carnage I Bloom",
-        "description": "Empower Memories that deal Dark damage 20 times in a single adventure."
-    },
-    "ACH_DOUBLE_VISION": {
-        "name": "Double Vision",
-        "description": "Deal a total of 250,000 Dark damage to enemies as Bismuth."
-    },
-    "ACH_FOUR_OF_A_KIND": {
-        "name": "Four of a Kind",
-        "description": "Enter the Pure White Dream while having 4 Memories of the same type."
-    },
-    "ACH_MINE_AND_CRAFT": {
-        "name": "Mine and Craft",
-        "description": "Destroy 3 Pitch-Black Ore."
-    },
-    "ACH_KYAAAAAA": {
-        "name": "AAAAAAAHH!!",
-        "description": "Survive a single hit that deals 70% or more of your Maximum Health while you have no Barrier."
-    },
-    "ACH_FULL_MOON": {
-        "name": "Full Moon",
-        "description": "Enter the Pure White Dream 2 times as Nachia."
-    },
-    "ACH_FIGHTING_COLD_WITH_COLD": {
-        "name": "Fight Fire with Fire",
-        "description": "Defeat the Snowy Mountain King while having 4 Cold damage Memories."
-    },
-    "ACH_PRAYER_FOR_THE_DREAMERS": {
-        "name": "Prayer for the Dreamers",
-        "description": "Enter a new location 12 times while your health is at or below 40% in a single run."
-    },
-    "ACH_THROUGH_TIME_AND_SPACE": {
-        "name": "Transcendent Speed",
-        "description": "Reach 6 Attack Speed per second."
-    },
-    "ACH_THEYRE_JUST_BIG_CATS": {
-        "name": "They\u0027re Just Big Cats",
-        "description": "Land a finishing blow on Thunder Tigers with lightning 25 times."
-    },
-    "ACH_EMPRESS_OF_PAIN": {
-        "name": "Empress of Pain",
-        "description": "Get cursed a total of 3 times in World 5 or beyond."
-    },
-    "ACH_FEELS_LIKE_HOME": {
-        "name": "Feels Like Home",
-        "description": "Visit 12 rooms occupied by Hunters in a single adventure."
-    },
-    "ACH_WHOS_THE_PREY_NOW": {
-        "name": "Who\u0027s the Prey Now",
-        "description": "Defeat 70 Hunters."
-    },
-    "ACH_VINE_IN_CREVICES": {
-        "name": "Thorny Vines Between the Rocks",
-        "description": "Defeat Belphomet within 2 minutes of starting an adventure as Mist."
-    },
-    "ACH_SUSPICIOUSLY_WEALTHY_TRAVELER": {
-        "name": "Suspiciously Wealthy Traveler",
-        "description": "Spend a total of 2,000 Gold."
-    },
-    "ACH_BLACKCAT_DEJAVU": {
-        "name": "Déjà vu",
-        "description": "Pet the cat."
-    },
-    "ACH_VIVID_DREAM": {
-        "name": "Vivid Dream",
-        "description": "Enter the Pure White Dream on Nightmare difficulty."
-    },
-    "ACH_SHOOT_FOR_THE_MOON": {
-        "name": "Shoot for the Moon",
-        "description": "Land 80 finishing blows on enemies from an extreme distance."
-    },
-    "ACH_ME_LOVE_GLOWY_STUFF": {
-        "name": "Twinkle Twinkle",
-        "description": "Enter the Pure White Dream while having 4 Active Light Attribute Memories."
-    },
-    "ACH_WHY_YOU_BULLY_ME": {
-        "name": "Why You Bully Me?",
-        "description": "Scare or defeat the Merchant 20 times."
-    },
-    "ACH_HUNTERS_WHAT_HUNTERS": {
-        "name": "Hunters? What Hunters?",
-        "description": "Enter the Pure White Dream 3 times without slaying any Hunters."
-    },
-    "ACH_GO_WITH_THE_FLOW": {
-        "name": "Go with the Flow",
-        "description": "Defeat 60 enemies in a row without taking damage as Mist."
-    },
-    "ACH_ELECTRIC_TYPE": {
-        "name": "Electric Type",
-        "description": "Deal 1,500 or more damage in a single hit."
-    },
-    "ACH_DECEIVING_LOOKS": {
-        "name": "Deceiving Looks",
-        "description": "Defeat 10 Heroic Bosses as Aurena."
-    },
-    "ACH_SNAKE_IN_THE_GRASS": {
-        "name": "Snake in the Grass",
-        "description": "Take the Merchant\u0027s unattended backpack 12 times."
-    },
-    "ACH_HOTTER_FIRE_WINS": {
-        "name": "Hotter Fire Wins",
-        "description": "Defeat the Burning Giant as Vesper while holding 3 or more Fire Memories."
-    },
-    "ACH_PYROMANIA": {
-        "name": "Pyromaniac",
-        "description": "Defeat 250 burning enemies."
-    },
-    "ACH_NO_NEED_FOR_YOUR_HELP": {
-        "name": "I\u0027ve Got This!",
-        "description": "Enter the Pure White Dream 2 times without using the Shrine of Guidance."
-    },
-    "ACH_GOD_PROTECTS_ME": {
-        "name": "God Protects Me",
-        "description": "In a single adventure, visit locations occupied by Hunters 4 times while having a Hunt Threat Level of 5."
-    },
-    "ACH_OMEGA_POINT": {
-        "name": "Omega Point",
-        "description": "Enter the Pure White Dream while having cast only one type of Memory during a single adventure."
-    },
-    "ACH_HEAVIER_THAN_ATLAS": {
-        "name": "Heavier than Atlas",
-        "description": "Reach 3,000 Maximum Health."
-    },
-    "ACH_LOYAL_CUSTOMER": {
-        "name": "Loyal Customer",
-        "description": "Activate the Shrine of Guidance 15 times in a single adventure."
-    },
-    "ACH_PEW_PEW_PEW": {
-        "name": "Pew Pew Pew!",
-        "description": "Apply buffs to allies other than yourself a total of 200 times."
-    },
-    "ACH_TEKKAI": {
-        "name": "Iron Body",
-        "description": "Gain a Barrier equal to or greater than 300% of your Maximum Health."
-    },
-    "ACH_THE_TRUE_FOREST_SOVEREIGN": {
-        "name": "The True Ruler of the Forest",
-        "description": "Defeat the Demon of the Forest 12 times."
-    },
-    "ACH_UNTOUCHABLE": {
-        "name": "Untouchable",
-        "description": "Defeat the Heroic Boss with 85% or more Health remaining as Lacerta."
-    },
-    "ACH_EVERYONE_LETS_NOT_PANIC": {
-        "name": "Keep Calm and Carry On",
-        "description": "Defeat Heroic Bosses 8 times while your Health is below 25%."
-    },
-    "ACH_RAGE_WITHOUT_BOUNDS": {
-        "name": "Boundless Rage",
-        "description": "Reach the Starry Dream."
-    },
-    "ACH_TASTE_OF_THEIR_OWN_MEDICINE": {
-        "name": "Taste of Their Own Medicine",
-        "description": "Defeat the Demon of the Forest by clawing it."
-    },
-    "ACH_SIBLING_FIGHT": {
-        "name": "Family Feud",
-        "description": "As Nachia, defeat the Demon of the Forest within 6 seconds after dealing the first damage."
-    },
-    "ACH_IMMORTALITY_ACHIEVED": {
-        "name": "Immortality Achieved",
-        "description": "Cast Golden Explosion 9 times within 5 seconds as Aurena."
-    },
-    "ACH_M_M_M_MONSTER_KILL": {
-        "name": "M-M-M-MONSTER KILL!",
-        "description": "Land a finishing blow on 16 or more enemies with a single Memory cast."
-    },
-    "ACH_THE_EIGHTH_TROPHY": {
-        "name": "The Eighth Trophy",
-        "description": "Acquire Unique Memories or Essences from Heroic Bosses 8 times."
-    },
-    "ACH_BFR_9000": {
-        "name": "BFR 9000",
-        "description": "Reach 120 Attack Damage with Lacerta."
-    },
-    "ACH_JUST_STAY_STILL": {
-        "name": "Now Now Stay Still",
-        "description": "Have 4 Active Memories at once that can Stun, Root, or Knockback."
-    },
-    "ACH_ETERNAL_REST": {
-        "name": "Eternal Rest",
-        "description": "Deliver a total of 50 finishing blows to Soul Swordsmen using basic attacks."
-    },
-    "ACH_MASTER_OF_MYSTIC_ARTS": {
-        "name": "Master of Mystic Arts",
-        "description": "Have 4 Active Memories at once with a cooldown of 3 seconds or less."
-    },
-    "ACH_THOUSAND_THUNDERS": {
-        "name": "A Thousand Thunders",
-        "description": "Land a total of 1,000 critical strikes."
-    },
-    "ACH_LOOK_RAINBOW": {
-        "name": "Look! A Rainbow!",
-        "description": "Enter the Pure White Dream as Bismuth."
-    },
-    "ACH_THE_CYCLE_OF_REBIRTH": {
-        "name": "Reincarnation",
-        "description": "As Nachia, defeat a Guardian of Impermanence without taking any damage."
-    },
-    "ACH_EMBRACE_MORTALITY": {
-        "name": "Embrace Mortality",
-        "description": "Get cursed 6 times in a single adventure."
-    },
-    "ACH_RUN_ME_LIKE_A_RACE_HORSE": {
-        "name": "Whatever It Takes",
-        "description": "Defeat an enemy while they have 30 or more Fire stacks."
-    }
+    "ACH_SUPPORT_MAIN":  {
+                             "name":  "Support Specialist",
+                             "description":  "Have 4 healing Active Memories at once."
+                         },
+    "ACH_BALANCE_FOREVER_LOST":  {
+                                     "name":  "Balance Forever Lost",
+                                     "description":  "Fight against the Guardian Twins simultaneously and emerge victorious."
+                                 },
+    "ACH_ONCE_UPON_A_TIME":  {
+                                 "name":  "Once Upon a Time",
+                                 "description":  "Keep any Traveler\u0027s Movement Speed above 900 for 3 seconds."
+                             },
+    "ACH_REACTIVATED":  {
+                            "name":  "Reactivated",
+                            "description":  "Breathe life into the wooden doll."
+                        },
+    "ACH_BARE_SKIN_SUPREMACY":  {
+                                    "name":  "Naked and Unafraid",
+                                    "description":  "Enter the Pure White Dream 2 time(s) without receiving or granting any shields."
+                                },
+    "ACH_NOVICE_TREASURE_HUNTER":  {
+                                       "name":  "Novice Treasure Hunter",
+                                       "description":  "Open a treasure chest for the first time."
+                                   },
+    "ACH_MASTER_OF_HAMMER":  {
+                                 "name":  "Master of the Hammer",
+                                 "description":  "Perform 9 basic attacks within 5 seconds using Vesper."
+                             },
+    "ACH_LIKE_A_BREEZE":  {
+                              "name":  "A Piece of Cake",
+                              "description":  "Defeat a Heroic Boss without taking any damage as Bismuth."
+                          },
+    "ACH_HORNS_FEATHERS_AND_GOLD":  {
+                                        "name":  "Horns, Feathers, and Gold",
+                                        "description":  "Heal yourself or allies for a total of 25,000 Health."
+                                    },
+    "ACH_JUST_LIKE_THE_OLD_DAYS":  {
+                                       "name":  "Just Like the Old Days",
+                                       "description":  "Defeat the Heroic Boss 5 times as Lacerta."
+                                   },
+    "ACH_PEAK_PERFORMANCE":  {
+                                 "name":  "Peak Performance",
+                                 "description":  "Have 3 Dash or Teleport Memories at once as Vesper."
+                             },
+    "ACH_PURE_IMAGINATION":  {
+                                 "name":  "Pure Imagination",
+                                 "description":  "Acquire a total of 450 Dream Dust."
+                             },
+    "ACH_SHIELD_BATTERY":  {
+                               "name":  "Barrier Battery",
+                               "description":  "Mitigate a total of 20,000 damage from enemies using Barriers."
+                           },
+    "ACH_WRIST_FRIENDLY_BUILD":  {
+                                     "name":  "Wrist-Friendly Build",
+                                     "description":  "Enter Pure White Dream with 4 active Memories that have a cooldown of 6 seconds or longer."
+                                 },
+    "ACH_MIDAS_HIMSELF":  {
+                              "name":  "Midas Incarnate",
+                              "description":  "Possess 6,000 Gold."
+                          },
+    "ACH_ODE_TO_THE_STARS":  {
+                                 "name":  "Ode to the Stars",
+                                 "description":  "Reach 55 Attack Damage with Yubar."
+                             },
+    "ACH_BURNING_LOVE":  {
+                             "name":  "Burning Love",
+                             "description":  "Acquire Pyrana\u0027s Love."
+                         },
+    "ACH_PRAISE_THE_SUN":  {
+                               "name":  "Praise the Sun!",
+                               "description":  "Apply a total of 3,000 Fire stacks to enemies."
+                           },
+    "ACH_NIGHT_OF_COUNTING_THE_STARS":  {
+                                            "name":  "Night of Counting the Stars",
+                                            "description":  "Reach 140 Ability Power with Yubar."
+                                        },
+    "ACH_FLEXIBLE_DIET":  {
+                              "name":  "Flexible Diet",
+                              "description":  "During a single adventure, let your Health fall below 40% and then bring it back up to at least 75% 10 times."
+                          },
+    "ACH_PEACE_AMID_THE_STORM":  {
+                                     "name":  "Peace Amid the Storm",
+                                     "description":  "Deal a total of 400,000 Light damage to enemies as Yubar."
+                                 },
+    "ACH_ULTRA_RAPID_FIRE":  {
+                                 "name":  "Ultra Rapid Fire",
+                                 "description":  "Cast 12 Memories within 8 seconds."
+                             },
+    "ACH_TRUE_SUPPORT":  {
+                             "name":  "True Support",
+                             "description":  "Fully heal an allied Traveler below 30% Health within 1 seconds."
+                         },
+    "ACH_OVERFLOWING_HEALS":  {
+                                  "name":  "Overflowing Healing",
+                                  "description":  "As Aurena, fully restore your Health in one use of Dangerous Theory when your Health is below 40%."
+                              },
+    "ACH_KING_OF_THE_ELEMENTALS":  {
+                                       "name":  "Elemental Lord",
+                                       "description":  "Defeat any elemental 75 times as Mist."
+                                   },
+    "ACH_ELEMENTALS_101":  {
+                               "name":  "Introduction to Elements",
+                               "description":  "Defeat enemies affected by all 4 elements 70 times."
+                           },
+    "ACH_EMPTY_CANVAS":  {
+                             "name":  "Empty Canvas",
+                             "description":  "Enter the Pure White Dream 2 times in total."
+                         },
+    "ACH_CHAOTIC_GOOD":  {
+                             "name":  "Chaotic Good",
+                             "description":  "Use Legendary Chaos a total of 5 times."
+                         },
+    "ACH_REAP_WHAT_YOU_SOW":  {
+                                  "name":  "Reap What You Sow",
+                                  "description":  "Activate the Shrine of Dismantling 12 times."
+                              },
+    "ACH_MASTER_OF_EVASION":  {
+                                  "name":  "Master of Evasion",
+                                  "description":  "Complete the Forest of Turbulence without taking any damage from enemies."
+                              },
+    "ACH_DESPERATE_HERO":  {
+                               "name":  "Desperate Hero",
+                               "description":  "Defeat 30 enemies in a row while your Health is below 40%."
+                           },
+    "ACH_IN_CARNAGE_I_BLOOM":  {
+                                   "name":  "In Carnage I Bloom",
+                                   "description":  "Empower Memories that deal Dark damage 20 times in a single adventure."
+                               },
+    "ACH_DOUBLE_VISION":  {
+                              "name":  "Double Vision",
+                              "description":  "Deal a total of 250,000 Dark damage to enemies as Bismuth."
+                          },
+    "ACH_FOUR_OF_A_KIND":  {
+                               "name":  "Four of a Kind",
+                               "description":  "Enter the Pure White Dream while having 4 Memories of the same type."
+                           },
+    "ACH_MINE_AND_CRAFT":  {
+                               "name":  "Mine and Craft",
+                               "description":  "Destroy 3 Pitch-Black Ore."
+                           },
+    "ACH_KYAAAAAA":  {
+                         "name":  "AAAAAAAHH!!",
+                         "description":  "Survive a single hit that deals 70% or more of your Maximum Health while you have no Barrier."
+                     },
+    "ACH_FULL_MOON":  {
+                          "name":  "Full Moon",
+                          "description":  "Enter the Pure White Dream 2 times as Nachia."
+                      },
+    "ACH_FIGHTING_COLD_WITH_COLD":  {
+                                        "name":  "Fight Fire with Fire",
+                                        "description":  "Defeat the Snowy Mountain King while having 4 Cold damage Memories."
+                                    },
+    "ACH_PRAYER_FOR_THE_DREAMERS":  {
+                                        "name":  "Prayer for the Dreamers",
+                                        "description":  "Enter a new location 12 times while your health is at or below 40% in a single run."
+                                    },
+    "ACH_THROUGH_TIME_AND_SPACE":  {
+                                       "name":  "Transcendent Speed",
+                                       "description":  "Reach 6 Attack Speed per second."
+                                   },
+    "ACH_THEYRE_JUST_BIG_CATS":  {
+                                     "name":  "They\u0027re Just Big Cats",
+                                     "description":  "Land a finishing blow on Thunder Tigers with lightning 25 times."
+                                 },
+    "ACH_EMPRESS_OF_PAIN":  {
+                                "name":  "Empress of Pain",
+                                "description":  "Get cursed a total of 3 times in World 5 or beyond."
+                            },
+    "ACH_FEELS_LIKE_HOME":  {
+                                "name":  "Feels Like Home",
+                                "description":  "Visit 12 rooms occupied by Hunters in a single adventure."
+                            },
+    "ACH_WHOS_THE_PREY_NOW":  {
+                                  "name":  "Who\u0027s the Prey Now",
+                                  "description":  "Defeat 70 Hunters."
+                              },
+    "ACH_VINE_IN_CREVICES":  {
+                                 "name":  "Thorny Vines Between the Rocks",
+                                 "description":  "Defeat Belphomet within 2 minutes of starting an adventure as Mist."
+                             },
+    "ACH_SUSPICIOUSLY_WEALTHY_TRAVELER":  {
+                                              "name":  "Suspiciously Wealthy Traveler",
+                                              "description":  "Spend a total of 2,000 Gold."
+                                          },
+    "ACH_BLACKCAT_DEJAVU":  {
+                                "name":  "Déjà vu",
+                                "description":  "Pet the cat."
+                            },
+    "ACH_VIVID_DREAM":  {
+                            "name":  "Vivid Dream",
+                            "description":  "Enter the Pure White Dream on Nightmare difficulty."
+                        },
+    "ACH_SHOOT_FOR_THE_MOON":  {
+                                   "name":  "Shoot for the Moon",
+                                   "description":  "Land 80 finishing blows on enemies from an extreme distance."
+                               },
+    "ACH_ME_LOVE_GLOWY_STUFF":  {
+                                    "name":  "Twinkle Twinkle",
+                                    "description":  "Enter the Pure White Dream while having 4 Active Light Attribute Memories."
+                                },
+    "ACH_WHY_YOU_BULLY_ME":  {
+                                 "name":  "Why You Bully Me?",
+                                 "description":  "Scare or defeat the Merchant 20 times."
+                             },
+    "ACH_HUNTERS_WHAT_HUNTERS":  {
+                                     "name":  "Hunters? What Hunters?",
+                                     "description":  "Enter the Pure White Dream 3 times without slaying any Hunters."
+                                 },
+    "ACH_GO_WITH_THE_FLOW":  {
+                                 "name":  "Go with the Flow",
+                                 "description":  "Defeat 60 enemies in a row without taking damage as Mist."
+                             },
+    "ACH_ELECTRIC_TYPE":  {
+                              "name":  "Electric Type",
+                              "description":  "Deal 1,500 or more damage in a single hit."
+                          },
+    "ACH_DECEIVING_LOOKS":  {
+                                "name":  "Deceiving Looks",
+                                "description":  "Defeat 10 Heroic Bosses as Aurena."
+                            },
+    "ACH_SNAKE_IN_THE_GRASS":  {
+                                   "name":  "Snake in the Grass",
+                                   "description":  "Take the Merchant\u0027s unattended backpack 12 times."
+                               },
+    "ACH_HOTTER_FIRE_WINS":  {
+                                 "name":  "Hotter Fire Wins",
+                                 "description":  "Defeat the Burning Giant as Vesper while holding 3 or more Fire Memories."
+                             },
+    "ACH_PYROMANIA":  {
+                          "name":  "Pyromaniac",
+                          "description":  "Defeat 250 burning enemies."
+                      },
+    "ACH_NO_NEED_FOR_YOUR_HELP":  {
+                                      "name":  "I\u0027ve Got This!",
+                                      "description":  "Enter the Pure White Dream 2 times without using the Shrine of Guidance."
+                                  },
+    "ACH_GOD_PROTECTS_ME":  {
+                                "name":  "God Protects Me",
+                                "description":  "In a single adventure, visit locations occupied by Hunters 4 times while having a Hunt Threat Level of 5."
+                            },
+    "ACH_OMEGA_POINT":  {
+                            "name":  "Omega Point",
+                            "description":  "Enter the Pure White Dream while having cast only one type of Memory during a single adventure."
+                        },
+    "ACH_HEAVIER_THAN_ATLAS":  {
+                                   "name":  "Heavier than Atlas",
+                                   "description":  "Reach 3,000 Maximum Health."
+                               },
+    "ACH_LOYAL_CUSTOMER":  {
+                               "name":  "Loyal Customer",
+                               "description":  "Activate the Shrine of Guidance 15 times in a single adventure."
+                           },
+    "ACH_PEW_PEW_PEW":  {
+                            "name":  "Pew Pew Pew!",
+                            "description":  "Apply buffs to allies other than yourself a total of 200 times."
+                        },
+    "ACH_TEKKAI":  {
+                       "name":  "Iron Body",
+                       "description":  "Gain a Barrier equal to or greater than 300% of your Maximum Health."
+                   },
+    "ACH_THE_TRUE_FOREST_SOVEREIGN":  {
+                                          "name":  "The True Ruler of the Forest",
+                                          "description":  "Defeat the Demon of the Forest 12 times."
+                                      },
+    "ACH_UNTOUCHABLE":  {
+                            "name":  "Untouchable",
+                            "description":  "Defeat the Heroic Boss with 85% or more Health remaining as Lacerta."
+                        },
+    "ACH_EVERYONE_LETS_NOT_PANIC":  {
+                                        "name":  "Keep Calm and Carry On",
+                                        "description":  "Defeat Heroic Bosses 8 times while your Health is below 25%."
+                                    },
+    "ACH_RAGE_WITHOUT_BOUNDS":  {
+                                    "name":  "Boundless Rage",
+                                    "description":  "Reach the Starry Dream."
+                                },
+    "ACH_TASTE_OF_THEIR_OWN_MEDICINE":  {
+                                            "name":  "Taste of Their Own Medicine",
+                                            "description":  "Defeat the Demon of the Forest by clawing it."
+                                        },
+    "ACH_SIBLING_FIGHT":  {
+                              "name":  "Family Feud",
+                              "description":  "As Nachia, defeat the Demon of the Forest within 6 seconds after dealing the first damage."
+                          },
+    "ACH_IMMORTALITY_ACHIEVED":  {
+                                     "name":  "Immortality Achieved",
+                                     "description":  "Cast Golden Explosion 9 times within 5 seconds as Aurena."
+                                 },
+    "ACH_M_M_M_MONSTER_KILL":  {
+                                   "name":  "M-M-M-MONSTER KILL!",
+                                   "description":  "Land a finishing blow on 16 or more enemies with a single Memory cast."
+                               },
+    "ACH_THE_EIGHTH_TROPHY":  {
+                                  "name":  "The Eighth Trophy",
+                                  "description":  "Acquire Unique Memories or Essences from Heroic Bosses 8 times."
+                              },
+    "ACH_BFR_9000":  {
+                         "name":  "BFR 9000",
+                         "description":  "Reach 120 Attack Damage with Lacerta."
+                     },
+    "ACH_JUST_STAY_STILL":  {
+                                "name":  "Now Now Stay Still",
+                                "description":  "Have 4 Active Memories at once that can Stun, Root, or Knockback."
+                            },
+    "ACH_ETERNAL_REST":  {
+                             "name":  "Eternal Rest",
+                             "description":  "Deliver a total of 50 finishing blows to Soul Swordsmen using basic attacks."
+                         },
+    "ACH_MASTER_OF_MYSTIC_ARTS":  {
+                                      "name":  "Master of Mystic Arts",
+                                      "description":  "Have 4 Active Memories at once with a cooldown of 3 seconds or less."
+                                  },
+    "ACH_THOUSAND_THUNDERS":  {
+                                  "name":  "A Thousand Thunders",
+                                  "description":  "Land a total of 1,000 critical strikes."
+                              },
+    "ACH_LOOK_RAINBOW":  {
+                             "name":  "Look! A Rainbow!",
+                             "description":  "Enter the Pure White Dream as Bismuth."
+                         },
+    "ACH_THE_CYCLE_OF_REBIRTH":  {
+                                     "name":  "Reincarnation",
+                                     "description":  "As Nachia, defeat a Guardian of Impermanence without taking any damage."
+                                 },
+    "ACH_EMBRACE_MORTALITY":  {
+                                  "name":  "Embrace Mortality",
+                                  "description":  "Get cursed 6 times in a single adventure."
+                              },
+    "ACH_RUN_ME_LIKE_A_RACE_HORSE":  {
+                                         "name":  "Whatever It Takes",
+                                         "description":  "Defeat an enemy while they have 30 or more Fire stacks."
+                                     }
 }
